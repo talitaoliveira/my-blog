@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Talita`,
-    description: `Talita's Blog`,
+    position: `Softawre Developer`,
+    description: `Tentando começar a escrever alguma coisa`,
     author: `@liitacherry`,
   },
   plugins: [
