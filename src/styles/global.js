@@ -32,9 +32,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    bagckground: #16202c;
+    background-color: #16202c;
     font-size: 100%;
-    font-family:
     line-height: 1;
     font-family: 'Roboto Mono', monospace;
 }
