@@ -35,7 +35,7 @@ body {
     background-color: #16202c;
     font-size: 100%;
     line-height: 1;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 ol, ul {
 	list-style: none;
