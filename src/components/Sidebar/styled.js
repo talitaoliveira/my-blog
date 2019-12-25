@@ -11,4 +11,5 @@ export const SidebarWrapper = styled.aside`
     padding: 2rem;
     text-align: center;
     width: 20rem;
+    box-sizing: border-box;
 `
