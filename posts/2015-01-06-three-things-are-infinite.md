@@ -3,7 +3,7 @@ date: 2015-01-03 05:54:23
 title: Three things are infinite
 description: Sei la
 category: JS
-background: "#7AAB13"
+background: "red"
 ---
 
 # Three things are infinite
