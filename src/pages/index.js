@@ -1,22 +1,56 @@
 import React from "react"
+import { useStaticQuery, graphql } from 'gatsby'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from '../components/PostItem'
 
-const IndexPage = () => (
-    <Layout>
-        <SEO title="Home" />
-        <PostItem
-            slug = "/slug/"
-            background = "red"
-            category = "Misc"
-            date = "25 de Dezembro de 2019"
-            timeToRead = "4"
-            title = "Seja bem vinda ao meu blog"
-            description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vitae soluta ipsam necessitatibus esse voluptate in corporis iure nulla repellat saepe nobis, sed rerum possimus, quidem nam fugiat quae nihil!" />
-    </Layout>
-)
+const IndexPage = () => {
+    const { allMarkdownRemark } = useStaticQuery(
+        graphql`
+        query PostList {
+            allMarkdownRemark {
+                edges {
+                    node {
+                        frontmatter {
+                            title
+                            date(formatString: "DD [de] MMMM [de] YYYY", locale: "pt-br")
+                            description
+                            category
+                            background
+                        }
+                        timeToRead
+                    }
+                }
+            }
+        }
+    `)
+
+    const postList = allMarkdownRemark.edges
+
+    return (
+        <Layout>
+            <SEO title="Home" />
+            {postList.map(({
+                node: {
+                    frontmatter: { background, category, description, date, title },
+                    timeToRead
+                }
+            }) => (
+                    <PostItem
+                        slug="/slug/"
+                        background={background}
+                        category={category}
+                        date={date}
+                        timeToRead={timeToRead}
+                        title={title}
+                        description={description} />
+
+                )
+            )}
+        </Layout>
+    )
+}
 
 
 export default IndexPage
