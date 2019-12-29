@@ -11,6 +11,26 @@ background: "#7AAB13"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis massa quis mauris lobortis aliquet. Duis rhoncus elit nunc, eget lobortis sem vestibulum ut. Aenean commodo sollicitudin augue quis scelerisque. Duis lobortis leo ut augue fermentum, nec hendrerit mauris fermentum. Integer mattis tellus augue, quis facilisis arcu rutrum ac. Duis volutpat blandit orci, nec pulvinar lorem consectetur id. Sed sed tortor vitae lorem pharetra porta. Maecenas ante turpis, aliquet in ex vitae, volutpat mollis nibh.
 
+``` jsx
+import React from 'react'
+import Profile from '../Profile'
+import SocialLinks from '../SocialLinks'
+import MenuLinks from '../MenuLinks'
+
+import * as S from './styled'
+
+const Sidebar = () => (
+    <S.SidebarWrapper>
+        <Profile />
+        <SocialLinks />
+        <MenuLinks />
+    </S.SidebarWrapper>
+)
+
+export default Sidebar
+```
+
+
 ## Lorem Ipsum 
 
 Integer a sem in dolor mollis mattis. Quisque feugiat nec enim quis blandit. Sed ut erat dignissim, commodo lectus quis, finibus erat. Ut sed suscipit nunc. In mollis aliquam facilisis. Nulla quis sem ligula. Aliquam fringilla ullamcorper orci in ornare. Aliquam a facilisis neque. Proin quis fermentum dui, ut semper quam. Quisque pharetra diam a sapien rhoncus, eget egestas ipsum vehicula.
