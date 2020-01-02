@@ -46,7 +46,7 @@ const MenuBar = () => {
                 >
                     <Bulb />
                 </S.MenuBarItem>
-                <S.MenuBarItem title="Mudar visualização" onClick={() => {
+                <S.MenuBarItem className="listMode" title="Mudar visualização" onClick={() => {
                     window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
                 }}>
                     { isListMode ? <Grid/> : <List/> }

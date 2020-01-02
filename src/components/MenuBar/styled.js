@@ -28,9 +28,9 @@ export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
 
-  ${media.lessThan("large")`
-    flex-direction: row; 
-`}
+    ${media.lessThan("large")`
+        flex-direction: row; 
+    `}
 `
 
 export const MenuBarLink = styled(Link)`
@@ -55,5 +55,11 @@ export const MenuBarItem = styled.span`
 
     &:hover {
         color: var(--highlight);
+    }
+
+    &.listMode{
+        ${media.lessThan("large")`
+          display: none;
+        `}
     }
 `
