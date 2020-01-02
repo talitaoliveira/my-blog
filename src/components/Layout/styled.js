@@ -3,7 +3,6 @@ import media from 'styled-media-query'
 
 export const LayoutWrapper = styled.section`
     display: flex;
-
     ${media.lessThan("large")`
         flex-direction: column;
     `}
@@ -19,8 +18,12 @@ export const LayoutMain = styled.main`
         grid-template-areas: 
         "posts" 
         "pagination";
-        
     }
+
+    ${media.lessThan("large")`
+        padding: 0;
+        margin: 3rem 0 0 0;
+    `}
 
 `
 
