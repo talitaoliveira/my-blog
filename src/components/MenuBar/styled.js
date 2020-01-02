@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 import { Link } from 'gatsby'
 
@@ -14,11 +15,22 @@ export const MenuBarWrapper = styled.aside`
     position: fixed;
     right: 0;
     width: 3.75rem;
+
+    ${media.lessThan("large")`
+        height: auto;
+        width: 100%;
+        flex-direction: row; 
+        bottom: 0;
+    `}
 `
 
 export const MenuBarGroup = styled.div`
   display: flex;
   flex-direction: column;
+
+  ${media.lessThan("large")`
+    flex-direction: row; 
+`}
 `
 
 export const MenuBarLink = styled(Link)`
@@ -41,7 +53,7 @@ export const MenuBarItem = styled.span`
         }
     }
 
-  &:hover {
-    color: var(--highlight);
-  }
+    &:hover {
+        color: var(--highlight);
+    }
 `
