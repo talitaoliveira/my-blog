@@ -22,7 +22,7 @@ export const LayoutMain = styled.main`
 
     ${media.lessThan("large")`
         padding: 0;
-        margin: 3rem 0 0 0;
+        margin: 4rem 0 5rem 0;
     `}
 
 `
