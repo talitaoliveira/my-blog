@@ -8,7 +8,7 @@ const MenuLinks = () => (
     <S.MenuLinksWrapper>
         <S.MenuLinksList>
             {links.map((link, i) => (
-                    <S.MenuLinksListItem>
+                    <S.MenuLinksListItem key={i}>
                         <S.MenuLinksListLink to={link.url} title={link.label} activeClassName="active">
                             {link.label}
                         </S.MenuLinksListLink>
