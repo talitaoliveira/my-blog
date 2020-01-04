@@ -23,8 +23,8 @@ Pagination.propTypes = {
     isLast: propTypes.bool.isRequired,
     currentPage: propTypes.number.isRequired,
     numPages: propTypes.number.isRequired,
-    prevPage: propTypes.number.isRequired,
-    nextPage: propTypes.number.isRequired,
+    prevPage: propTypes.string.isRequired,
+    nextPage: propTypes.string.isRequired,
 }
 
 export default Pagination
