@@ -4,6 +4,7 @@ title: Two things are infinite
 description: Sei la
 category: Misc
 background: "#7AAB13"
+image: "/assets/img/festival.jpg"
 ---
 
 # Two things are infinite
