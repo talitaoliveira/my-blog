@@ -8,6 +8,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-transition-link`,
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
         resolve: `gatsby-source-filesystem`,
