@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-sitemap`,
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
         resolve: `gatsby-source-filesystem`,
