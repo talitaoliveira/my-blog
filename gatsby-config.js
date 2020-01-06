@@ -4,6 +4,7 @@ module.exports = {
     position: `Softawre Developer`,
     description: `Tentando começar a escrever alguma coisa`,
     author: `@liitacherry`,
+    siteUrl: `https://talitaoliveira.com.br/blog`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
