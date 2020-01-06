@@ -2,6 +2,8 @@ import React from 'react'
 
 import links from './content'
 
+import getThemeColor from '../../utils/getThemeColor'
+
 import * as S from './styled'
 
 const MenuLinks = () => (
@@ -16,7 +18,7 @@ const MenuLinks = () => (
                         activeClassName="active"
                         direction="left"
                         duration={.6}
-                        bg="#16202c">
+                        bg={getThemeColor()}>
                             {link.label}
                         </S.MenuLinksListLink>
                     </S.MenuLinksListItem>

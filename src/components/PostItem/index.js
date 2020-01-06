@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import getThemeColor from '../../utils/getThemeColor'
+
 import * as S from './styled'
 
 const PostItem = ({ slug, background, category, date, timeToRead, title, description }) => (
@@ -9,7 +11,7 @@ const PostItem = ({ slug, background, category, date, timeToRead, title, descrip
     cover
     direction="right"
     duration={.6}
-    bg="#16202c">
+    bg={getThemeColor()}>
         <S.PostItemWrapper>
             <S.PostItemTag background={background}>
                 {category}

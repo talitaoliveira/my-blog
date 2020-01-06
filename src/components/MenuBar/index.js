@@ -7,6 +7,8 @@ import { Bulb } from 'styled-icons/boxicons-solid/Bulb'
 import { Grid } from 'styled-icons/boxicons-solid/Grid'
 import { ThList as List } from 'styled-icons/typicons/ThList'
 
+import getThemeColor from '../../utils/getThemeColor'
+
 import * as S from './styled'
 
 const MenuBar = () => {
@@ -32,7 +34,7 @@ const MenuBar = () => {
                 cover
                 direction="right"
                 duration={.6}
-                bg="#16202c" 
+                bg={getThemeColor()} 
                 title="Voltar para home">
                     <S.MenuBarItem>
                         <Home />
@@ -43,7 +45,7 @@ const MenuBar = () => {
                 cover
                 direction="right"
                 duration={.6}
-                bg="#16202c" 
+                bg={getThemeColor()} 
                 title="Pesquisar">
                     <S.MenuBarItem>
                         <Search />
