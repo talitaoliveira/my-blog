@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: talitaoliveira/gatsby-blog
+  repo: talitaoliveira/my-blog
   branch: master
   site_domain: https://talitaoliveira.netlify.com/
 
