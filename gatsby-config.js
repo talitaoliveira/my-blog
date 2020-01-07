@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify-cms`,
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
         resolve: `gatsby-source-filesystem`,
