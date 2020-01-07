@@ -53,6 +53,7 @@ table {
 	border-spacing: 0;
 }
 
+# original
 body.dark {
     --borders: #38444d;
     --texts: #8899a6;
@@ -64,11 +65,35 @@ body.dark {
     --black: #222;
 }
 
+
+body.dark {
+    --borders: #38444d;
+    --texts: #D3D0CB;
+    --postColor: #D3D0CB;
+    --highlight: #D3B33F;
+    --mediumBackground: #393E41;
+    --background: #1E2019;
+    --white: #fff;
+    --black: #222;
+}
+
+#original
 body.light{
     --borders: #dedede;
     --postColor: #111;
     --texts: #555555;
     --highlight: #1fa1f2;
+    --mediumBackground: #f0f0f3;
+    --background: #fff;
+    --white: #fff;
+    --black: #222;
+}
+
+body.light{
+    --borders: #dedede;
+    --postColor: #111;
+    --texts: #555555;
+    --highlight: #55286F;
     --mediumBackground: #f0f0f3;
     --background: #fff;
     --white: #fff;
