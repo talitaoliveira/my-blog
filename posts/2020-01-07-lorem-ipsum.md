@@ -2,7 +2,7 @@
 title: 'Lorem Ipsum '
 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
 date: '2020-01-07 10:50:48'
-thumbnail: /assets/img/wallpapers-lindos-10.jpg
+image: /assets/img/wallpapers-lindos-10.jpg
 category: vida
 background: '#0B4F6C'
 ---
