@@ -19,4 +19,22 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm:ss'}
       - {label: "image", name: "thumbnail", widget: "image"}
+      - {
+        label: "Category", 
+        name: "category" , 
+        widget: "select", 
+        options: ["dev", "vida", "html", "js", "css"]
+      }
+      - {
+        label: "Background", 
+        name: "background" , 
+        widget: "select", 
+        options: [
+          {label: "Dev", value: "#008BF8"},
+          {label: "Vida", value: "#0B4F6C"},
+          {label: "HTML", value: "#DC0073"},
+          {label: "JS", value: "#EDAE49"},
+          {label: "CSS", value: "#04E762"},
+        ]
+      }
       - {label: "Body", name: "body", widget: "markdown"}
