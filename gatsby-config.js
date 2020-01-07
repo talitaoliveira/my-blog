@@ -4,7 +4,7 @@ module.exports = {
     position: `Softawre Developer`,
     description: `Tentando começar a escrever alguma coisa`,
     author: `@liitacherry`,
-    siteUrl: `https://talitaoliveira.com.br/blog`
+    siteUrl: `https://talitaoliveira.netlify.com/`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
