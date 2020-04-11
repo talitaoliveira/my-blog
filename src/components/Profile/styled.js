@@ -6,6 +6,7 @@ export const ProfileWrapper = styled.section`
   color: var(--texts);
   display: flex;
   flex-direction: column;
+  margin-bottom: 2.5rem;
 `
 
 export const ProfileLink = styled(AniLink)`
@@ -23,7 +24,7 @@ export const ProfileLink = styled(AniLink)`
 
 export const ProfileAuthor = styled.h1`
   font-size: 1.6rem;
-  margin: 0.5rem auto 1.5rem;
+  margin: 1.5rem auto 1.5rem;
   ${media.lessThan("large")`
     font-size: 1.2rem;
     margin: 0 0 0 10px;
