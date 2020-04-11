@@ -7,6 +7,7 @@ export const SidebarWrapper = styled.aside`
     background-color: var(--mediumBackground);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     position: fixed;
     padding: 2rem;
