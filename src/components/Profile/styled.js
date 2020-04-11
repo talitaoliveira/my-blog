@@ -7,6 +7,9 @@ export const ProfileWrapper = styled.section`
   display: flex;
   flex-direction: column;
   margin-bottom: 2.5rem;
+  ${media.lessThan("large")`
+    margin-bottom: 0;
+  `}
 `
 
 export const ProfileLink = styled(AniLink)`
