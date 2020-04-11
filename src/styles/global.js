@@ -53,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-# original
+#original
 body.dark {
     --borders: #38444d;
     --texts: #8899a6;
@@ -71,8 +71,8 @@ body.dark {
     --texts: #D3D0CB;
     --postColor: #D3D0CB;
     --highlight: #D3B33F;
-    --mediumBackground: #393E41;
-    --background: #1E2019;
+    --mediumBackground: #372942;
+    --background: #2A1F33;
     --white: #fff;
     --black: #222;
 }
