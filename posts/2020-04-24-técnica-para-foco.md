@@ -6,7 +6,7 @@ image: /assets/img/focus_pomodoro.png
 category: vida
 background: '#008BF8'
 ---
-![Imagem de um relogio](/assets/img/accurate-alarm-alarm-clock-analogue-359989.jpg)
+![Imagem de um relogio](/assets/img/accurate-alarm-alarm-clock-analogue-359989.jpg "Imagem retirada de: https://www.pexels.com/")
 
 As vezes sou uma pessoa muito dispersa quando quero fazer algo específico, há alguns anos eu conheci a técnica Pomodoro para dedicar um tempo e conseguir realizar o que preciso.
 
@@ -16,7 +16,7 @@ Por exemplo:
 
 "Preciso estudar isso (seja lá o que for isso)"
 
-![Picture separated in two sides, right and left. On left there is a woman working on a computer, on left there are 3 pictures (top: woman walking, right: man sitting and a big cup of coffee on his right, down: woman on cellphone checking social media)](/assets/img/focus_pomodoro.png)
+![Picture separated in two sides, right and left. On left there is a woman working on a computer, on left there are 3 pictures (top: woman walking, right: man sitting and a big cup of coffee on his right, down: woman on cellphone checking social media)](/assets/img/focus_pomodoro.png "Imagens via: https://undraw.co/")
 
 * Colocar um timer com 25 minutos e foca na tarefa.
 * Depois dos 25 minutos, tirar uma pausa de 5 minutos pra fazer absolutamente qualquer coisas sem ser o que você estava fazendo:
