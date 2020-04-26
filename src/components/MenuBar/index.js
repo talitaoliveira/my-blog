@@ -1,11 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
 import { Home } from 'styled-icons/boxicons-solid/Home'
-import { Search } from 'styled-icons/boxicons-regular/Search'
-import { UpArrowAlt as UpArrow } from 'styled-icons/boxicons-regular/UpArrowAlt'
 import { Bulb } from 'styled-icons/boxicons-solid/Bulb'
-import { Grid } from 'styled-icons/boxicons-solid/Grid'
-import { ThList as List } from 'styled-icons/typicons/ThList'
 
 import getThemeColor from '../../utils/getThemeColor'
 
@@ -13,17 +9,13 @@ import * as S from './styled'
 
 const MenuBar = () => {
     const [theme, setTheme] = useState(null)
-    const [display, setDisplay] = useState(null)
 
     const isdarkMode = theme === 'dark'
-    const isListMode = display === 'list'
 
     useEffect(() => {
         setTheme(window.__theme)
-        setDisplay(window.__display)
 
         window.__onThemeChange = () => setTheme(window.__theme)
-        window.__onDisplayChange = () => setDisplay(window.__display)
     }, [])
 
     return (
@@ -47,29 +39,8 @@ const MenuBar = () => {
                 >
                     <Bulb />
                 </S.MenuBarItem>
-                {/* <S.MenuBarLink 
-                to="/search/"
-                cover
-                direction="right"
-                duration={.6}
-                bg={getThemeColor()} 
-                title="Pesquisar">
-                    <S.MenuBarItem>
-                        <Search />
-                    </S.MenuBarItem>
-                </S.MenuBarLink> */}
             </S.MenuBarGroup>
             <S.MenuBarGroup>
-                
-                {/* <S.MenuBarItem className="listMode" title="Mudar visualização" onClick={() => {
-                    window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
-                }}>
-                    { isListMode ? <Grid/> : <List/> }
-
-                </S.MenuBarItem> */}
-                {/* <S.MenuBarItem title="Ir para o topo">
-                    <UpArrow />
-                </S.MenuBarItem> */}
             </S.MenuBarGroup>
         </S.MenuBarWrapper>
     )
