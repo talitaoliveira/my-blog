@@ -18,11 +18,16 @@ const SocialLinks = () => (
                                 <Icon />
                             </S.IconWrapper>
                         </S.SocialLinksLink>
+                        
                     </S.SocialLinksItem>
                 )
 
             })}
         </S.SocialLinksList>
+        <S.WebPage>
+        https://talitaoliveira.com.br/
+        </S.WebPage>
+        
     </S.SocialLinksWrapper>
 )
 

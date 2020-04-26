@@ -15,6 +15,7 @@ export const SocialLinksList = styled.ul`
     display: flex;
     justify-content: space-around;
     list-style: none;
+    margin-bottom: 20px;
 `
 
 export const SocialLinksItem = styled.li``
@@ -33,4 +34,14 @@ export const IconWrapper = styled.div`
     fill: #bbb;
     width: 30px;
     height: 30px;
+`
+
+export const WebPage = styled.a`
+    color: #8889a6;
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    &:hover{
+        color: var(--highlight);
+    }
 `
