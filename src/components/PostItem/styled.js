@@ -77,7 +77,7 @@ export const PostItemDate = styled.time`
 export const PostItemTitle = styled.h1`
     font-size: 1.6rem;
     font-weight: 700;
-    margin: 0.2rem 0 0.5rem;
+    margin: 0.7rem 0 0.5rem;
     body#grid & {
         line-height: 1.1;
         margin: 0.8rem 0;
