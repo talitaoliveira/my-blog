@@ -40,7 +40,14 @@ const MenuBar = () => {
                         <Home />
                     </S.MenuBarItem>
                 </S.MenuBarLink>
-                <S.MenuBarLink 
+                <S.MenuBarItem title="Mudar o tema" onClick={() => {
+                    window.__setPreferredTheme(isdarkMode ? 'light' : 'dark')
+                }}
+                className={theme}
+                >
+                    <Bulb />
+                </S.MenuBarItem>
+                {/* <S.MenuBarLink 
                 to="/search/"
                 cover
                 direction="right"
@@ -50,25 +57,19 @@ const MenuBar = () => {
                     <S.MenuBarItem>
                         <Search />
                     </S.MenuBarItem>
-                </S.MenuBarLink>
+                </S.MenuBarLink> */}
             </S.MenuBarGroup>
             <S.MenuBarGroup>
-                <S.MenuBarItem title="Mudar o tema" onClick={() => {
-                    window.__setPreferredTheme(isdarkMode ? 'light' : 'dark')
-                }}
-                className={theme}
-                >
-                    <Bulb />
-                </S.MenuBarItem>
-                <S.MenuBarItem className="listMode" title="Mudar visualização" onClick={() => {
+                
+                {/* <S.MenuBarItem className="listMode" title="Mudar visualização" onClick={() => {
                     window.__setPreferredDisplay(isListMode ? 'grid' : 'list')
                 }}>
                     { isListMode ? <Grid/> : <List/> }
 
-                </S.MenuBarItem>
-                <S.MenuBarItem title="Ir para o topo">
+                </S.MenuBarItem> */}
+                {/* <S.MenuBarItem title="Ir para o topo">
                     <UpArrow />
-                </S.MenuBarItem>
+                </S.MenuBarItem> */}
             </S.MenuBarGroup>
         </S.MenuBarWrapper>
     )
