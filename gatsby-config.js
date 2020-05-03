@@ -12,6 +12,12 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,
+    {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: "UA-47303856-2",
+        },
+      },
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
         resolve: `gatsby-source-filesystem`,
