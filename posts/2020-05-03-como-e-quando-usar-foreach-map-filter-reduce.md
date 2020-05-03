@@ -33,9 +33,8 @@ Eu preciso comer mais abacate
 */
 ```
 
-
-
-> *Show de bola, preciso comer mais fruta! Mas essas ~fraseszinhas só aparecem no console, queria guarda-las pra lembrar depois...*
+> *Show de bola, preciso comer mais frutas!*\
+> *Mas essas ~fraseszinhas só aparecem no console, queria guarda-las pra lembrar depois...*
 
 ## map()
 
