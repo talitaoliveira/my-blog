@@ -14,6 +14,10 @@ export const Header = styled.header`
   `}
 `
 
+export const Note = styled.p`
+    font-style: italic;
+`
+
 export const Title = styled.h1`
   font-size: 4.5rem;
   font-weight: 700;

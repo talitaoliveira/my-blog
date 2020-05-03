@@ -22,6 +22,11 @@ const AboutPage = () => (
                     <li>To tentando terminar Link's Aweakening - as vezes frustrada por não saber exatamente pra onde ir </li>
                 </ul>
             </p>
+            <br>
+            </br>
+            <S.Note>
+                Esse blog foi desenvolvido no curso do Willian Justen <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/">Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS</a>
+            </S.Note>
 
         </S.MainContent>
     </Layout>
