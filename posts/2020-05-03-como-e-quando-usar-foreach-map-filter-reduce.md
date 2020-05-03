@@ -1,5 +1,5 @@
 ---
-title: 'Como (e quando) usar foreach(), map(), filter(), reduce()'
+title: 'Usando foreach(), map(), filter(), reduce()'
 description: Iterando arrays em javascript
 date: '2020-05-03 07:44:15'
 image: /assets/img/screen-shot-2020-05-03-at-20.11.20.png
@@ -33,9 +33,9 @@ Eu preciso comer mais abacate
 */
 ```
 
-Show de bola, preciso comer mais fruta!
 
-> *Mas essas ~fraseszinhas só aparecem no console, queria guarda-las pra lembrar depois...*
+
+> *Show de bola, preciso comer mais fruta! Mas essas ~fraseszinhas só aparecem no console, queria guarda-las pra lembrar depois...*
 
 ## map()
 
