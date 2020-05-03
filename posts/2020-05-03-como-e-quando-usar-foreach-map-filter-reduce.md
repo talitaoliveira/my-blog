@@ -97,7 +97,6 @@ array de frutas que gosto tem **4**
 // e quero saber quanto vou desembolsar~ pra compra-las
 const precos = [3, 9, 4, 3, 4]
 const total = precos.reduce((acumulador, preco) => {
-    console.log(acumulador)
     return acumulador + preco
 }, 0)
 
