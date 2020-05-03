@@ -71,16 +71,6 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
-      {/** Global site tag (gtag.js) - Google Analytics*/}  
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47303856-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-47303856-2');
-</script>
-
     </html>
   )
 }
