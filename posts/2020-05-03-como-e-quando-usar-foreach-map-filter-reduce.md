@@ -85,7 +85,7 @@ array de frutas que gosto tem **4**
 */
 ```
 
-> *Show de bola, já tenho uma lista de frutas que gosto!!! E agora pra iniciar minha jornada de comer mais frutas, eu preciso compra-las né?*
+> *Show de bola, já tenho uma lista de frutas que gosto!!! E agora pra iniciar minha jornada de comer mais frutas, eu preciso compra-las né? Quanto será que vai dar tudo??*
 
 ## reduce()
 
