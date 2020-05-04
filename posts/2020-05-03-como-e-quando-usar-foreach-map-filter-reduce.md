@@ -106,6 +106,8 @@ console.log(total)
 */
 ```
 
+> *23 conto de fruta... É a vida né..*
+
 O `reduce` tem uma sintaxe mais diferenciada dos anteriores, a função que ele recebe tem alguns parâmetros:
 
 * **Acumulador** (que vai acumulando os valores)
