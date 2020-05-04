@@ -123,7 +123,7 @@ Bem.. é isso. 😉
 Pra muita gente esse assunto já deve tá passado, não é mais novidade. \
 Mas pra outros pode ser que seja a primeira vez que esteja vendo isso, ou pra outros que já viram mas não entendeu direito (também não sei se a explicação foi muito boa.. mas ok).
 
-Tem muito conteúdo por aí que já explica essas três funções de diversas formas, essa vai ser mais uma pra pilha. Mas... foi do meu jeito. 🙃
+Tem muito conteúdo por aí que já explica essas quatro funções de diversas formas, essa vai ser mais uma pra pilha. Mas... foi do meu jeito. 🙃
 
 Espero que eu tenha ajudado alguém, se não.. paciência. 😅
 
