@@ -30,6 +30,8 @@ Que venha essa nova idade, mais aprendizados e erros para que possa aprender com
 
 \---
 
+Fiz um bolo!
+
 https://codepen.io/talitaoliveira/pen/vYNjmyB
 
 Há um tempo atrás eu gostava de brincar mais com CSS, e no meu aniversário geralmente fazia cartão pra mim mesma. Então, tá aí o desse ano.
