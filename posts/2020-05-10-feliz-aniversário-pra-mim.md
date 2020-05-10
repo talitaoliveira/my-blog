@@ -1,7 +1,7 @@
 ---
 title: Feliz aniversário! Pra mim
 description: "\U0001F382"
-date: '2020-05-09 11:48:20'
+date: '2020-05-10 19:31:20'
 image: /assets/img/screen-shot-2020-05-10-at-19.24.32.png
 category: vida
 background: '#0B4F6C'
@@ -30,11 +30,6 @@ Que venha essa nova idade, mais aprendizados e erros para que possa aprender com
 
 \---
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="talitaoliveira" data-slug-hash="vYNjmyB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Happy Birthday to me">
-  <span>See the Pen <a href="https://codepen.io/talitaoliveira/pen/vYNjmyB">
-  Happy Birthday to me</a> by Talita Oliveira (<a href="https://codepen.io/talitaoliveira">@talitaoliveira</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+https://codepen.io/talitaoliveira/pen/vYNjmyB
 
 Há um tempo atrás eu gostava de brincar mais com CSS, e no meu aniversário geralmente fazia cartão pra mim mesma. Então, tá aí o desse ano.
