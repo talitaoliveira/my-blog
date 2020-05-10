@@ -41,3 +41,9 @@ Pode conferir aqui: https://codepen.io/talitaoliveira/pen/vYNjmyB
 (to tendo problema pra embedar o codepen aqui)
 
 Há um tempo atrás eu gostava de brincar mais com CSS, e no meu aniversário geralmente fazia cartão pra mim mesma. Então, tá aí o desse ano.
+
+-- 
+
+Não postei nada de útil hoje. Tentei relaxar hoje (não quer dizer que consegui).
+O proximo post vai ser algo util (espero).
+Até a próxima. 🤙🏽
