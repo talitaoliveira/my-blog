@@ -18,20 +18,6 @@ module.exports = {
           trackingId: "UA-47303856-2",
         },
       },
-      {
-        resolve: "gatsby-transformer-remark",
-        options: {
-          plugins: [
-            {
-              resolve:"@weknow/gatsby-remark-codepen",
-              options: {
-                theme: "dark",
-                height: 500
-              }
-            }
-          ]
-        }
-      },
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
         resolve: `gatsby-source-filesystem`,
