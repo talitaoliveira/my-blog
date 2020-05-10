@@ -32,6 +32,12 @@ Que venha essa nova idade, mais aprendizados e erros para que possa aprender com
 
 Fiz um bolo!
 
-https://codepen.io/talitaoliveira/pen/vYNjmyB
+
+
+![Imagem de um card, com duas partes. Em cima o texto "Happy Birthday" com um desenho de uma fatia de bolo em baixo. E na parte de baixo o texto: "to me - May 10th 2020"](/assets/img/screen-shot-2020-05-10-at-20.22.20.png)
+
+Pode conferir aqui: https://codepen.io/talitaoliveira/pen/vYNjmyB
+
+(to tendo problema pra embedar o codepen aqui)
 
 Há um tempo atrás eu gostava de brincar mais com CSS, e no meu aniversário geralmente fazia cartão pra mim mesma. Então, tá aí o desse ano.
