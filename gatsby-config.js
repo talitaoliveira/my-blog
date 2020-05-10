@@ -26,7 +26,7 @@ module.exports = {
               resolve:"@weknow/gatsby-remark-codepen",
               options: {
                 theme: "dark",
-                height: 400
+                height: 500
               }
             }
           ]
