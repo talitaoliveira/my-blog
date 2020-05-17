@@ -26,7 +26,7 @@ const lanche = ['salgadinho', 'biscoito', 'refrigerante']
 Opções encontradas ~~(não é exatamente assim que vem no google)~~:
 
 * Uso do **concat** *(parece bem "autoexplicativo" né, vai ~concatenar dois arrays.. show..)*
-* Uso do **spread syntax** *(tá... que que isso...)*
+* Uso do **spread syntax** *(tá... que que isso?...)*
 * *Modo hard*
 
 ## Opção 1: Uso do *.concat*
