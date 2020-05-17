@@ -137,7 +137,7 @@ A variável listaDeCompras agora tem o valor de:
 
 > *Maravilha!!*
 
-Esse operador "**...**" é chamado de **spread operator**. Ele é usado para "espalhar" o que tem dentro do array (**frutas** ou **legumes**) nesse novo array chamado **feira.**
+Esse operador "**...**" é chamado de **spread operator**. Ele é usado para "espalhar" o que tem dentro do array (**frutas** ou **legumes**) nesse novo array chamado **listaDeCompras.**
 
 *Obs.: Se houver valores iguais num array e no outro, eles aparecerão repetidos no novo.*
 
