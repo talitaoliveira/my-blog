@@ -33,17 +33,17 @@ Esse do pacman fiz logo depois de um [Code In The Dark](http://codeinthedark.com
 
 **Links**:
 
-* [Box-Shadow Mushroom 8bit](https://codepen.io/talitaoliveira/pen/ypvZLO)<https://codepen.io/talitaoliveira/pen/ypvZLO>
-* [Suicide Coxinha](https://codepen.io/talitaoliveira/pen/GrGjdP)<https://codepen.io/talitaoliveira/pen/GrGjdP>
-* [Supernintendo gamepad](https://codepen.io/talitaoliveira/pen/qYzqqr)<https://codepen.io/talitaoliveira/pen/qYzqqr>
-* [Avocado](https://codepen.io/talitaoliveira/pen/RjEdxX)<https://codepen.io/talitaoliveira/pen/RjEdxX>
-* [Sun](https://codepen.io/talitaoliveira/pen/byNRMV)<https://codepen.io/talitaoliveira/pen/byNRMV>
-* [Pacman](https://codepen.io/talitaoliveira/pen/qVwRRX)<https://codepen.io/talitaoliveira/pen/qVwRRX>
-* [Bandeira Canadá](https://codepen.io/talitaoliveira/pen/mMzyWo)<https://codepen.io/talitaoliveira/pen/mMzyWo>
-* [Princesa Caroço](https://codepen.io/talitaoliveira/pen/vgrdGM)<https://codepen.io/talitaoliveira/pen/vgrdGM>
-* [Hamster](https://codepen.io/talitaoliveira/details/qRKBmO)<https://codepen.io/talitaoliveira/details/qRKBmO>
-* [Caderno](https://codepen.io/talitaoliveira/pen/xRmPPZ)<https://codepen.io/talitaoliveira/pen/xRmPPZ>
-* [Happy Birthay to me](https://codepen.io/talitaoliveira/details/vYNjmyB)<https://codepen.io/talitaoliveira/details/vYNjmyB>
+* [Box-Shadow Mushroom 8bit](https://codepen.io/talitaoliveira/pen/ypvZLO)
+* [Suicide Coxinha](https://codepen.io/talitaoliveira/pen/GrGjdP)
+* [Supernintendo gamepad](https://codepen.io/talitaoliveira/pen/qYzqqr)
+* [Avocado](https://codepen.io/talitaoliveira/pen/RjEdxX)
+* [Sun](https://codepen.io/talitaoliveira/pen/byNRMV)
+* [Pacman](https://codepen.io/talitaoliveira/pen/qVwRRX)
+* [Bandeira Canadá](https://codepen.io/talitaoliveira/pen/mMzyWo)
+* [Princesa Caroço](https://codepen.io/talitaoliveira/pen/vgrdGM)
+* [Hamster](https://codepen.io/talitaoliveira/details/qRKBmO)
+* [Caderno](https://codepen.io/talitaoliveira/pen/xRmPPZ)
+* [Happy Birthay to me](https://codepen.io/talitaoliveira/details/vYNjmyB)
 
 \~🌟\~
 
