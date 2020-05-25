@@ -28,7 +28,8 @@ Tá aqui alguns dos desenhos que já fiz no [codepen](https://codepen.io/talitao
 
 ![Desenhos de: gamepad de supernintendo, bandeira do Canadá, cogumelo vermelho do Mário em 8bit, pacman e 3 fantasmas, Princesa Caroço, Coxinha, Hamster, Abacate, Sol, caderno, nintendo switch.](/assets/img/screen-shot-2020-05-24-at-21.34.33.png)
 
-Lá no meu codepen também tá cheio de coisas que eu estava estudando (coisas incompletas, ou feias e que talvez não façam sentido).
+Lá no meu codepen também tá cheio de coisas que eu estava estudando (coisas incompletas, ou feias e que talvez não façam sentido). 
+Esse do pacman fiz logo depois de um [Code In The Dark](http://codeinthedark.com.br/), que não consegui fazer.
 
 **Links**:
 
