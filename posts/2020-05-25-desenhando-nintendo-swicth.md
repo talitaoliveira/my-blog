@@ -18,9 +18,9 @@ Fazia um bom tempo que eu não me via focada desse jeito com código, eu passei 
 
 Foi bom de ver isso em mim hoje, saber que ainda gosto de fazer essas coisas. Mas era uma fase, que durou muito tempo. Também não espero que vá fazer um desenho por mês, só em saber que ainda gosto e acho legal fazer isso, ja é o suficiente no momento pra saber de coisas que gosto de fazer.
 
-Fazer esses desenhos com HTML e CSS foi um jeito natural que encontrei de estudar esses assuntos. Onde eu passava horas fazendo, procurando como fazer alguma coisa especifica que eu tava pensando pra o desenho.
+Fazer esses desenhos com HTML e CSS foi um jeito natural que encontrei de estudar esses assuntos. Onde eu passava horas fazendo, procurando como fazer alguma coisa especifica que eu estava pensando pra o desenho.
 
-E com esses desenhos eu sinto que minha forma de ver algumas coisas também mudou, eu consigo minimamente separar alguns elementos pra poder posicionar melhor (pois já sofri muito com o tal do `float: left` quando eu tava aprendendo).
+E com esses desenhos eu sinto que minha forma de ver algumas coisas também mudou, eu consigo minimamente separar alguns elementos pra poder posicionar melhor (pois já sofri muito com o tal do `float: left` quando eu estava aprendendo).
 
 Os códigos não são os melhores (alguns foram para testar algo que estava aprendendo), mas foi assim que consegui evoluir pouco a pouco de um desenho pra o outro, pra layouts também, porém não sou *pixel perfect* que segue todos os pixels de um layout que foi entregue, gosto de ir muito no olho (péssima "*frontender*" nesse quesito).
 
