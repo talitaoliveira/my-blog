@@ -6,6 +6,8 @@ image: /assets/img/screen-shot-2020-05-24-at-21.20.51.png
 category: dev
 background: '#008BF8'
 ---
+![Desenho de Nintendo Switch](/assets/img/screen-shot-2020-05-24-at-21.48.49.png)
+
 Hoje entrei num fluxo que fiquei focada por umas 3 horas e pouco desenhando esse Nintendo Switch com HTML, CSS e Javascript (tem bem pouco, só pra uma "interaçãozinha).
 
 [](https://codepen.io/talitaoliveira/pen/xxwmNGK)<https://codepen.io/talitaoliveira/pen/xxwmNGK>
