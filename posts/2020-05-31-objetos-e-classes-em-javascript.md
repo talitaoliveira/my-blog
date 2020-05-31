@@ -66,7 +66,7 @@ const pessoa2 = {
 
 Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *`prototypes`*.
 
-Com classes criamos objetos, que são instancias de classes, é "basicamente" um template.
+Com `classes` criamos `objetos`, que são **instancias de classes**, é "basicamente" um template.
 
 ### Criando a classe Pessoa:
 
