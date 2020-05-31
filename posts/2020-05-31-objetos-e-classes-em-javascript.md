@@ -101,7 +101,7 @@ Dentro da função, se for necessário usar alguma propriedade pertencente a pr�
 
 * Criamos uma constante para guardar o objeto
 * Instanciamos a classe Pessoa usando o a palavra chave **`new`** (estamos criando uma **nova instancia** de **Pessoa**)
-* Passamos os valores que o construtor da classe "pede": `nome, saldoNoBanco, valorBoleto`
+* Passamos os valores que o construtor da classe "pede": `nome`, `saldoNoBanco`, `valorBoleto`
 
 ```jsx
 const pessoa1 = new Pessoa('Ser Humano Fulano', 500, 200)
@@ -115,7 +115,7 @@ const pessoa3 = new Pessoa('Ser Humano Duodeno', 100, 700)
 const pessoa4 = new Pessoa('Ser Humano Muito Louco', 10, 500)
 ```
 
-> *uhuulll~, temos várias pessoas.. Pagando boletos.... ¯(ツ)/¯*
+> *uhuulll~, temos várias pessoas.. Pagando boletos....* ¯\(ツ)/¯
 
 **\*Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
 
