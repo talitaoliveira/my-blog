@@ -12,11 +12,11 @@ background: '#008BF8'
 
 ## Criando objetos sem o uso de classes
 
-Da forma *Object Literal*, criamos:
+Da forma ***Object Literal***, criamos:
 
 * Uma **constante** que recebe um objeto
 * Definimos as **propriedades** e valores do objeto
-* Também podemos definir uma propriedade que é uma função
+* Também podemos definir uma propriedade que é uma **função**
 
 ```jsx
 const pessoa1 = {
@@ -55,18 +55,18 @@ const pessoa2 = {
   getValorRestante: function () {
     return this.saldoNoBanco - this.valorBoleto;
   },
-};
+}
 ```
 
-> *Hum... beleza...*
+> Hum... eita.. aí ja fica meio estranho...
 
 *(obvio que tudo vai depender do que é a solução que você está desenvolvendo, se precisa mesmo ficar criando vários objetos, talvez não precise ficar criando assim na mão... esse é só um exemplo)*
 
 ## Criando objetos com o uso de classes
 
-Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *`prototypes`*.
+Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de ***prototypes***.
 
-Com `classes` criamos `objetos`, que são **instancias de classes**, é "basicamente" um template.
+Com **classes** criamos **objetos**, que são **instancias de classes**, é "basicamente" um template.
 
 ### Criando a classe Pessoa:
 
