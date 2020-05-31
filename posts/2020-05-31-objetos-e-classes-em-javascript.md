@@ -6,7 +6,9 @@ image: /assets/img/undraw_elements_cipa.png
 category: dev
 background: '#008BF8'
 ---
-![](/assets/img/undraw_elements_cipa.png)
+![Três bonequinhos redondos com um olho só segurando quadrados. Dois a esquerda, um em cima do outro e outro a direita e uma arvore atrás dele.](/assets/img/undraw_elements_cipa.png)
+
+*Imagem:[](https://www.pexels.com/)[ https://undraw.co/search](https://undraw.co/search)*
 
 ## Criando objetos sem o uso de classes
 
@@ -113,9 +115,9 @@ const pessoa3 = new Pessoa('Ser Humano Duodeno', 100, 700)
 const pessoa4 = new Pessoa('Ser Humano Muito Louco', 10, 500)
 ```
 
-> *uhuulll~, temos várias pessoas.. Pagando boletos.... ¯\(ツ)/¯*
+> *uhuulll~, temos várias pessoas.. Pagando boletos.... ¯(ツ)/¯*
 
-***Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
+**\*Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
 
 \~🌟\~
 
