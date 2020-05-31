@@ -6,9 +6,7 @@ image: /assets/img/undraw_elements_cipa.png
 category: dev
 background: '#008BF8'
 ---
-![Três bonequinhos redondos com um olho só segurando quadrados. Dois a esquerda, um em cima do outro e outro a direita e uma arvore atrás dele.](/assets/img/undraw_elements_cipa.png)
-
-*Imagem:[](https://www.pexels.com/)[ https://undraw.co/search](https://undraw.co/search)*
+![](/assets/img/undraw_elements_cipa.png)
 
 ## Criando objetos sem o uso de classes
 
@@ -58,7 +56,7 @@ const pessoa2 = {
 };
 ```
 
-> *Hum... beleza...*
+> *Hum... eita, aí ja começa a ficar meio estranho...*
 
 *(obvio que tudo vai depender do que é a solução que você está desenvolvendo, se precisa mesmo ficar criando vários objetos, talvez não precise ficar criando assim na mão... esse é só um exemplo)*
 
