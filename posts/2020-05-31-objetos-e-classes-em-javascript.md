@@ -12,7 +12,7 @@ background: '#008BF8'
 
 ## Criando objetos sem o uso de classes
 
-Da forma *Object Literal*, criamos:
+Da forma ***Object Literal***, criamos:
 
 * Uma **constante** que recebe um objeto
 * Definimos as **propriedades** e valores do objeto
