@@ -6,7 +6,9 @@ image: /assets/img/undraw_elements_cipa.png
 category: dev
 background: '#008BF8'
 ---
-![](/assets/img/undraw_elements_cipa.png)
+![Três bonequinhos redondos com um olho só segurando quadrados. Dois a esquerda, um em cima do outro e outro a direita e uma arvore atrás dele.](/assets/img/undraw_elements_cipa.png)
+
+*Imagem:*[](https://www.pexels.com/)*[ https://undraw.co/search](https://undraw.co/search)*
 
 ## Criando objetos sem o uso de classes
 
@@ -30,7 +32,7 @@ const pessoa1 = {
 E podemos acessar as propriedades do objeto através de:
 
 ```jsx
-**pessoa1.nome**
+pessoa1.nome
 
 exemplo:
 
@@ -62,9 +64,9 @@ const pessoa2 = {
 
 ## Criando objetos com o uso de classes
 
-Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *prototypes*.
+Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *`prototypes`*.
 
-Com classes criamos objetos, que são instancias de classes, é "basicamente" um template.
+Com `classes` criamos `objetos`, que são **instancias de classes**, é "basicamente" um template.
 
 ### Criando a classe Pessoa:
 
@@ -99,7 +101,7 @@ Dentro da função, se for necessário usar alguma propriedade pertencente a pr�
 
 * Criamos uma constante para guardar o objeto
 * Instanciamos a classe Pessoa usando o a palavra chave **`new`** (estamos criando uma **nova instancia** de **Pessoa**)
-* Passamos os valores que o construtor da classe "pede": `nome, saldoNoBanco, valorBoleto`
+* Passamos os valores que o construtor da classe "pede": `nome`, `saldoNoBanco`, `valorBoleto`
 
 ```jsx
 const pessoa1 = new Pessoa('Ser Humano Fulano', 500, 200)
@@ -113,9 +115,9 @@ const pessoa3 = new Pessoa('Ser Humano Duodeno', 100, 700)
 const pessoa4 = new Pessoa('Ser Humano Muito Louco', 10, 500)
 ```
 
-> *uhuulll~, temos várias pessoas.. Pagando boletos.... ¯\(ツ)/¯*
+> *uhuulll~, temos várias pessoas.. Pagando boletos....* `¯\(ツ)/¯`
 
-***Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
+**\*Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
 
 \~🌟\~
 
