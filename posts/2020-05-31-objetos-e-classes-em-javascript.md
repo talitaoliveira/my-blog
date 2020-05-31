@@ -115,7 +115,7 @@ const pessoa3 = new Pessoa('Ser Humano Duodeno', 100, 700)
 const pessoa4 = new Pessoa('Ser Humano Muito Louco', 10, 500)
 ```
 
-> *uhuulll~, temos várias pessoas.. Pagando boletos....* ¯\(ツ)/¯
+> *uhuulll~, temos várias pessoas.. Pagando boletos....* `¯\(ツ)/¯`
 
 **\*Obs pessoal**: no futuuuuuuro (realmente não sei quando) pretendo detalhar um pouco sobre objetos, classes.. No futuuuuuuro~.*
 
