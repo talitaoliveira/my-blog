@@ -6,7 +6,9 @@ image: /assets/img/undraw_elements_cipa.png
 category: dev
 background: '#008BF8'
 ---
-![](/assets/img/undraw_elements_cipa.png)
+![Três bonequinhos redondos com um olho só segurando quadrados. Dois a esquerda, um em cima do outro e outro a direita e uma arvore atrás dele.](/assets/img/undraw_elements_cipa.png)
+
+*Imagem:*[](https://www.pexels.com/)*[ https://undraw.co/search](https://undraw.co/search)*
 
 ## Criando objetos sem o uso de classes
 
@@ -30,7 +32,7 @@ const pessoa1 = {
 E podemos acessar as propriedades do objeto através de:
 
 ```jsx
-**pessoa1.nome**
+pessoa1.nome
 
 exemplo:
 
@@ -56,13 +58,13 @@ const pessoa2 = {
 };
 ```
 
-> *Hum... eita, aí ja começa a ficar meio estranho...*
+> *Hum... beleza...*
 
 *(obvio que tudo vai depender do que é a solução que você está desenvolvendo, se precisa mesmo ficar criando vários objetos, talvez não precise ficar criando assim na mão... esse é só um exemplo)*
 
 ## Criando objetos com o uso de classes
 
-Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *prototypes*.
+Em javascript é possível escrever classes assim como em Java, PHP e outras linguagens que seguem o paradigma de orientação a objetos. Isso é possível no javascript desde o ES6, mas é basicamente um "*syntax sugar - açúcar sintático*" *~~(uma forma bonita/simples de escrever)~~* pois por debaixo dos panos é usado a sintaxe de *`prototypes`*.
 
 Com classes criamos objetos, que são instancias de classes, é "basicamente" um template.
 
