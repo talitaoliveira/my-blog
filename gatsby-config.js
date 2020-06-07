@@ -4,7 +4,7 @@ module.exports = {
     position: `Software Developer`,
     description: `Tentando começar a escrever alguma coisa`,
     author: `@liitacherry`,
-    siteUrl: `https://talitaoliveira.netlify.com/`
+    siteUrl: `https://talitaoliveira.netlify.com/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -13,19 +13,25 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify-cms`,
     {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-          trackingId: "UA-47303856-2",
-        },
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-47303856-2",
       },
+    },
     // needs to be the first one to work with <gatsby-remar0></gatsby-remar0>
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `uploads`,
-          path: `${__dirname}/static/assets/img`,
-        },
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `uploads`,
+        path: `${__dirname}/static/assets/img`,
       },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-prismjs`],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -34,34 +40,34 @@ module.exports = {
       },
     },
     {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `posts`,
-          path: `${__dirname}/posts`,
-        },
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`,
       },
-      {
-        resolve: `gatsby-transformer-remark`,
-        options: {
-          plugins: [
-              {
-                  resolve: "gatsby-remark-relative-images",
-                  options: {
-                      name: "uploads"
-                  }
-              },
-              {
-                resolve: "gatsby-remark-images",
-                options: {
-                    maxWidth: 960,
-                    linkImagesToOriginal: false
-                }
-              },
-              `gatsby-remark-lazy-load`,
-              `gatsby-remark-prismjs`
-          ],
-        },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-relative-images",
+            options: {
+              name: "uploads",
+            },
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 960,
+              linkImagesToOriginal: false,
+            },
+          },
+          `gatsby-remark-lazy-load`,
+          `gatsby-remark-prismjs`,
+        ],
       },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
