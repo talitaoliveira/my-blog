@@ -57,7 +57,7 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 - O código está em português para facilitar o entendimento ~~(espero)~~
 - Os desenhos foram feitos no: <https://excalidraw.com/> 💜
 - Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
-- Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
+- Link para o código: <https://github.com/talitaoliveira/chain-of-responsibility>
 
 <h2 id="cadeia-de-responsabilidade">Cadeia de Responsabilidade</h2>
 
