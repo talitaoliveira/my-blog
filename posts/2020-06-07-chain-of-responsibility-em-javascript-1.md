@@ -11,28 +11,28 @@ background: "#008BF8"
 
 ## Conteúdo
 
-- [Motivação (pode pular se quiser)](#-motivação)
-- [Notas (pode pular se quiser)](#-notas)
-- [Cadeia de Responsabilidade](#-cadeia-de-responsabilidade)
-- [O problema](#-o-problema)
-- [A Solução](#-a-solução)
+- [Motivação (pode pular se quiser)](#motivacao)
+- [Notas (pode pular se quiser)](#notas)
+- [Cadeia de Responsabilidade](#cadeia-de-responsabilidade)
+- [O problema](#o-problema)
+- [A Solução](#a-solucao)
 
-  - [1. Funções de verificações e ações](#-1-funções-de-verificações-e-ações)
-  - [2. O objeto a ser verificado](#-2-o-objeto-a-ser-verificado)
-  - [3. A estrutura das funções de validação](#-3-a-estrutura-das-funções-de-validação)
-  - [4. O Processador de Validações](#-4-o-Processador-de-Validações)
+  - [1. Funções de verificações e ações](#1-funcoes-de-verificacoes-e-acoes)
+  - [2. O objeto a ser verificado](#2-o-objeto-a-ser-verificado)
+  - [3. A estrutura das funções de validação](#3-a-estrutura-das-funcoes-de-validacao)
+  - [4. O Processador de Validações](#4-o-processador-de-validacoes)
 
-    - [\# Parte 1](#-parte-1)
-    - [\# Parte 2](#-parte-2)
-    - [\# Parte 3](#-parte-3)
-    - [\# Parte 4](#-parte-4)
-    - [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"]()
+    - [\# Parte 1](#parte-1)
+    - [\# Parte 2](#parte-2)
+    - [\# Parte 3](#parte-3)
+    - [\# Parte 4](#parte-4)
+    - [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"](#parte-5)
 
-      - [Vou tentar desenhar aqui em 5 partes](#-vou-tentar-desenhar-aqui-em-5-partes)
+      - [Vou tentar desenhar aqui em 5 partes](#vou-tentar-desenhar-aqui-em-5-partes)
 
-  - [5. A execução](#-5-a-execução)
+  - [5. A execução](#-5-a-execucao)
 
-## Motivação
+<h2 id="motivacao">Motivação</h2>
 
 **Muito longo; Não Li.**
 
@@ -50,7 +50,7 @@ O que eu quero pra minha vida de pessoa desenvolvedora é chegar nesse nível de
 
 Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 
-## Notas
+<h2 id="notas">Notas</h2>
 
 - Estou usando **Typescript** e **Jest** para testes
 - No código tem `console.log` demais, só para fins de visualizar onde está passando
@@ -59,13 +59,13 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 - Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
 - Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
 
-## Cadeia de Responsabilidade
+<h2 id="cadeia-de-responsabilidade">Cadeia de Responsabilidade</h2>
 
 _Chain of Responsibility_, é um _Design Pattern_ que existe para resolver problemas onde é necessário realizar vários processos encadeados, e como estão encadeados o proximo processo só ocorre quando os anteriores estiverem ok.
 
 ![Cadeia de Responsabilidade](/assets/img/chain-of-responsibility.png)
 
-## O problema
+<h2 id="o-problema">O problema</h2>
 
 ~~Dessa vez pedi um exemplo pra minha irmã.~~
 
@@ -84,9 +84,9 @@ _(não tenho 100% certeza de que o processo oficial é esse, mas é isso ai)_
 
 > _Então para cada pessoa que queira a carteirinha preciso verificar esses pontos.. show... bora lá..._
 
-## A solução
+<h2 id="a-solucao">A solução</h2>
 
-### 1. Funções de verificações e ações
+<h3 id="1-funcoes-de-verificacoes-e-acoes"> 1. Funções de verificações e ações</h3>
 
 Vamos ter uma função para cada verificação dessas:
 
@@ -105,7 +105,7 @@ const acaoEntregarCarteira = pessoaInscrita => {}
 
 > _Massa! To com minhas verificações definidas! Se a pessoa estiver com tudo certinho ela recebe a carteira dela da OAB._
 
-### 2. O objeto a ser verificado
+<h3 id="2-o-objeto-a-ser-verificado">2. O objeto a ser verificado</h3>
 
 Então para cada pessoa eu teria, por exemplo, essas propriedades para verificar:
 
@@ -139,7 +139,7 @@ Bem... É... Talvez.... Mas a ideia aqui é usar uma abordagem diferente.
 
 E dessa forma, se entrassem mais verificações teríamos que ficar aumentando o if e ia ficar bem feioso (todas nós já fizemos isso, ~~talvez eu ainda até faça... sei la~~)
 
-### 3. A estrutura das funções de validação
+<h3 id="3-a-estrutura-das-funcoes-de-validacao">3. A estrutura das funções de validação</h3>
 
 Para que as funções de validação passem para a próxima caso seja válida ela precisa ter:
 
@@ -161,13 +161,13 @@ const validaPossuiACarteira = (pessoaInscrita, proximaValidacao: Function) => {
 
 As funções seguem basicamente essa lógica. Essa é uma lógica beeem simples, pode ter algo mais complexo como busca no banco para validar algo ou qualquer coisa.
 
-### 4. O Processador de Validações
+<h3 id="4-o-processador-de-validacoes">4. O Processador de Validações</h3>
 
 O processador de validações vai ser responsável por processar as validações de forma encadeada, segundo a ordem que as validações foram passadas.
 
 Tentando explicar por partes agora como vamos implementar nosso processador:
 
-#### **Parte 1**
+<h4 id="parte-1">Parte 1</h4>
 
 - Uma **classe** que vai conter o que é preciso para processar as validações e ações
 - Uma **propriedade**, chamada `pessoaParaValidar` do tipo `PessoaInscrita` (que foi mostrado la em cima)
@@ -191,7 +191,7 @@ Para instanciar ela ficaria dessa forma:
 const processaAsValidacoes = new ProcessaValidacoes(pessoaInscrita)
 ```
 
-#### **Parte 2**
+<h4 id="parte-2">Parte 2</h4>
 
 Incrementando a classe, também vamos ter:
 
@@ -216,7 +216,7 @@ class ProcessaValidacoes {
 
 > Então sempre que eu instanciar a classe agora, ~~como fizemos no fim da parte um~~, as validações e ações estarão como um array vazio. Prontos para serem preenchidos com várias funções cada. Massa!! 🤙🏽
 
-#### Parte 3
+<h4 id="parte-3">Parte 3</h4>
 
 Incrementando mais ainda a classe, vamos ter:
 
@@ -269,7 +269,7 @@ processaAsValidacoes
 
 > Com nossa classe instanciada, chamamos as funções da classe e passando os parâmetros que elas precisam.
 
-#### Parte 4
+<h4 id="parte-4">Parte 4</h4>
 
 Incrementando um pouco mais nossa classe, teremos a função que vai processar as validações e ações:
 
@@ -306,7 +306,7 @@ class ProcessaValidacoes {
 
 Caaaaalma jovem.. Fica peixe ai... Vamo indo pra lá agora...
 
-#### Parte "caramba... to cansada já. Mas acho que vai valer a pena"
+<h4 id="parte-5">Parte "caramba... to cansada já. Mas acho que vai valer a pena"</h4>
 
 Para o nosso `process`:
 
@@ -332,7 +332,7 @@ process() {
 
 > Hm.. Errr... ficou meio confuso....
 
-### Vou tentar desenhar aqui em 5 partes:
+<h3 id="vou-tentar-desenhar-aqui-em-5-partes">Vou tentar desenhar aqui em 5 partes:</h3>
 
 ➡️ **Parte 1 do desenho:**
 
@@ -364,7 +364,7 @@ process() {
 
 > Por fim executamos a **primeira função do array**, no qual chama o primeiro validador e passando o segundo validador como parâmetro.
 
-### 5. A execução
+<h3 id="5-a-execucao">5. A execução</h3>
 
 Depois de criarmos toda nossa estrutura, executamos nosso "Processador de Validações". Ao final de "setar/definir" as funções de validação e funções de ação, chamamos a função que irá processar tudo isso.
 
