@@ -1,34 +1,36 @@
 ---
 title: Chain of Responsibility
 description: Executando validações de forma encadeada
-date: '2020-06-07 07:34:29'
+date: "2020-06-07 07:34:29"
 image: /assets/img/chain-of-responsibility.png
 category: dev
-background: '#008BF8'
+background: "#008BF8"
 ---
+
 ![Cadeia de Responsabilidade](/assets/img/chain-of-responsibility.png)
 
 ## Conteúdo
 
-* [Motivação (pode pular se quiser)](#-motivação)
-* [Notas (pode pular se quiser)](#-notas)
-* [Cadeia de Responsabilidade](#-cadeia-de-responsabilidade)
-* [O problema](#-o-problema)
-* [A Solução](#-a-solução)
+- [Motivação (pode pular se quiser)](#-motivação)
+- [Notas (pode pular se quiser)](#-notas)
+- [Cadeia de Responsabilidade](#-cadeia-de-responsabilidade)
+- [O problema](#-o-problema)
+- [A Solução](#-a-solução)
 
-  * [1. Funções de verificações e ações](#-1-funções-de-verificações-e-ações)
-  * [2. O objeto a ser verificado](#-2-o-objeto-a-ser-verificado)
-  * [3. A estrutura das funções de validação](#-3-a-estrutura-das-funções-de-validação)
-  * [4. O Processador de Validações](#-4-o-Processador-de-Validações)
+  - [1. Funções de verificações e ações](#-1-funções-de-verificações-e-ações)
+  - [2. O objeto a ser verificado](#-2-o-objeto-a-ser-verificado)
+  - [3. A estrutura das funções de validação](#-3-a-estrutura-das-funções-de-validação)
+  - [4. O Processador de Validações](#-4-o-Processador-de-Validações)
 
-    * [\# Parte 1](#-parte-1)
-    * [\# Parte 2](#-parte-2)
-    * [\# Parte 3](#-parte-3)
-    * [\# Parte 4](#-parte-4)
-    * [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"](<>)
+    - [\# Parte 1](#-parte-1)
+    - [\# Parte 2](#-parte-2)
+    - [\# Parte 3](#-parte-3)
+    - [\# Parte 4](#-parte-4)
+    - [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"]()
 
-      * [Vou tentar desenhar aqui em 5 partes](#-vou-tentar-desenhar-aqui-em-5-partes)
-  * [5. A execução](#-5-a-execução)
+      - [Vou tentar desenhar aqui em 5 partes](#-vou-tentar-desenhar-aqui-em-5-partes)
+
+  - [5. A execução](#-5-a-execução)
 
 ## Motivação
 
@@ -50,16 +52,16 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 
 ## Notas
 
-* Estou usando **Typescript** e **Jest** para testes
-* No código tem `console.log` demais, só para fins de visualizar onde está passando
-* O código está em português para facilitar o entendimento ~~(espero)~~
-* Os desenhos foram feitos no: <https://excalidraw.com/> 💜
-* Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
-* Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
+- Estou usando **Typescript** e **Jest** para testes
+- No código tem `console.log` demais, só para fins de visualizar onde está passando
+- O código está em português para facilitar o entendimento ~~(espero)~~
+- Os desenhos foram feitos no: <https://excalidraw.com/> 💜
+- Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
+- Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
 
 ## Cadeia de Responsabilidade
 
-*Chain of Responsibility*, é um *Design Pattern* que existe para resolver problemas onde é necessário realizar vários processos encadeados, e como estão encadeados o proximo processo só ocorre quando os anteriores estiverem ok.
+_Chain of Responsibility_, é um _Design Pattern_ que existe para resolver problemas onde é necessário realizar vários processos encadeados, e como estão encadeados o proximo processo só ocorre quando os anteriores estiverem ok.
 
 ![Cadeia de Responsabilidade](/assets/img/chain-of-responsibility.png)
 
@@ -71,16 +73,16 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 
 Para uma pessoa conseguir a carteirinha da OAB ela precisa de alguns requisitos:
 
-* Não ter a carteirinha da OAB
-* Ter feito as duas fases da prova
-* Nota das duas provas acima 7 ~~(sei lá)~~
-* Estar a 2 períodos de terminar o curso (o curso tem 10 períodos)
+- Não ter a carteirinha da OAB
+- Ter feito as duas fases da prova
+- Nota das duas provas acima 7 ~~(sei lá)~~
+- Estar a 2 períodos de terminar o curso (o curso tem 10 períodos)
 
-*(não tenho 100% certeza de que o processo oficial é esse, mas é isso ai)*
+_(não tenho 100% certeza de que o processo oficial é esse, mas é isso ai)_
 
 ![Caso de Exemplo da cadeia de Responsabilidade](/assets/img/chain-example.png)
 
-> *Então para cada pessoa que queira a carteirinha preciso verificar esses pontos.. show... bora lá...*
+> _Então para cada pessoa que queira a carteirinha preciso verificar esses pontos.. show... bora lá..._
 
 ## A solução
 
@@ -101,7 +103,7 @@ E vamos ter uma ultima função que só deve ser executada se passar por todas a
 const acaoEntregarCarteira = pessoaInscrita => {}
 ```
 
-> *Massa! To com minhas verificações definidas! Se a pessoa estiver com tudo certinho ela recebe a carteira dela da OAB.*
+> _Massa! To com minhas verificações definidas! Se a pessoa estiver com tudo certinho ela recebe a carteira dela da OAB._
 
 ### 2. O objeto a ser verificado
 
@@ -131,7 +133,7 @@ const pessoaInscrita = {
 }
 ```
 
-> *TOP! Mas... e pra validar? "Poderíamos fazer vários IFs.... né...? Ou um "IFão" com varias verificações de **true** ou **false**"*
+> _TOP! Mas... e pra validar? "Poderíamos fazer vários IFs.... né...? Ou um "IFão" com varias verificações de **true** ou **false**"_
 
 Bem... É... Talvez.... Mas a ideia aqui é usar uma abordagem diferente.
 
@@ -141,8 +143,8 @@ E dessa forma, se entrassem mais verificações teríamos que ficar aumentando o
 
 Para que as funções de validação passem para a próxima caso seja válida ela precisa ter:
 
-* Uma condição para verificação
-* E a chamada da próxima função caso a verificação passe
+- Uma condição para verificação
+- E a chamada da próxima função caso a verificação passe
 
 ```tsx
 /* mudamos a assinatura da função que está la em cima e
@@ -167,9 +169,9 @@ Tentando explicar por partes agora como vamos implementar nosso processador:
 
 #### **Parte 1**
 
-* Uma **classe** que vai conter o que é preciso para processar as validações e ações
-* Uma **propriedade**, chamada `pessoaParaValidar` do tipo `PessoaInscrita` (que foi mostrado la em cima)
-* Teremos o **construtor** da classe que vai receber o objeto que vai ser processado
+- Uma **classe** que vai conter o que é preciso para processar as validações e ações
+- Uma **propriedade**, chamada `pessoaParaValidar` do tipo `PessoaInscrita` (que foi mostrado la em cima)
+- Teremos o **construtor** da classe que vai receber o objeto que vai ser processado
 
 ```tsx
 class ProcessaValidacoes {
@@ -193,10 +195,10 @@ const processaAsValidacoes = new ProcessaValidacoes(pessoaInscrita)
 
 Incrementando a classe, também vamos ter:
 
-* Uma propriedade que vai armazenar as validações
-* Uma propriedade que vai armazenar as ações
-* E precisamos inicializar essas propriedades no construtor, inicialmente serão um array vazio
-* Ambas as propriedades serão um **Array** de **Funções** (por isso o tipo `Array<Function>`)
+- Uma propriedade que vai armazenar as validações
+- Uma propriedade que vai armazenar as ações
+- E precisamos inicializar essas propriedades no construtor, inicialmente serão um array vazio
+- Ambas as propriedades serão um **Array** de **Funções** (por isso o tipo `Array<Function>`)
 
 ```tsx
 class ProcessaValidacoes {
@@ -218,9 +220,9 @@ class ProcessaValidacoes {
 
 Incrementando mais ainda a classe, vamos ter:
 
-* Uma função que recebe as **funções de validação** e atribui elas a nossa propriedade da classe
-* Uma função que recebe as **funções de ação** e atribui elas a nossa propriedade da classe
-* Cada função retorna `this`, que é a referência do próprio objeto. As chamadas das funções serão encadeadas, então a referencia será passada para a próxima função.
+- Uma função que recebe as **funções de validação** e atribui elas a nossa propriedade da classe
+- Uma função que recebe as **funções de ação** e atribui elas a nossa propriedade da classe
+- Cada função retorna `this`, que é a referência do próprio objeto. As chamadas das funções serão encadeadas, então a referencia será passada para a próxima função.
 
 ```tsx
 class ProcessaValidacoes {
@@ -246,7 +248,7 @@ class ProcessaValidacoes {
 }
 ```
 
-💡 **\*Nota**: esses três pontinhos no parâmetro, significa que vamos receber vários parâmetros e não se sabe a quantidade exata. Podemos receber tanto **UMA** função como parâmetro quanto **50** funções, e esses três pontinhos transforma todas as funções recebidas por parâmetro num array de funções.*
+💡 **\*Nota**: esses três pontinhos no parâmetro, significa que vamos receber vários parâmetros e não se sabe a quantidade exata. Podemos receber tanto **UMA** função como parâmetro quanto **50** funções, e esses três pontinhos transforma todas as funções recebidas por parâmetro num array de funções.\*
 
 > Hm.. Então pra preencher as validações e ações que vamos utilizar no processo vamos ter uma função (para cada) que vai ser responsável por isso. Daí validações e ações não serão mais um array vazio quando chamarmos essas funções passando as validações e ações que elas precisam... Tá... beleza então... parece promissor.. 🤔
 
@@ -308,11 +310,11 @@ Caaaaalma jovem.. Fica peixe ai... Vamo indo pra lá agora...
 
 Para o nosso `process`:
 
-* vamos pegar as funções de validação e as funções de ação e coloca-las num único array, na ordem: **validações** e **depois** **ações**
-* Vamos usar um map para percorrer esse array e retornar um novo array
-* Esse novo array vai conter **funções** responsáveis por **executar determinada validação**
-* E passar a **próxima função como parâmetro** para ser executada caso a validação passe
-* E no final, vamos executar a **primeira função desse array** e com isso ele será responsável por executar as próximas
+- vamos pegar as funções de validação e as funções de ação e coloca-las num único array, na ordem: **validações** e **depois** **ações**
+- Vamos usar um map para percorrer esse array e retornar um novo array
+- Esse novo array vai conter **funções** responsáveis por **executar determinada validação**
+- E passar a **próxima função como parâmetro** para ser executada caso a validação passe
+- E no final, vamos executar a **primeira função desse array** e com isso ele será responsável por executar as próximas
 
 ```tsx
 process() {
@@ -400,25 +402,26 @@ Até a próxima. 🤙🏽
 
 ## Conteúdo
 
-* [Motivação (pode pular se quiser)](#-motivação)
-* [Notas (pode pular se quiser)](#-notas)
-* [Cadeia de Responsabilidade](#-cadeia-de-responsabilidade)
-* [O problema](#-o-problema)
-* [A Solução](#-a-solução)
+- [Motivação (pode pular se quiser)](#-motivação)
+- [Notas (pode pular se quiser)](#-notas)
+- [Cadeia de Responsabilidade](#-cadeia-de-responsabilidade)
+- [O problema](#-o-problema)
+- [A Solução](#-a-solução)
 
-  * [1. Funções de verificações e ações](#-1-funções-de-verificações-e-ações)
-  * [2. O objeto a ser verificado](#-2-o-objeto-a-ser-verificado)
-  * [3. A estrutura das funções de validação](#-3-a-estrutura-das-funções-de-validação)
-  * [4. O Processador de Validações](#-4-o-Processador-de-Validações)
+  - [1. Funções de verificações e ações](#-1-funções-de-verificações-e-ações)
+  - [2. O objeto a ser verificado](#-2-o-objeto-a-ser-verificado)
+  - [3. A estrutura das funções de validação](#-3-a-estrutura-das-funções-de-validação)
+  - [4. O Processador de Validações](#-4-o-Processador-de-Validações)
 
-    * [\# Parte 1](#-parte-1)
-    * [\# Parte 2](#-parte-2)
-    * [\# Parte 3](#-parte-3)
-    * [\# Parte 4](#-parte-4)
-    * [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"](<>)
+    - [\# Parte 1](#-parte-1)
+    - [\# Parte 2](#-parte-2)
+    - [\# Parte 3](#-parte-3)
+    - [\# Parte 4](#-parte-4)
+    - [\# Parte "caramba... to cansada já. Mas acho que vai valer a pena"]()
 
-      * [Vou tentar desenhar aqui em 5 partes](#-vou-tentar-desenhar-aqui-em-5-partes)
-  * [5. A execução](#-5-a-execução)
+      - [Vou tentar desenhar aqui em 5 partes](#-vou-tentar-desenhar-aqui-em-5-partes)
+
+  - [5. A execução](#-5-a-execução)
 
 ## Motivação
 
@@ -440,16 +443,16 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 
 ## Notas
 
-* Estou usando **Typescript** e **Jest** para testes
-* No código tem `console.log` demais, só para fins de visualizar onde está passando
-* O código está em português para facilitar o entendimento ~~(espero)~~
-* Os desenhos foram feitos no: <https://excalidraw.com/> 💜
-* Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
-* Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
+- Estou usando **Typescript** e **Jest** para testes
+- No código tem `console.log` demais, só para fins de visualizar onde está passando
+- O código está em português para facilitar o entendimento ~~(espero)~~
+- Os desenhos foram feitos no: <https://excalidraw.com/> 💜
+- Não me sinto confortável ainda em explicar profundamente sobre **Typescript**, mas tem uns [videos massa do Willian Justen](https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_&index=1) que ele explica muito bem.
+- Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
 
 ## Cadeia de Responsabilidade
 
-*Chain of Responsibility*, é um *Design Pattern* que existe para resolver problemas onde é necessário realizar vários processos encadeados, e como estão encadeados o proximo processo só ocorre quando os anteriores estiverem ok.
+_Chain of Responsibility_, é um _Design Pattern_ que existe para resolver problemas onde é necessário realizar vários processos encadeados, e como estão encadeados o proximo processo só ocorre quando os anteriores estiverem ok.
 
 ![Cadeia de Responsabilidade](/assets/img/chain-of-responsibility.png)
 
@@ -461,16 +464,16 @@ Eu sei que não devemos ter medo e etc... Mas... `¯\*(ツ)*/¯`
 
 Para uma pessoa conseguir a carteirinha da OAB ela precisa de alguns requisitos:
 
-* Não ter a carteirinha da OAB
-* Ter feito as duas fases da prova
-* Nota das duas provas acima 7 ~~(sei lá)~~
-* Estar a 2 períodos de terminar o curso (o curso tem 10 períodos)
+- Não ter a carteirinha da OAB
+- Ter feito as duas fases da prova
+- Nota das duas provas acima 7 ~~(sei lá)~~
+- Estar a 2 períodos de terminar o curso (o curso tem 10 períodos)
 
-*(não tenho 100% certeza de que o processo oficial é esse, mas é isso ai)*
+_(não tenho 100% certeza de que o processo oficial é esse, mas é isso ai)_
 
 ![Caso de Exemplo da cadeia de Responsabilidade](/assets/img/chain-example.png)
 
-> *Então para cada pessoa que queira a carteirinha preciso verificar esses pontos.. show... bora lá...*
+> _Então para cada pessoa que queira a carteirinha preciso verificar esses pontos.. show... bora lá..._
 
 ## A solução
 
@@ -491,7 +494,7 @@ E vamos ter uma ultima função que só deve ser executada se passar por todas a
 const acaoEntregarCarteira = pessoaInscrita => {}
 ```
 
-> *Massa! To com minhas verificações definidas! Se a pessoa estiver com tudo certinho ela recebe a carteira dela da OAB.*
+> _Massa! To com minhas verificações definidas! Se a pessoa estiver com tudo certinho ela recebe a carteira dela da OAB._
 
 ### 2. O objeto a ser verificado
 
@@ -521,7 +524,7 @@ const pessoaInscrita = {
 }
 ```
 
-> *TOP! Mas... e pra validar? "Poderíamos fazer vários IFs.... né...? Ou um "IFão" com varias verificações de **true** ou **false**"*
+> _TOP! Mas... e pra validar? "Poderíamos fazer vários IFs.... né...? Ou um "IFão" com varias verificações de **true** ou **false**"_
 
 Bem... É... Talvez.... Mas a ideia aqui é usar uma abordagem diferente.
 
@@ -531,8 +534,8 @@ E dessa forma, se entrassem mais verificações teríamos que ficar aumentando o
 
 Para que as funções de validação passem para a próxima caso seja válida ela precisa ter:
 
-* Uma condição para verificação
-* E a chamada da próxima função caso a verificação passe
+- Uma condição para verificação
+- E a chamada da próxima função caso a verificação passe
 
 ```tsx
 /* mudamos a assinatura da função que está la em cima e
@@ -557,9 +560,9 @@ Tentando explicar por partes agora como vamos implementar nosso processador:
 
 #### **Parte 1**
 
-* Uma **classe** que vai conter o que é preciso para processar as validações e ações
-* Uma **propriedade**, chamada `pessoaParaValidar` do tipo `PessoaInscrita` (que foi mostrado la em cima)
-* Teremos o **construtor** da classe que vai receber o objeto que vai ser processado
+- Uma **classe** que vai conter o que é preciso para processar as validações e ações
+- Uma **propriedade**, chamada `pessoaParaValidar` do tipo `PessoaInscrita` (que foi mostrado la em cima)
+- Teremos o **construtor** da classe que vai receber o objeto que vai ser processado
 
 ```tsx
 class ProcessaValidacoes {
@@ -583,10 +586,10 @@ const processaAsValidacoes = new ProcessaValidacoes(pessoaInscrita)
 
 Incrementando a classe, também vamos ter:
 
-* Uma propriedade que vai armazenar as validações
-* Uma propriedade que vai armazenar as ações
-* E precisamos inicializar essas propriedades no construtor, inicialmente serão um array vazio
-* Ambas as propriedades serão um **Array** de **Funções** (por isso o tipo `Array<Function>`)
+- Uma propriedade que vai armazenar as validações
+- Uma propriedade que vai armazenar as ações
+- E precisamos inicializar essas propriedades no construtor, inicialmente serão um array vazio
+- Ambas as propriedades serão um **Array** de **Funções** (por isso o tipo `Array<Function>`)
 
 ```tsx
 class ProcessaValidacoes {
@@ -608,9 +611,9 @@ class ProcessaValidacoes {
 
 Incrementando mais ainda a classe, vamos ter:
 
-* Uma função que recebe as **funções de validação** e atribui elas a nossa propriedade da classe
-* Uma função que recebe as **funções de ação** e atribui elas a nossa propriedade da classe
-* Cada função retorna `this`, que é a referência do próprio objeto. As chamadas das funções serão encadeadas, então a referencia será passada para a próxima função.
+- Uma função que recebe as **funções de validação** e atribui elas a nossa propriedade da classe
+- Uma função que recebe as **funções de ação** e atribui elas a nossa propriedade da classe
+- Cada função retorna `this`, que é a referência do próprio objeto. As chamadas das funções serão encadeadas, então a referencia será passada para a próxima função.
 
 ```tsx
 class ProcessaValidacoes {
@@ -636,7 +639,7 @@ class ProcessaValidacoes {
 }
 ```
 
-💡 **\*Nota**: esses três pontinhos no parâmetro, significa que vamos receber vários parâmetros e não se sabe a quantidade exata. Podemos receber tanto **UMA** função como parâmetro quanto **50** funções, e esses três pontinhos transforma todas as funções recebidas por parâmetro num array de funções.*
+💡 **\*Nota**: esses três pontinhos no parâmetro, significa que vamos receber vários parâmetros e não se sabe a quantidade exata. Podemos receber tanto **UMA** função como parâmetro quanto **50** funções, e esses três pontinhos transforma todas as funções recebidas por parâmetro num array de funções.\*
 
 > Hm.. Então pra preencher as validações e ações que vamos utilizar no processo vamos ter uma função (para cada) que vai ser responsável por isso. Daí validações e ações não serão mais um array vazio quando chamarmos essas funções passando as validações e ações que elas precisam... Tá... beleza então... parece promissor.. 🤔
 
@@ -698,11 +701,11 @@ Caaaaalma jovem.. Fica peixe ai... Vamo indo pra lá agora...
 
 Para o nosso `process`:
 
-* vamos pegar as funções de validação e as funções de ação e coloca-las num único array, na ordem: **validações** e **depois** **ações**
-* Vamos usar um map para percorrer esse array e retornar um novo array
-* Esse novo array vai conter **funções** responsáveis por **executar determinada validação**
-* E passar a **próxima função como parâmetro** para ser executada caso a validação passe
-* E no final, vamos executar a **primeira função desse array** e com isso ele será responsável por executar as próximas
+- vamos pegar as funções de validação e as funções de ação e coloca-las num único array, na ordem: **validações** e **depois** **ações**
+- Vamos usar um map para percorrer esse array e retornar um novo array
+- Esse novo array vai conter **funções** responsáveis por **executar determinada validação**
+- E passar a **próxima função como parâmetro** para ser executada caso a validação passe
+- E no final, vamos executar a **primeira função desse array** e com isso ele será responsável por executar as próximas
 
 ```tsx
 process() {
