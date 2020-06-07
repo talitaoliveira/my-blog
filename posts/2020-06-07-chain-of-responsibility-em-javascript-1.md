@@ -394,8 +394,8 @@ Espero que eu tenha ajudado alguém, se não.. paciência. 😅
 
 Até a próxima. 🤙🏽
 
-**Link do código:** Link para o código: [](https://github.com/talitaoliveira/chain-of-responsibility)
+**Link do código:** <https://github.com/talitaoliveira/chain-of-responsibility>
 
 **Referências**:
 
-<https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility>![Cadeia de Responsabilidade](/assets/img/chain-of-responsibility.png)
+<https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility>
