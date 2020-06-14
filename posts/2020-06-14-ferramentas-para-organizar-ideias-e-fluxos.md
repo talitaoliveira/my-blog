@@ -2,7 +2,7 @@
 title: Ferramentas para organizar ideias e fluxos
 description: Pra quem gosta de organizar as ideias de forma mais visual
 date: 2020-06-14T06:03:42.000Z
-image: assets/img/header2.png
+image: /assets/img/header2.png
 category: vida
 background: "#0B4F6C"
 ---
