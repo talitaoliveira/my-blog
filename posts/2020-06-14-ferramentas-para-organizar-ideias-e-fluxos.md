@@ -1,14 +1,16 @@
 ---
 title: Ferramentas para organizar ideias e fluxos
 description: Pra quem gosta de organizar as ideias de forma mais visual
-date: 2020-06-14 06:03:42
+date: 2020-06-14T06:03:42.000Z
 image: assets/img/header.png
 category: vida
 background: "#0B4F6C"
 ---
 **Jamboard**
 
-As vezes tenho uma necessidade de sair escrevendo coisas aleatórias, mas com algum tema específico. Como se fosse fazer listas, mas organizar de um jeito mais livre. Ele é bom com textos curtos, coisas longas não fica muito legal. Gosto de organizar alguns tipos pensamentos com o **Jamboard**. Faço até "mapa mental". Link: [](https://jamboard.google.com/)<https://jamboard.google.com/>
+As vezes tenho uma necessidade de sair escrevendo coisas aleatórias, mas com algum tema específico. Como se fosse fazer listas, mas organizar de um jeito mais livre. Ele é bom com textos curtos, coisas longas não fica muito legal. Gosto de organizar alguns tipos pensamentos com o **Jamboard**. Faço até "mapa mental". 
+
+Link: [](https://jamboard.google.com/)<https://jamboard.google.com/>
 
 ![Quadro no jamboard, postits separados por dia da semana](assets/img/screen-shot-2020-06-14-at-18.08.29.png "Quadro no jamboard, postits separados por dia da semana")
 
@@ -32,17 +34,19 @@ Para mapas mentais eu sempre prefiro fazer no papel, mas quando eu erro algo no 
 
 Uso a versão free, onde só pode criar apenas 3 mapas. Mas aí eu crio meu mapa, quando estiver pronto eu tiro print. :P
 
+Link: <https://www.mindmeister.com/>
+
 ![Mapa mental sobre o que fazer quando nao estiver bem](assets/img/mindeister.png "Mapa mental sobre o que fazer quando nao estiver bem")
-
-
 
 O mesmo mapa só que a mão... Fica mais "charmoso a mão", mas tenho uma liberdade diferenciada de mover as coisas no **Mindmeister**.
 
 ![Mapa mental feito a mao](assets/img/mapamental.png "Mapa mental feito a mao")
 
-**[Draw.io](http://Draw.io)**
+**Draw.io**
 
 Uso mais para criar diagramas mais formais, tipo pra trabalho. Pra poder mostrar pra alguém de forma mais organizada.
+
+Link: <https://app.diagrams.net/>
 
 ![Diagrama feito no draw.io. Fluxo de front-end, API e banco de dados.](assets/img/drawio.png "Diagrama feito no draw.io. Fluxo de front-end, API e banco de dados.")
 
