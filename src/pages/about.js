@@ -19,7 +19,9 @@ const AboutPage = () => (
                 <ul>
                     <li>Adoro Stardew Valley - perco a noção do tempo jogando e tenho pena de vender minhas coisas</li>
                     <li>Teminei Luigi's Mansion - melhor jogo 💜</li>
-                    <li>To tentando terminar Link's Aweakening - as vezes frustrada por não saber exatamente pra onde ir </li>
+                    <li>Teminei The Legend of Zelda: Link's Awakening</li>
+                    <li>🎮 Jogando Legend Of Zelda: Breath of the Wild</li>
+                    <li>🎮 Jogando Okami</li>
                 </ul>
             </p>
             <br>
