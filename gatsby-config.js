@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Talita Oliveira`,
     position: `Software Developer`,
-    description: `Tentando começar a escrever alguma coisa`,
+    description: `Escrevendo sobre coisas que me vem a cabeça.`,
     author: `@liitacherry`,
     siteUrl: `https://talitaoliveira.netlify.com/`,
   },
