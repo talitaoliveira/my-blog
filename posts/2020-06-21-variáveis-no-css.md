@@ -87,3 +87,5 @@ Bem.. é isso. 😉
 Quando conheci variáveis no CSS foi em 2017 e já nem era tão novo.
 
 Mas tudo é novidade para que está começando. :)
+
+Até a próxima. 🤙🏽
