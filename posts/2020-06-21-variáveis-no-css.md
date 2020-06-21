@@ -2,7 +2,7 @@
 title: Variáveis no CSS
 description: Usando propriedades customizadas no CSS
 date: 2020-06-21T03:52:10.000Z
-image: assets/img/screen-shot-2020-06-21-at-16.25.07.png
+image: /assets/img/screen-shot-2020-06-21-at-16.25.07.png
 category: dev
 background: "#008BF8"
 ---
