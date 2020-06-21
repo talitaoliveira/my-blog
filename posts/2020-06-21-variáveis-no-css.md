@@ -74,7 +74,7 @@ background-color: var(--cor-principal, red)
 
 ## Posso usar?
 
-De acordo com o [Can I Use](https://caniuse.com/#feat=css-variables), o suporte para browsers mais antigo não rola. Mas a porcentagetagem tá até boa. Caso sua aplicação precise funcionar em browsers antigos, é recomendado usar a propriedade com o valor sem ser com a variável.
+De acordo com o [Can I Use](https://caniuse.com/#feat=css-variables), o suporte para browsers mais antigos não rola. Mas a porcentagem tá até boa. Caso sua aplicação precise funcionar em browsers antigos, é recomendado usar a propriedade com o valor sem ser com a variável.
 
 ![print do can I use: https://caniuse.com/#feat=css-variables](assets/img/can_i_use.png "print do can I use: https://caniuse.com/#feat=css-variables")
 
