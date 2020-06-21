@@ -60,7 +60,7 @@ E para cada um desses, também podemos sobrescrever o valor de
 
 `—cor-principal` para que somente naquela classe tenha um valor diferente.
 
-![Mesma imagem da anterior, porém na segunda div o valor da variável é "—cor-principal" sobreescrito por: "#FFD1BA" (cor rosa claro)](assets/img/variaveis_css2.png "Mesma imagem da anterior, porém na segunda div o valor da variável é \\\\"—cor-principal\\\\" sobreescrito por: \\\\"#FFD1BA\\\\" (cor rosa claro)")
+![Mesma imagem da anterior, porém na segunda div o valor da variável é "—cor-principal" sobreescrito por: "#FFD1BA" (cor rosa claro)](assets/img/variaveis_css2.png "Mesma imagem da anterior, porém na segunda div o valor da variável é \"—cor-principal\" sobreescrito por: \"#FFD1BA\" (cor rosa claro)")
 
 Link do código no codepen: [](https://codepen.io/talitaoliveira/pen/EvVOrv)<https://codepen.io/talitaoliveira/pen/EvVOrv>
 
