@@ -84,6 +84,6 @@ Link: [](https://caniuse.com/#feat=css-variables)<https://caniuse.com/#feat=css-
 
 Bem.. é isso. 😉
 
-Quando descobri variáveis no CSS foi em 2017 e já nem era tão novo.
+Quando conheci variáveis no CSS foi em 2017 e já nem era tão novo.
 
 Mas tudo é novidade para que está começando. :)
