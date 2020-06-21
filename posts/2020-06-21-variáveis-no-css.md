@@ -20,7 +20,7 @@ Com variáveis basta apenas mudar o valor em um único lugar. E caso em algum lu
 
 ## Como usar
 
-* Primeiro declaramos a variável
+* Primeiro declaramos a variável usando esses dois tracinhos em frente do nome que queremos para a variável
 * Usamos `:` (dois pontos) para atribuir um valor a ela
 * Seguido do valor que quer ser armazenar nela (por exemplo, uma cor)
 
@@ -54,13 +54,13 @@ Uma pseudoclasse do CSS que indica a "raiz" do documento. Dentro dela podemos co
 
 Exemplo:
 
-![Mesma imagem da anterior, porém na segunda div o valor da variável é "—cor-principal" sobreescrito por: "#FFD1BA" (cor rosa claro)](assets/img/variaveis_css1.png "Mesma imagem da anterior, porém na segunda div o valor da variável é \\"—cor-principal\\" sobreescrito por: \\"#FFD1BA\\" (cor rosa claro)")
+![- Primeiro declaramos a variável usando esses dois tracinhos em frente do nome que queremos para a variável](assets/img/variaveis_css1.png "- Primeiro declaramos a variável usando esses dois tracinhos em frente do nome que queremos para a variável")
 
 E para cada um desses, também podemos sobrescrever o valor de
 
 `—cor-principal` para que somente naquela classe tenha um valor diferente.
 
-![Mesma imagem da anterior, porém na segunda div o valor da variável é "—cor-principal" sobreescrito por: "#FFD1BA" (cor rosa claro)](assets/img/variaveis_css2.png "Mesma imagem da anterior, porém na segunda div o valor da variável é \\"—cor-principal\\" sobreescrito por: \\"#FFD1BA\\" (cor rosa claro)")
+![Mesma imagem da anterior, porém na segunda div o valor da variável é "—cor-principal" sobreescrito por: "#FFD1BA" (cor rosa claro)](assets/img/variaveis_css2.png "Mesma imagem da anterior, porém na segunda div o valor da variável é \\\"—cor-principal\\\" sobreescrito por: \\\"#FFD1BA\\\" (cor rosa claro)")
 
 Link do código no codepen: [](https://codepen.io/talitaoliveira/pen/EvVOrv)<https://codepen.io/talitaoliveira/pen/EvVOrv>
 
@@ -88,4 +88,4 @@ Quando descobri variáveis no CSS foi em 2017 e já nem era tão novo.
 
 Mas tudo é novidade para que está começando. :)
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="talitaoliveira" data-slug-hash="EvVOrv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Cascata"> <span>See the Pen <a href="[](https://codepen.io/talitaoliveira/pen/EvVOrv)<https://codepen.io/talitaoliveira/pen/EvVOrv>"> Cascata</a> by Talita Oliveira (<a href="[](https://codepen.io/talitaoliveira)<https://codepen.io/talitaoliveira>">@talitaoliveira</a>) on <a href="[](https://codepen.io/)<https://codepen.io>">CodePen</a>.</span> </p> <script async src="\[](https://static.codepen.io/assets/embed/ei.js)<https://static.codepen.io/assets/embed/ei.js>"></script>
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="talitaoliveira" data-slug-hash="EvVOrv" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Cascata"> <span>See the Pen <a href="[](https://codepen.io/talitaoliveira/pen/EvVOrv)<https://codepen.io/talitaoliveira/pen/EvVOrv>"> Cascata</a> by Talita Oliveira (<a href="[](https://codepen.io/talitaoliveira)<https://codepen.io/talitaoliveira>">@talitaoliveira</a>) on <a href="[](https://codepen.io/)<https://codepen.io>">CodePen</a>.</span> </p> <script async src="\\[](https://static.codepen.io/assets/embed/ei.js)<https://static.codepen.io/assets/embed/ei.js>"></script>
