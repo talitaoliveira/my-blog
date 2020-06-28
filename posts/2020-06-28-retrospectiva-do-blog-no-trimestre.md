@@ -2,7 +2,7 @@
 title: Retrospectiva do blog no trimestre
 description: Uma reflexão sobre como tem sido escrever num blog
 date: 2020-06-28 05:20:57
-image: assets/img/ebccv7zxkaarupy.jpeg
+image: /assets/img/ebccv7zxkaarupy.jpeg
 category: vida
 background: "#0B4F6C"
 ---
