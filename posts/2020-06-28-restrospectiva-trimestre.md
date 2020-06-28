@@ -2,13 +2,18 @@
 title: Restrospectiva trimestre
 description: Uma reflexão sobre como tem sido escrever num blog
 date: 2020-06-28T04:35:26.000Z
-image: assets/img/ebccv7zxkaarupy.jpeg
+image: /assets/img/ebccv7zxkaarupy.jpeg
 category: vida
 background: "#0B4F6C"
 ---
 ![Foto de uma mesa com: teclado mecânico iluminado de azul, um mouse pad vermelho do lado direito com um mouse preto em cima, livro Clean Code, um Nintendo swicth em cima do livro, um pato de borracha ao lado direito dos dois, um relógio e um caderno, uma caneca, uma garrafa de agua e acima da mesa uma televisão na parede como monitor para o laptop que está acima da televisão.](assets/img/ebccv7zxkaarupy.jpeg "Foto de uma mesa com: teclado mecânico iluminado de azul, um mouse pad vermelho do lado direito com um mouse preto em cima, livro Clean Code, um Nintendo swicth em cima do livro, um pato de borracha ao lado direito dos dois, um relógio e um caderno, uma caneca, uma garrafa de agua e acima da mesa uma televisão na parede como monitor para o laptop que está acima da televisão.")
 
-## Lista de posts desse trimestre
+## Conteúdo
+
+- [Lista de posts desse trimestre](#lista-de-post-trimestre)
+- [Minha "Reflexão"](#minha-reflexao)
+
+<h2 id="lista-de-post-trimestre">Lista de posts desse trimestre</h2>
 
 [04 de Abril: Hello World! - Tentativa de blog](https://talitaoliveira.netlify.app/hello-world/)
 
@@ -30,7 +35,7 @@ background: "#0B4F6C"
 
 [21 de Junho: Variáveis no CSS - Usando propriedades customizadas no CSS](https://talitaoliveira.netlify.app/vari%C3%A1veis-no-css/)
 
-## Minha "Reflexão"
+<h2 id="minha-reflexao">Minha "Reflexão"</h2>
 
 Começo desse trimestre foi quando eu decidi que iria começar o blog. Pensando em algo que aprendi e que senti a necessidade de tentar explicar escrevendo, ou "documentar"o que aprendi e como aprendi. Só que as vezes tinha algo atrás do meu cérebro" que falava coisas do tipo:
 
