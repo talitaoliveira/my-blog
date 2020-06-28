@@ -57,7 +57,7 @@ Não tem nada de muito inovador, algo que vai revolucionar o mundo da tecnologia
 
 Olhando pra trás, para meus posts, eu tenho gostado do que tenho feito. Tenho me esforçado, tenho estudado, e tenho mantido a consistência.
 
-![Imagem com o texto "consistencia > perfeição"](assets/img/consistencia-perfeicao.png "Imagem com o texto \\"consistencia > perfeição\\"")
+![Imagem com o texto "consistencia > perfeição"](assets/img/consistencia-perfeicao.png "Imagem com o texto \"consistencia > perfeição\"")
 
 Tento manter a **consistência** na frente da **perfeição**. Com a consistência eu consigo ver o que eu fiz e ir melhorando com o tempo.
 
