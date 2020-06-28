@@ -8,7 +8,7 @@ background: "#0B4F6C"
 ---
 ![Foto de uma mesa com: teclado mecânico iluminado de azul, um mouse pad vermelho do lado direito com um mouse preto em cima, livro Clean Code, um Nintendo swicth em cima do livro, um pato de borracha ao lado direito dos dois, um relógio e um caderno, uma caneca, uma garrafa de agua e acima da mesa uma televisão na parede como monitor para o laptop que está acima da televisão.](assets/img/ebccv7zxkaarupy.jpeg "Foto de uma mesa com: teclado mecânico iluminado de azul, um mouse pad vermelho do lado direito com um mouse preto em cima, livro Clean Code, um Nintendo swicth em cima do livro, um pato de borracha ao lado direito dos dois, um relógio e um caderno, uma caneca, uma garrafa de agua e acima da mesa uma televisão na parede como monitor para o laptop que está acima da televisão.")
 
-# Posts
+## Lista de posts desse trimestre
 
 [04 de Abril: Hello World! - Tentativa de blog](https://talitaoliveira.netlify.app/hello-world/)
 
@@ -30,13 +30,13 @@ background: "#0B4F6C"
 
 [21 de Junho: Variáveis no CSS - Usando propriedades customizadas no CSS](https://talitaoliveira.netlify.app/vari%C3%A1veis-no-css/)
 
-\-----------
+## Minha "Reflexão"
 
-Começo desse trimestre foi quando eu decidi que iria começar o blog. Com a ideia de colocar algo que aprendi e que senti a necessidade de tentar explicar escrevendo, ou "documentar"o que aprendi e como aprendi. Só que as vezes tinha algo atrás do meu cérebro" que falava coisas do tipo:
+Começo desse trimestre foi quando eu decidi que iria começar o blog. Pensando em algo que aprendi e que senti a necessidade de tentar explicar escrevendo, ou "documentar"o que aprendi e como aprendi. Só que as vezes tinha algo atrás do meu cérebro" que falava coisas do tipo:
 
 * "Você não é expert no assunto, pra que você vai fazer isso?"
-* "Nem foi tu que aprendeu isso sozinha, outras pessoas que chegaram nessa solução e tu só pegou por cima."
-* "Pra que escrever sobre isso se já tem um zilhão de artigos pela internet falando a mesma coisa."
+* "Nem foi tu que aprendeu isso sozinha, outras pessoas que chegaram nessa solução e tu só pegou por cima"
+* "Pra que escrever sobre isso se já tem um zilhão de artigos pela internet falando a mesma coisa"
 * "Essas coisas que tu quer escrever é tudo besteira, ninguém quer saber... Não tem nada de inovador."
 
 Tudo eu tentando me sabotar.
@@ -47,7 +47,7 @@ Tenho gostado bastante de escrever, e realmente tenho aprendido enquanto escrevo
 
 Alguns temas precisam de um certo planejamento.
 
-Quando quero compartilhar código preciso me preparar, criar um "projetinho para que de para mostrar o código, saber como explicar, colocar algumas imagens (eu adoro fazer fluxos e tenho tentado colocar eles nos meus posts).
+Quando quero compartilhar código preciso me preparar, criar um projetinho para que de para mostrar o código, saber como explicar, colocar algumas imagens (eu adoro fazer fluxos e tenho tentado colocar eles nos meus posts).
 
 Outros assuntos, são coisas que penso: "como eu explicaria isso?"
 
@@ -57,8 +57,16 @@ Não tem nada de muito inovador, algo que vai revolucionar o mundo da tecnologia
 
 Olhando pra trás, para meus posts, eu tenho gostado do que tenho feito. Tenho me esforçado, tenho estudado, e tenho mantido a consistência.
 
-![Imagem com o texto "consistencia > perfeição"](assets/img/consistencia-perfeicao.png "Imagem com o texto \"consistencia > perfeição\"")
+![imagem com o texto "consistência > perfeição" ](assets/img/consistencia-perfeicao.png "imagem com o texto \"consistência > perfeição\" ")
 
-Tento manter a **consistência** na frente da **perfeição**. Com a consistência eu consigo ver o que eu fiz e ir melhorando com o tempo.
+Tento manter a consistência na frente da perfeição. Com a consistência eu consigo ver o que eu fiz e ir melhorando com o tempo.
 
 Pra mim isso já importa.
+
+\~🌟\~
+
+Bem.. é isso. 😉
+
+Hoje não é nada técnico ou nada de util pra ~humanidade. Só uns pensamentos escritos.
+
+Até a próxima. 🤙🏽
