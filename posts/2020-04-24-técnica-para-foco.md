@@ -1,10 +1,10 @@
 ---
 title: Técnica para foco
-description: Como mater o foco enquanto realiza alguma tarefa?
-date: '2020-04-24 07:57:08'
+description: Como manter o foco enquanto realiza alguma tarefa?
+date: 2020-04-24 07:57:08
 image: /assets/img/focus_pomodoro.png
 category: vida
-background: '#008BF8'
+background: "#008BF8"
 ---
 ![Imagem de um relogio](/assets/img/accurate-alarm-alarm-clock-analogue-359989.jpg "Imagem retirada de: https://www.pexels.com/")
 
