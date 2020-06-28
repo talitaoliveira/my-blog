@@ -24,7 +24,7 @@ const SocialLinks = () => (
 
             })}
         </S.SocialLinksList>
-        <S.WebPage>
+        <S.WebPage href="https://talitaoliveira.com.br/">
         https://talitaoliveira.com.br/
         </S.WebPage>
         
