@@ -1,5 +1,5 @@
 ---
-title: Restrospectiva trimestre
+title: Retrospectiva do blog no trimestre
 description: Uma reflexão sobre como tem sido escrever num blog
 date: 2020-06-28T04:35:26.000Z
 image: /assets/img/ebccv7zxkaarupy.jpeg
