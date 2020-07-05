@@ -1,7 +1,7 @@
 ---
 title: "CSS: pseudo-elementos ::before e ::after"
 description: Criando elementos no CSS
-date: 2020-07-05 03:40:28
+date: 2020-07-05T03:40:28.000Z
 image: assets/img/before-after.png
 category: dev
 background: "#008BF8"
@@ -9,6 +9,8 @@ background: "#008BF8"
 ![Três criaturas em formato de bolinha com um olho e duas pernas, uma ao lado da outra distanciadas igualmente. E uma árvore em tom de cinza entre a criatura do meio e da esquerda, e outra árvore em tom de cinza entre a criatura do meio e a da direita.](assets/img/before-after.png "Três criaturas em formato de bolinha com um olho e duas pernas, uma ao lado da outra distanciadas igualmente. E uma árvore em tom de cinza entre a criatura do meio e da esquerda, e outra árvore em tom de cinza entre a criatura do meio e a da direita.")
 
 Esses pseudo-elementos servem para "criar elementos" sem necessidade de cria-los no HTML.
+
+Exemplo:
 
 O HTML:
 
@@ -26,7 +28,7 @@ O CSS:
 
 O resultado
 
-![Imagem com o texto "Ola mundo!"](assets/img/exemplo1-css.png "Imagem com o texto \"Ola mundo!\"")
+![Imagem com o texto "Ola mundo!"](assets/img/exemplo1-css.png "Imagem com o texto \\"Ola mundo!\\"")
 
 Se quisermos adicionar algo antes desse elemento, no CSS:
 
@@ -48,7 +50,7 @@ Se quisermos adicionar algo antes desse elemento, no CSS:
 
 O resultado
 
-![Imagem com o texto ">>> Ola mundo!"](assets/img/exemplo2-css.png "Imagem com o texto \">>> Ola mundo!\"")
+![Imagem com o texto ">>> Ola mundo!"](assets/img/exemplo2-css.png "Imagem com o texto \\">>> Ola mundo!\\"")
 
 E quando inspecionamos o HTML, é mostrado dessa forma:
 
@@ -74,7 +76,7 @@ E agora se formos acrescentar algo depois do elemento utilizamos o `::after`
 
 E o resultado
 
-![Imagem com o texto ">>> Ola mundo!<<<"](assets/img/exemplo4-css.png "Imagem com o texto \">>> Ola mundo!<<<\"")
+![Imagem com o texto ">>> Ola mundo!<<<"](assets/img/exemplo4-css.png "Imagem com o texto \\">>> Ola mundo!<<<\\"")
 
 E inspecionando o HTML
 
