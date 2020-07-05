@@ -28,7 +28,7 @@ O CSS:
 
 O resultado:
 
-![Imagem com o texto "Ola mundo!"](assets/img/exemplo1-css.png "Imagem com o texto \\"Ola mundo!\\"")
+![Imagem com o texto "Ola mundo!"](assets/img/exemplo1-css.png "Imagem com o texto \"Ola mundo!\"")
 
 Se quisermos adicionar algo antes desse elemento, no CSS:
 
@@ -50,7 +50,7 @@ Se quisermos adicionar algo antes desse elemento, no CSS:
 
 O resultado
 
-![Imagem com o texto ">>> Ola mundo!"](assets/img/exemplo2-css.png "Imagem com o texto \\">>> Ola mundo!\\"")
+![Imagem com o texto ">>> Ola mundo!"](assets/img/exemplo2-css.png "Imagem com o texto \">>> Ola mundo!\"")
 
 E quando inspecionamos o HTML, é mostrado dessa forma:
 
