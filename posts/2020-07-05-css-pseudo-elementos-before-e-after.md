@@ -26,7 +26,7 @@ O CSS:
 }
 ```
 
-O resultado
+O resultado:
 
 ![Imagem com o texto "Ola mundo!"](assets/img/exemplo1-css.png "Imagem com o texto \\"Ola mundo!\\"")
 
@@ -34,7 +34,7 @@ Se quisermos adicionar algo antes desse elemento, no CSS:
 
 * Mantemos o estilo principal da classe "meu-elemento"
 * Criamos uma outra estilização para "meu-elemento" adicionando ao lado direito do nome `::before`
-* Usamos a propriedade content para adicionar um conteúdo para aquele elemento
+* Usamos a propriedade `content` para adicionar um conteúdo para aquele elemento
 * E adicionamos algum estilo, por exemplo o `background-color`
 
 ```css
@@ -76,7 +76,7 @@ E agora se formos acrescentar algo depois do elemento utilizamos o `::after`
 
 E o resultado
 
-![Imagem com o texto ">>> Ola mundo!<<<"](assets/img/exemplo4-css.png "Imagem com o texto \\">>> Ola mundo!<<<\\"")
+![Imagem com o texto ">>> Ola mundo!<<<"](assets/img/exemplo4-css.png "Imagem com o texto \">>> Ola mundo!<<<\"")
 
 E inspecionando o HTML
 
@@ -90,7 +90,7 @@ Nessa imagem, "vemos" pelo menos uns 3 elementos.
 
 ![Retângulo grande com cor de fundo escura com largura de 300px e altura 400px com dois retângulo menores dentro dele posicionados no meio e espaçados entre eles. Ambos os retângulo com largura de 200px e altura de 100px. Retângulo de cima com um tom de vermelho e retângulo de baixo com tom verde claro. ](assets/img/exemplo6-css.png "Retângulo grande com cor de fundo escura com largura de 300px e altura 400px com dois retângulo menores dentro dele posicionados no meio e espaçados entre eles. Ambos os retângulo com largura de 200px e altura de 100px. Retângulo de cima com um tom de vermelho e retângulo de baixo com tom verde claro. ")
 
-Porém tem apenas um:
+Porém tem apenas um no HTML:
 
 ```html
 <div class="retangulo"></div>
