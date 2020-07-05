@@ -2,7 +2,7 @@
 title: "CSS: pseudo-elementos ::before e ::after"
 description: Criando elementos no CSS
 date: 2020-07-05T03:40:28.000Z
-image: assets/img/before-after.png
+image: /assets/img/before-after.png
 category: dev
 background: "#008BF8"
 ---
