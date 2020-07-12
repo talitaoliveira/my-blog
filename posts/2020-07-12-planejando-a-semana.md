@@ -110,7 +110,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\\\"You have power over your mind - not outside events. realize this and you will find strength\\\\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength")
 
 \~🌟\~
 
