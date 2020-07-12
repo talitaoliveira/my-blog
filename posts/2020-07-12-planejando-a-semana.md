@@ -2,7 +2,7 @@
 title: Planejando a semana
 description: Fazendo um planejamento semanal e uma reflexão diária de 5 minutos
 date: 2020-07-12T06:32:56.000Z
-image: assets/img/screen-shot-2020-07-12-at-18.52.14.png
+image: /assets/img/screen-shot-2020-07-12-at-18.52.14.png
 category: vida
 background: "#0B4F6C"
 ---
@@ -10,9 +10,9 @@ background: "#0B4F6C"
 
 ## Conteúdo
 
-* Planejamento da Semana
-* 5 Minute Journal
-* Minha reflexão
+* [Planejamento da Semana](#planejamento-da-semana)
+* [5 Minute Journal](#5-minute-journal)
+* [Minha reflexão](#minha-reflexao)
 
 Eu gosto de usar caderno, mas uso outras ferramentas digitais também.
 
@@ -27,7 +27,7 @@ Tem outras coisas que coloco no meu caderno também, mas acho que vai ficar para
 
 > 🚨 *Aviso: Minha letra não é bonita e nem tenho muita criatividade pra deixar as coisas bonitas.*
 
-## 📆 Planejamento Semanal
+<h2 id="planejamento-da-semana">📆 Planejamento da Semana</h2>
 
 Normalmente tento fazer isso no sábado, para que no domingo eu fique mais focada em escrever pro blog. As vezes faço no domingo mesmo, e poucas vezes (quando esqueço ou estou com preguiça) faço na segunda 😅 .
 
@@ -51,7 +51,7 @@ Toda manha eu tento já começar a escrever algo no caderno e ver o que tem.
 Extra: Fiz um videozinho fazendo esse planejamento (risos)\
 <https://www.youtube.com/watch?v=2uOkYgHD3bw>
 
-## 📓 5 Minute Journal
+<h2 id="5-minute-journal">📓 5 Minute Journal</h2>
 
 Além do planejamento semanal eu tento fazer um 5 minute journal todos os dias, me baseei nesse vídeo do Tim Ferris: [](https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s)<https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s>
 
@@ -80,7 +80,7 @@ A parte do "Afirmações diárias, Eu sou..." depois de um tempo eu decidi coloc
 
 E junto das afirmações diárias eu quis fazer um "tracking" de **horas de sono**, **estresse** e **humor.** Sei que tem aplicativos para isso, mas eu gosto de fazer no caderno. Tenho gostado bastante de fazer isso. E no final me da um sentimento bom ao ver tudo preenchido.
 
-## 🤔 Minha Reflexão
+<h2 id="minha-reflexao">🤔 Minha Reflexão</h2>
 
 Tem coisas que as pessoas podem achar que é perda de tempo, mas pra mim eu acho legal e acho as vezes até "terapêutico" quando estou preparando essas páginas. Coloco uma música e passo lá um tempinho escrevendo e criando as páginas que vou precisar. Algumas crio só uma vez por mês e a do **5 Minute Journal** crio todo dia (por isso ela é meio feinha~).
 
