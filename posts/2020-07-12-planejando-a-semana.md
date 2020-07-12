@@ -48,8 +48,8 @@ Um dia antes gosto de ver o que vai ter no outro dia e tentar já ir me preparan
 
 Toda manha eu tento já começar a escrever algo no caderno e ver o que tem.
 
-Extra: Fiz um videozinho fazendo esse planejamento (risos)\
-<https://www.youtube.com/watch?v=2uOkYgHD3bw>
+> 🎬 Extra: Fiz um videozinho fazendo esse planejamento (risos)\
+> <https://www.youtube.com/watch?v=2uOkYgHD3bw>
 
 <h2 id="5-minute-journal">📓 5 Minute Journal</h2>
 
@@ -106,7 +106,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\"You have power over your mind - not outside events. realize this and you will find strength\\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \"You have power over your mind - not outside events. realize this and you will find strength\"")
 
 \~🌟\~
 
