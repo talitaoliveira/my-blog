@@ -55,9 +55,9 @@ Toda manha eu tento já começar a escrever algo no caderno e ver o que tem.
 
 <h2 id="5-minute-journal">📓 5 Minute Journal</h2>
 
-Além do planejamento semanal eu tento fazer um 5 minute journal todos os dias, me baseei nesse vídeo do Tim Ferris: [](https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s)<https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s>
+Além do planejamento semanal eu tento fazer um **5 minute journal** todos os dias, me baseei nesse vídeo do Tim Ferris: [](https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s)<https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s>
 
-Não comprei o caderno do "5 Minute Journal", eu faço a mão mesmo 😬 ~~(não fica bonito, mas ok)~~.
+Não comprei o caderno do **5 minute journal**, eu faço a mão mesmo 😬 ~~(não fica bonito, mas ok)~~.
 
 Ele pronto aqui pra comprar: [](https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206)<https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206>
 
@@ -110,7 +110,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \"You have power over your mind - not outside events. realize this and you will find strength\"")
 
 \~🌟\~
 
