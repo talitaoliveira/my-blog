@@ -74,6 +74,8 @@ Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias q
 
 ![](assets/img/img_20200712_172758-01.png)
 
+Quando revisito ele a noite e vejo que consegui que algumas das coisas do "O que pode fazer o dia ótimo?" foram feitas, eu já me sinto bem. O mínimo que eu precisava pro dia foi alcançado.
+
 A parte do "Afirmações diárias, Eu sou..." depois de um tempo eu decidi colocar numa página só, como se fosse uma "coleção". As vezes eu não estou muito inspirada e as vezes eu estou.
 
 ![](assets/img/point-blur_jul122020_174051-1-.jpg)
@@ -106,7 +108,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\"You have power over your mind - not outside events. realize this and you will find strength\\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\\"You have power over your mind - not outside events. realize this and you will find strength\\\"")
 
 \~🌟\~
 
