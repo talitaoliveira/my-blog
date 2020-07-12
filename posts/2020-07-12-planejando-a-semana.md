@@ -1,7 +1,7 @@
 ---
 title: Planejando a semana
 description: Fazendo um planejamento semanal e uma reflexão diária de 5 minutos
-date: 2020-07-12 06:32:56
+date: 2020-07-12T06:32:56.000Z
 image: assets/img/screen-shot-2020-07-12-at-18.52.14.png
 category: vida
 background: "#0B4F6C"
@@ -48,6 +48,9 @@ Um dia antes gosto de ver o que vai ter no outro dia e tentar já ir me preparan
 
 Toda manha eu tento já começar a escrever algo no caderno e ver o que tem.
 
+Extra: Fiz um videozinho fazendo esse planejamento (risos)\
+<https://www.youtube.com/watch?v=2uOkYgHD3bw>
+
 ## 📓 5 Minute Journal
 
 Além do planejamento semanal eu tento fazer um 5 minute journal todos os dias, me baseei nesse vídeo do Tim Ferris: [](https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s)<https://www.youtube.com/watch?v=glFMpyx_oU4&t=95s>
@@ -56,7 +59,7 @@ Não comprei o caderno do "5 Minute Journal", eu faço a mão mesmo 😬 ~~(não
 
 Ele pronto aqui pra comprar: [](https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206)<https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206>
 
-Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. ¯\*(ツ)*/¯
+Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. ¯\*(ツ)\*/¯
 
 ☀️ Pela manha preencho:
 
@@ -103,7 +106,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \"You have power over your mind - not outside events. realize this and you will find strength\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\"You have power over your mind - not outside events. realize this and you will find strength\\"")
 
 \~🌟\~
 
