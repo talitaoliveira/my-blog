@@ -59,7 +59,7 @@ Não comprei o caderno do "5 Minute Journal", eu faço a mão mesmo 😬 ~~(não
 
 Ele pronto aqui pra comprar: [](https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206)<https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206>
 
-Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. ¯\*(ツ)\*/¯
+Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. `¯\(ツ)/¯`
 
 ☀️ Pela manha preencho:
 
@@ -106,7 +106,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \"You have power over your mind - not outside events. realize this and you will find strength\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\"You have power over your mind - not outside events. realize this and you will find strength\\"")
 
 \~🌟\~
 
