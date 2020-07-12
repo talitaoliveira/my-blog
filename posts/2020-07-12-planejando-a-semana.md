@@ -48,8 +48,8 @@ Um dia antes gosto de ver o que vai ter no outro dia e tentar já ir me preparan
 
 Toda manha eu tento já começar a escrever algo no caderno e ver o que tem.
 
-Extra: Fiz um videozinho fazendo esse planejamento (risos)\
-<https://www.youtube.com/watch?v=2uOkYgHD3bw>
+> 🎬 Extra: Fiz um videozinho fazendo esse planejamento (risos)\
+> <https://www.youtube.com/watch?v=2uOkYgHD3bw>
 
 <h2 id="5-minute-journal">📓 5 Minute Journal</h2>
 
@@ -59,7 +59,7 @@ Não comprei o caderno do "5 Minute Journal", eu faço a mão mesmo 😬 ~~(não
 
 Ele pronto aqui pra comprar: [](https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206)<https://www.amazon.com/Five-Minute-Journal-Happier-Minutes/dp/0991846206>
 
-Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. ¯\*(ツ)\*/¯
+Tento preencher logo depois que acordo, mas nem sempre isso acontece. Tem dias que também esqueço.. `¯\(ツ)/¯`
 
 ☀️ Pela manha preencho:
 
