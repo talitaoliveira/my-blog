@@ -25,6 +25,8 @@ Já usei o **Bullet Journal** do modo "tradicional" por anos, e com o tempo fui 
 
 Tem outras coisas que coloco no meu caderno também, mas acho que vai ficar para um outro post 😉.
 
+Ah, no meu caderno eu tento sempre escrever em inglês pra exercitar. Nem sempre ta tudo certo, mas eu to escrevendo pra mim mesma então tá suave.
+
 > 🚨 *Aviso: Minha letra não é bonita e nem tenho muita criatividade pra deixar as coisas bonitas.*
 
 <h2 id="planejamento-da-semana">📆 Planejamento da Semana</h2>
@@ -108,7 +110,7 @@ Quando eu sinto que algo não saiu como planejado eu tento lembrar disso e refle
 
 **Obvio que não é sempre, tem vezes que eu surto mesmo.**
 
-![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\\"You have power over your mind - not outside events. realize this and you will find strength\\\"")
+![Imagem com a frase: "You have power over your mind - not outside events. realize this and you will find strength"](assets/img/m7avz45fd8921.png "Imagem com a frase: \\\\"You have power over your mind - not outside events. realize this and you will find strength\\\\"")
 
 \~🌟\~
 
