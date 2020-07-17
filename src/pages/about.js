@@ -2,8 +2,10 @@ import React from "react"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
+import Share from '../components/Share'
 
 import * as S from '../styles/about'
+
 
 const AboutPage = () => (
     <Layout>
@@ -29,7 +31,7 @@ const AboutPage = () => (
             <S.Note>
                 Esse layout foi desenvolvido no curso do Willian Justen <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/">Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS</a>
             </S.Note>
-
+            <Share />
         </S.MainContent>
     </Layout>
 )
