@@ -10,12 +10,6 @@ export const ShareLinksContainer = styled.div`
   margin: 0 auto;
 `
 
-export const ShareThisPostTitle = styled.p`
-    margin: 0 !important;
-    text-align: left;
-    display: inline;
-`
-
 export const ShareLinksList = styled.ul`
     width: 100%;
     max-width: 200px;
