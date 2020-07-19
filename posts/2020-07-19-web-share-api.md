@@ -2,7 +2,7 @@
 title: Web Share API
 description: Compartilhando links usando o compartilhamento nativo
 date: 2020-07-19 05:10:55
-image: assets/img/social-share.png
+image: /assets/img/social-share.png
 category: dev
 background: "#008BF8"
 ---
@@ -10,13 +10,13 @@ background: "#008BF8"
 
 Conteúdo:
 
-* Contexto/Problema
-* A solução
-* Posso Usar?
-* Momento Reflexão
-* Referências
+* [Contexto/Problema](#contexto-problema)
+* [A solução](#a-solucao)
+* [Posso Usar?](#posso-usar)
+* [Minha reflexão](#minha-reflexao)
+* [Referências](#referencias)
 
-## Contexto
+<h2 id="contexto-problema">Contexto/Problema</h2>
 
 Sabe quando entramos em algum app de tem funções de compartilhar informações - via Whatsapp, Telegram, Email, Direct do instagram, e diversos outros apps que podem receber essa informação de alguma forma - e aparece aquela telinha para voce escolher para qual outro app você quer compartilhar?
 
@@ -38,7 +38,7 @@ O que é tranquilo, mas quando vamos para a versão web no celular as opções d
 
 > Poxa... Seria massa se no meu website ou minha aplicação web pudesse entregar pra pessoa a mesma experiência de um app na parte de compartilhar né?
 
-## A solução
+<h2 id="a-solucao">A solução</h2>
 
 Usando a **Web Share API** podemos colocar no nosso website ou aplicação web a funcionalidade de compartilhar o conteúdo usando o compartilhamento nativo do dispositivo (que vai dar as opções para onde se deseja compartilhar).
 
@@ -104,7 +104,7 @@ E aqui foi um exemplo que fiz direto no meu blog, você pode conferir aqui na [p
 
 > A minha ideia é colocar ele nos posts... Vai rolar, primeiro tinha que testar a funcionalidade e deixar os componentes prontos para poder usar e adaptar para pagina de posts. Vai rolar...
 
-## Posso usar?
+<h2 id="posso-usar">Posso usar?</h2>
 
 Infelizmente, não são em todos os navegadores que isso funciona. Aqui em casa testei no celular da minha irmã que é um Xiomi, e testei no "Mi Browser" e infelizmente não pega.
 
@@ -118,7 +118,7 @@ E tem um aviso que essa **feature** ainda está em fase **experimental**. O que 
 
 ![Print do site do Can I Use mostrando a compatibilidade do Nagivator API: share](assets/img/can-i-use.png "Print do site do Can I Use mostrando a compatibilidade do Nagivator API: share")
 
-## Momento reflexão
+<h2 id="minha-reflexao">Minha Reflexão</h2>
 
 A motivação de procurar por essa funcionalidade foi a partir de uma sugestão no projeto que estou. Eu gosto muito de assuntos relacionados a PWA, eu já estudei sobre web apps por um bom tempo mas com o tempo bateu desanimo pois eu não conseguia aplicar em nada da vida real e parei de estudar. Espero voltar a estudar com mais animo agora.
 
