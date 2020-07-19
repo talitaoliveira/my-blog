@@ -8,7 +8,7 @@ import * as S from './styled';
 const Share = () => (
     <S.ShareWrapper>
         <S.ShareDescription>Compartilhe:</S.ShareDescription>
-        {navigator.share ? <ShareNative/> : <ShareLinks/> }
+        {/* {navigator.share ? <ShareNative/> : <ShareLinks/> } */}
 
     </S.ShareWrapper>
 )
