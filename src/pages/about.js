@@ -14,6 +14,7 @@ const AboutPage = () => (
             <S.Title>Olá Seres Humanos!</S.Title>
         </S.Header>
         <S.MainContent>
+            <Share />
             <p>Eu me chamo Talita, moro no Brasil em Recife (PE). </p>
             <p>Sou desenvolvedora de Software. Já tive experiência com Back end e Front end.</p>
             <p>Gosto de assuntos relacionados a tecnologia, desenvolvimento de software, organização, autoconhecimento/desenvolvimento pessoal, e outras coisas.</p>
@@ -31,7 +32,6 @@ const AboutPage = () => (
             <S.Note>
                 Esse layout foi desenvolvido no curso do Willian Justen <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/">Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS</a>
             </S.Note>
-            <Share />
         </S.MainContent>
     </Layout>
 )
