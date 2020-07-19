@@ -1,19 +1,16 @@
 import React from 'react'
 
-const handleClick = () => {
-    if (navigator.share) {
-        navigator.share({
-          title: 'Talita Oliveira',
-          text: 'Blog - Talita Oliveira',
-          url: 'https://blog.talitaoliveira.com.br/',
-        })
-          .then(() => console.log('Successful share'))
-          .catch((error) => console.log('Error sharing', error));
-      }
-  }
+import ShareNative from '../ShareNative'
+import ShareLinks from '../ShareLinks'
+
+import * as S from './styled';
 
 const Share = () => (
-    <button onClick={handleClick}>Share</button>
+    <S.ShareWrapper>
+        <S.ShareDescription>Compartilhe:</S.ShareDescription>
+        {navigator.share ? <ShareNative/> : <ShareLinks/> }
+
+    </S.ShareWrapper>
 )
 
 export default Share;
