@@ -136,7 +136,7 @@ Pra mim foi uma coisa totalmente nova e foi um estudo massa.
 
 Até a próxima. 🤙🏽
 
-## Referências:
+<h2 id="referencias">Referências</h2>
 
 Documentação no W3C: [](https://w3c.github.io/web-share/)<https://w3c.github.io/web-share/>
 
