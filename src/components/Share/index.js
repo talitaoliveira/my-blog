@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import ShareNative from '../ShareNative'
 import ShareLinks from '../ShareLinks'
@@ -6,21 +6,23 @@ import ShareLinks from '../ShareLinks'
 import * as S from './styled';
 
 const hasShareNative = () => {
-    console.log('-----')
-    console.log(navigator.share)
-    if (navigator.share) {
-        console.log('sim')
-        return true
+    if (typeof navigator !== `undefined`) {
+        if (navigator.share) {
+            console.log('suporta o share navigator')
+            return true
+        }
+        return false
+        console.log('nao suporta o share navigator')
     }
-    console.log('nao')
+    console.log('nao tem navigator')
     return false
   }
 
 const Share = () => (
     <S.ShareWrapper>
         <S.ShareDescription>Compartilhe:</S.ShareDescription>
-        {hasShareNative() ? <ShareNative/> : <ShareLinks/>}
-
+        { hasShareNative() ? <ShareNative/> : <ShareLinks/>}
+        <ShareNative/> <ShareLinks/>
     </S.ShareWrapper>
 )
 
