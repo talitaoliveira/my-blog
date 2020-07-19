@@ -122,7 +122,7 @@ A motivação de procurar por essa funcionalidade foi a partir de uma sugestão 
 
 Eu era o tipo de pessoa que **pregava a palavra do PWA** pois acho uma coisa sensacional (mas não tinha muuuuita experiencia). Adorava discutir sobre PWA, e ver o que dava pra fazer. Mas as coisas que eu fazia profissionalmente, nunca tinham muito a ver com o assunto e eu ficava até sem animo pra estudar por mim mesma, não que uma coisa exclua a outra mas foi assim comigo. Mas eu sempre saia tentando ir atras de empresas ou projetos que me deixasse um pouco próxima dessas coisas.
 
-Eu era do **PHP** e mudei pro **Javascript** justamente nessa época. Deixei de ir pra uma empresa trabalhar com PHP e ganhar mais do que eu ganhava e fui pra outra ganhar um pouco menos mas iria ter a experiencia que eu queria com **JS.**
+Eu era do **PHP** e mudei pro **Javascript** justamente nessa época. Deixei de ir pra uma empresa trabalhar com PHP e ganhar mais do que eu ganhava e fui pra outra ganhar um pouco menos do que eu já ganhava mas iria ter a experiencia que eu queria com **JS.**
 
 \~🌟\~
 
