@@ -6,9 +6,13 @@ import ShareLinks from '../ShareLinks'
 import * as S from './styled';
 
 const hasShareNative = () => {
+    console.log('-----')
+    console.log(navigator.share)
     if (navigator.share) {
+        console.log('sim')
         return true
     }
+    console.log('nao')
     return false
   }
 
