@@ -1,7 +1,7 @@
 const links = [
     {
         label: 'Twitter',
-        url: 'http://twitter.com/share?text=Talita Oliveira&url=http://blog.talitaoliveira.com.br/'
+        url: 'http://twitter.com/share?text=Blog Talita Oliveira - &url=http://blog.talitaoliveira.com.br/'
     },
     {
         label: 'Linkedin',
