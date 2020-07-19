@@ -1,6 +1,6 @@
 ---
 title: Web Share API
-description: Compartilhando links usando o compartilhamento nativo
+description: Compartilhando links usando o compartilhamento nativo com Javascript
 date: 2020-07-19 05:10:55
 image: /assets/img/social-share.png
 category: dev
@@ -18,21 +18,19 @@ Conteúdo:
 
 <h2 id="contexto-problema">Contexto/Problema</h2>
 
-Sabe quando entramos em algum app de tem funções de compartilhar informações - via Whatsapp, Telegram, Email, Direct do instagram, e diversos outros apps que podem receber essa informação de alguma forma - e aparece aquela telinha para voce escolher para qual outro app você quer compartilhar?
+Sabe quando entramos em algum app e tem funções de compartilhar informações - via Whatsapp, Telegram, e-mail, direct do Instagram, e diversos outros apps que podem receber essa informação de alguma forma - e aparece aquela telinha para voce escolher para qual outro app você quer compartilhar?
 
 Tipo dessa forma aqui que tem no app do Twitter, por exemplo.
 
 ![Imagem mostrando duas telas. Primeira tela ao lado esquerdo mostrando o twitter de fundo um pouco desfocado e uma parte saindo de baixo pra cima com as opções de compartilhamento do tweet. Imagem da direita é a parte de compartilhamento expandida na tela inteira, cobrindo a parte que mostrava o twitter](assets/img/twitter-share.png "Imagem mostrando duas telas. Primeira tela ao lado esquerdo mostrando o twitter de fundo um pouco desfocado e uma parte saindo de baixo pra cima com as opções de compartilhamento do tweet. Imagem da direita é a parte de compartilhamento expandida na tela inteira, cobrindo a parte que mostrava o twitter")
 
-Normalmente para websites, vemos mais os botões de compartilhar em alguma área específica da tela que já nos redirecionam para onde você quer compartilhar, de forma meio limitada.
+Normalmente para websites, vemos mais os botões de compartilhar em alguma área específica da tela que já nos redirecionam para onde queremos compartilhar, de forma meio limitada.
 
 Tipo esses:
 
 ![Uma imagem com dois prints de visualização desktop. Um do linkedin enfatizando a forma de compartilhamento. O outro print é o do medium, enfatizando também a forma de compartilhamento. Ambos com botões de compartilhar para twitter, facebook, linkedin (no caso do medium)](assets/img/share-examples.png "Uma imagem com dois prints de visualização desktop. Um do linkedin enfatizando a forma de compartilhamento. O outro print é o do medium, enfatizando também a forma de compartilhamento. Ambos com botões de compartilhar para twitter, facebook, linkedin (no caso do medium)")
 
-Ou assim:
-
-O que é tranquilo, mas quando vamos para a versão web no celular as opções de compartilhamento se mantem lá em algum canto da tela, com as opções que o próprio site dá. E só se vc for no app é que consegue ter aquele experiência que mostrei lá em cima como exemplo.
+O que é tranquilo, mas quando vamos para a versão web no celular as opções de compartilhamento se mantem lá em algum canto da tela, com as opções que o próprio site dá. E só se você for no app é que vai conseghuir ter aquele experiência que mostrei lá em cima como exemplo.
 
 ![Print da tela do medium aberta no navegador, texto desfocado enfatizando os botões de compartilhamento: twitter, linkedin, facebook...](assets/img/medium-example.png "Print da tela do medium aberta no navegador, texto desfocado enfatizando os botões de compartilhamento: twitter, linkedin, facebook...")
 
@@ -68,7 +66,7 @@ Essa frase acima é uma `promisse`(uma promessa~) então nesse caso, vocês vão
 
 \=== ⭐️ ===
 
-Nesse meu caso o `navigator.share()` vai ser chamado quando houver o clique em algum botão (que é o que geralmente acontece)de compartilhar e vai ser responsável por chamar o compartilhamento nativo do dispositivo.
+No exemplo abaixo o `navigator.share()` vai ser chamado quando houver o clique em algum botão (que é o que geralmente acontece)de compartilhar e vai ser responsável por chamar o compartilhamento nativo do dispositivo.
 
 Tenho:
 
