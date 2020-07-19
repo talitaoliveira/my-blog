@@ -39,4 +39,8 @@ export const IconWrapper = styled.div`
     fill: #bbb;
     width: 30px;
     height: 30px;
+    border: 2px solid var(--texts);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--texts);
 `

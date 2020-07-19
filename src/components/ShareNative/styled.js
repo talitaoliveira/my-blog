@@ -8,5 +8,15 @@ export const ShareIcon = styled(Share)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20px auto;
+  cursor: pointer;
+  border: 2px solid var(--texts);
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--texts);
+
+  &:hover{
+    color: var(--highlight) ;
+    border-color: var(--highlight);
+}
 `
