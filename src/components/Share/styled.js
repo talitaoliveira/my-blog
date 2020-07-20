@@ -10,7 +10,7 @@ export const ShareWrapper = styled.div`
 `
 
 export const ShareDescription = styled.p`
-    margin: 0 !important;
+    margin: 0 0 15px !important;
     text-align: left;
     display: inline;
 `
