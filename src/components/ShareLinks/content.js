@@ -1,15 +1,15 @@
 const links = [
     {
         label: 'Twitter',
-        url: 'http://twitter.com/share?text=Blog Talita Oliveira - &url=http://blog.talitaoliveira.com.br/'
+        url: 'http://twitter.com/share?text=Blog Talita Oliveira - &url=http://blog.talitaoliveira.com.br'
     },
     {
         label: 'Linkedin',
-        url: 'https://www.linkedin.com/sharing/share-offsite/?url=http://blog.talitaoliveira.com.br/&title=TalitaOliveira'
+        url: 'https://www.linkedin.com/sharing/share-offsite/?title=TalitaOliveira&url=http://blog.talitaoliveira.com.br'
     },
     {
         label: 'Facebook',
-        url: 'http://www.facebook.com/sharer.php?u=http://blog.talitaoliveira.com.br/&title=TalitaOliveira'
+        url: 'http://www.facebook.com/sharer.php?title=TalitaOliveira&u=http://blog.talitaoliveira.com.br'
     }
 ]
 
