@@ -22,7 +22,6 @@ const BlogPost = ({ data, pageContext }) => {
             image={post.frontmatter.image} />
             <S.PostHeader>
                 <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-                <Share slug={post.fields.slug}/>
                 <S.PostDate>
                     {post.frontmatter.date} - {post.timeToRead} min de leitura
                 </S.PostDate>
@@ -30,7 +29,7 @@ const BlogPost = ({ data, pageContext }) => {
             </S.PostHeader>
             <S.MainContent>
                 <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-                <Share slug={post.fields.slug}/>
+                <Share slug={post.fields.slug} title={post.frontmatter.title}/>
             </S.MainContent>
             <RecommendedPosts next={next} previous={previous} />
             <Comments url={post.fields.slug} title={post.frontmatter.title} />
