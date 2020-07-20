@@ -5,7 +5,6 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import Comments from '../components/Comments'
-import Share from '../components/Share'
 
 import * as S from '../components/Post/styled'
 
@@ -29,7 +28,6 @@ const BlogPost = ({ data, pageContext }) => {
             </S.PostHeader>
             <S.MainContent>
                 <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-                <Share slug={post.fields.slug} title={post.frontmatter.title}/>
             </S.MainContent>
             <RecommendedPosts next={next} previous={previous} />
             <Comments url={post.fields.slug} title={post.frontmatter.title} />

@@ -18,10 +18,10 @@ const hasShareNative = () => {
     return false
   }
 
-const Share = ({slug, title}) => (
+const Share = () => (
     <S.ShareWrapper>
         <S.ShareDescription>Compartilhe:</S.ShareDescription>
-        { hasShareNative() ? <ShareNative slug={slug} title={title} /> : <ShareLinks slug={slug}/>}
+        { hasShareNative() ? <ShareNative /> : <ShareLinks/>}
     </S.ShareWrapper>
 )
 
