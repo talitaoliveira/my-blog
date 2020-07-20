@@ -5,7 +5,7 @@ import * as S from './styled';
 const handleClick = (slug, title) => {
     if (navigator.share) {
         navigator.share({
-          title: `${title} - Blog Talita Oliveira`,
+          title: `Blog Talita Oliveira - ${title}`,
           text: `${title} - Blog Talita Oliveira @liitacherry`,
           url: `https://blog.talitaoliveira.com.br${slug}`,
         })
