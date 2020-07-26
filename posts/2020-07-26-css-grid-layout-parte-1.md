@@ -11,7 +11,6 @@ background: "#008BF8"
 ## Conteúdo
 
 * [Motivação](#motivacao)
-* [A solução](#a-solucao)
 * [O que é?](#o-que-e)
 * [Terminologia](#terminologia)
 * [Referências](#referencias)
