@@ -2,7 +2,7 @@
 title: CSS Grid Layout - parte 1
 description: Estudando CSS Grid Layout e postando o progresso
 date: 2020-07-26 07:49:39
-image: assets/img/thumb-css-grid.png
+image: /assets/img/thumb-css-grid.png
 category: dev
 background: "#008BF8"
 ---
@@ -10,15 +10,13 @@ background: "#008BF8"
 
 ## Conteúdo
 
-Motivação
+* [Motivação](#motivacao)
+* [A solução](#a-solucao)
+* [O que é?](#o-que-e)
+* [Terminologia](#terminologia)
+* [Referências](#referencias)
 
-O que é
-
-Terminologia
-
-Referências
-
-## Motivação
+<h2 id="motivacao">Motivação</h2>
 
 Já faz tempo que venho querendo estudar Grid Layout pra entender do jeito que eu entendo Flexbox. Flexbox comigo já está no automático há anos, pra qualquer coisa que faço com CSS eu uso Flexbox.
 
@@ -28,7 +26,7 @@ Mas por que aprender? Tem resposta melhor do que: "**pq eu quero?**" (risos). Ap
 
 Decidi estudar e postar o progresso no blog, vamos ver se vai dar certo. Se der, faço pra mais outras coisas. O post de Chain of Responsibility foi quase isso, na verdade eu tinha aprendido há pouco tempo, assimilei o conhecimento fazendo alguns testes sozinha e depois postei tudo. Esse aqui pretendo fazer de forma gradual, aprender aos poucos e postando.
 
-## O que é
+<h2 id="o-que-e">O que é</h2>
 
 * CSS Grid Layout, também conhecido como Grid.
 * Tem como objetivo criar interfaces baseadas em "grade"
@@ -39,7 +37,7 @@ Decidi estudar e postar o progresso no blog, vamos ver se vai dar certo. Se der,
   * Propriedades como float, de posicionamentos que era uma dor de cabeça pra conseguir alinhar bem e centralizar os elementos;
   * Flexbox, que não é um problema. Flexbox ajuda no layout mas não tanto quanto o grid. Porém um não exclui o outro e funcionam muito bem juntos. Porém Flexbox é **uni-direcional** e o Grid Layout é **bi-direcional.** (Esse aqui é um ponto que eu quero ver exatamente a diferença entre os dois, pra mim ainda não está tão evidente.)
 
-## Terminologia
+<h2 id="terminologia">Terminologia</h2>
 
 ### Grid Container
 
@@ -87,6 +85,6 @@ Tem outros estudos que ando focando mais, esse sobre **Grid Layout** achei legal
 
 Até a próxima 🤙🏽
 
-## Referência
+<h2 id="referencia">Referência</h2>
 
 [](https://css-tricks.com/snippets/css/complete-guide-grid/)<https://css-tricks.com/snippets/css/complete-guide-grid/>
