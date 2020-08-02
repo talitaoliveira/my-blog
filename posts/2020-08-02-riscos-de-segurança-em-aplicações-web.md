@@ -12,7 +12,7 @@ background: "#008BF8"
 
 * [O que é](#o-que-e)
 * [3 Tipos de XSS](#3-tipos-xss)
-* [Como previnir](#como-previnir)
+* [Como prevenir](#como-prevenir)
 * [Referências](#referencias)
 
 <h2 id="o-que-e">O que é:</h2>
@@ -47,7 +47,7 @@ Também é possível que a partir de uma única vítima, afetar diversas outras 
   * O código é executado sem precisar passar pelo servidor;
   * O código executado pode modificar o HTML da página, através da alteração do DOM por substituição/alteração de nós;
 
-<h2 id="como-previnir">Como previnir:</h2>
+<h2 id="como-prevenir">Como prevenir:</h2>
 
 * Validações de dados tanto no lado do frontend quanto no backend - previne o Reflected e Stored XSS;
 * Codificação de caracteres quando há modificação da página no lado do cliente - previne o DOM XSS.
