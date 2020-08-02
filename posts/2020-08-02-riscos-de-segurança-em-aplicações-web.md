@@ -2,7 +2,7 @@
 title: Riscos de Segurança em Aplicações Web
 description: Cross-Site Scripting (XSS)
 date: 2020-08-02 07:44:30
-image: assets/img/screen-shot-2020-08-02-at-19.51.53.png
+image: /assets/img/screen-shot-2020-08-02-at-19.51.53.png
 category: dev
 background: "#008BF8"
 ---
@@ -10,12 +10,12 @@ background: "#008BF8"
 
 ## Cross Site Scripting - XSS
 
-* O que é
-* 3 Tipos de XSS
-* Como previnir
-* Referncias
+* [O que é](#o-que-e)
+* [3 Tipos de XSS](#3-tipos-xss)
+* [Como previnir](#como-previnir)
+* [Referências](#referencias)
 
-## O que é:
+<h2 id="o-que-e">O que é:</h2>
 
 Vulnerabilidade que permite a inserção e execução de códigos Javascript maliciosos no lado do cliente (no navegador de um usuário).
 
@@ -34,7 +34,7 @@ Um exemplo que vi muito foi de sites com campos de texto, tipo fórum. Onde:
 
 Também é possível que a partir de uma única vítima, afetar diversas outras pessoas. Quando o script malicioso for armazenado (de forma não tratada) e posteriormente exibido para outras pessoas, o código malicioso vai está lá e vai ser executado.
 
-## 3 Tipos de XSS:
+<h2 id="3-tipos-xss">3 Tipos de XSS:</h2>
 
 * **Reflected XSS**
 
@@ -47,7 +47,7 @@ Também é possível que a partir de uma única vítima, afetar diversas outras 
   * O código é executado sem precisar passar pelo servidor;
   * O código executado pode modificar o HTML da página, através da alteração do DOM por substituição/alteração de nós;
 
-## Como previnir:
+<h2 id="como-previnir">Como previnir</h2>
 
 * Validações de dados tanto no lado do frontend quanto no backend - previne o Reflected e Stored XSS;
 * Codificação de caracteres quando há modificação da página no lado do cliente - previne o DOM XSS.
@@ -62,6 +62,8 @@ Fonte: [](https://pt-br.reactjs.org/docs/introducing-jsx.html#jsx-prevents-injec
 \~🌟\~
 
 Bem.. é isso. 😉
+
+Esse conteúdo foi o meu entendimento após estudar sobre o assunto.
 
 Essa semana rolaram algumas conversas sobre se seria seguro ou não armazenar token JWT no `localstorage`, e me deparei com esse link:
 
@@ -83,7 +85,7 @@ Depois trago outras em próximos posts.
 
 Até a próxima. 🤙🏽
 
-## Referências:
+<h2 id="referencias">Referências</h2>
 
 [](https://wiki.owasp.org/images/0/06/OWASP_Top_10-2017-pt_pt.pdf)<https://wiki.owasp.org/images/0/06/OWASP_Top_10-2017-pt_pt.pdf>
 
