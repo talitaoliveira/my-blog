@@ -47,7 +47,7 @@ Também é possível que a partir de uma única vítima, afetar diversas outras 
   * O código é executado sem precisar passar pelo servidor;
   * O código executado pode modificar o HTML da página, através da alteração do DOM por substituição/alteração de nós;
 
-<h2 id="como-previnir">Como previnir</h2>
+<h2 id="como-previnir">Como previnir:</h2>
 
 * Validações de dados tanto no lado do frontend quanto no backend - previne o Reflected e Stored XSS;
 * Codificação de caracteres quando há modificação da página no lado do cliente - previne o DOM XSS.
@@ -85,7 +85,7 @@ Depois trago outras em próximos posts.
 
 Até a próxima. 🤙🏽
 
-<h2 id="referencias">Referências</h2>
+<h2 id="referencias">Referências:</h2>
 
 [](https://wiki.owasp.org/images/0/06/OWASP_Top_10-2017-pt_pt.pdf)<https://wiki.owasp.org/images/0/06/OWASP_Top_10-2017-pt_pt.pdf>
 
