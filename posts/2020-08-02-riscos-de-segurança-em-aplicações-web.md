@@ -71,6 +71,8 @@ Essa semana rolaram algumas conversas sobre se seria seguro ou não armazenar to
 
 [LocalStorage vs Cookies: All You Need To Know About Storing JWT Tokens Securely in The Front-End](https://dev.to/cotter/localstorage-vs-cookies-all-you-need-to-know-about-storing-jwt-tokens-securely-in-the-front-end-15id)
 
+Que conclui que não é seguro armazenar JWT no localstorage por ser vulnerável a ataques XSS.
+
 Achei interessante, mas tenho muito pouco conhecimento sobre ataques a sites, basicamente sabia apenas que deveria tratar os dados que vem de formulários, que poderiam ser sucetíveis a injeção de SQL, sabia que dava pra executar scripts e etc...
 
 Coisas que vamos ouvindo na vida mas não vamos muito a fundo pra entender.
