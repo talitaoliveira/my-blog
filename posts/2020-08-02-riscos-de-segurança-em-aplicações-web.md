@@ -63,7 +63,9 @@ Fonte: [](https://pt-br.reactjs.org/docs/introducing-jsx.html#jsx-prevents-injec
 
 Bem.. é isso. 😉
 
-Esse conteúdo foi o meu entendimento após estudar sobre o assunto.
+Se tiver algo que você tenha encontrado de errado, pode entrar em contato comigo.
+
+Esse conteúdo foi o meu entendimento após estudar sobre o assunto. 
 
 Essa semana rolaram algumas conversas sobre se seria seguro ou não armazenar token JWT no `localstorage`, e me deparei com esse link:
 
