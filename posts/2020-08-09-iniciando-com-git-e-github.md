@@ -146,6 +146,8 @@ Essa semana fiz um mini **roadmap** pra uma pessoa para iniciar os estudos com f
 
 E com isso hoje deu vontade de postar sobre Git/Github. É bom que além de exercitar um pouco como eu explico o que são ambos de forma escrita, talvez dê pra ajudar alguém.
 
+💡 Para quem está começando, eu indico esse [Curso Udemy: Git e Github para iniciantes](https://www.udemy.com/course/git-e-github-para-iniciantes/) que tem no Udemy do Willian Justen. 
+
 Em outubro começa o [Hacktoberfest](https://hacktoberfest.digitalocean.com/), e pra quem esteja iniciando e queira participar é bom que já aprende um pouco antes sobre Git e Github para poder contribuir com projetos Open Source. 😊
 
 Espero que possa ajudar alguém.
