@@ -71,7 +71,7 @@ Após essas duas breves introduções, vemos a diferença do Git para o Github:
 Por ser algo usado por pessoas desenvolvedoras de todo o mundo, a nomenclatura que segue da estrutura é em inglês. Esses são só alguns que escolhi considerando a partir de coisas que falamos num dia a dia de um projeto.
 
 * **Repository**: É onde está o código fonte do projeto;
-* **[README.md](http://README.md)**: É um arquivo que comumente é utilizado para colocar documentação sobre o projeto, como rodar, como usar, como rodar testes, e qualquer outra informação que possa ser necessária para o entendimento tanto do código quanto to projeto
+* **README.md**: É um arquivo que comumente é utilizado para colocar documentação sobre o projeto, como rodar, como usar, como rodar testes, e qualquer outra informação que possa ser necessária para o entendimento tanto do código quanto to projeto
 * **Commit**: São os registros das alterações que foram realizadas num projeto.
 * **Branch**: Literalmente traduzindo, são galhos. Um projeto com git possui uma branch principal (main), onde ficam todos os registros de alterações, sempre que fazemos um commit e push, é para esta branch que eles vão. Porém, podemos criar **branchs**, ao criar uma **branch** criamos uma "ramificação" para poder realizar **commits** de forma que não afete a **branch** principal, e somente quando estamos "satisfeitos" com a alteração, podemos juntar esta **branch** com a **branch** principal.
 
