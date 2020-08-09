@@ -47,7 +47,7 @@ Existem outras plataformas com o mesmo propósito do Github como por exemplo o G
 * Tem uma interface aparentemente amigável;
 * É bastante popular;
 
-  * Tem uma funcionalidade nova de adicionar mais informações suas no seu perfil;
+  * Tem uma funcionalidade nova de adicionar mais informações suas no seu perfil; (aqui tá o meu: [](https://github.com/talitaoliveira)<https://github.com/talitaoliveira>
 * Poder seguir pessoas e ver os projetos delas e os quais elas contribuem;
 * Vários projetos de **código aberto (Open Source)** estão lá;
 * Tem possibilidade de ter **projetos (repositórios)** tanto publico quanto privados;
@@ -127,7 +127,7 @@ E vários outros.
 
 <h2 id="reflexao-sobre-o-que-vem-pela-frente">Reflexão sobre o que vem pela frente</h2>
 
-* Git é usado por muitas empresas que trabalho com desenvolvimento de software;
+* Git é usado por muitas empresas que trabalham com desenvolvimento de software;
 * Lidar com Git num time em que várias pessoas mexem no código é bem diferente que do que em um projeto onde só tem você mexendo no código;
 * Só com a prática que se consegue entender melhor sobre o git, dependendo das necessidades e problemas do dia a dia de uma pessoa desenvolvedora;
 * Problemas acontecem o tempo inteiro e só com o tempo vamos conseguindo entender melhor o que fazer para resolver;
