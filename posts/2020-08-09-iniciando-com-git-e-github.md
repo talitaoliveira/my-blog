@@ -16,7 +16,8 @@ background: "#008BF8"
 * [Diferença](#diferenca)
 * [Alguns termos comuns](#alguns-termos-comuns)
 * [Como Usar?](#como-usar)
-    * [Alguns comandos mais comuns](#alguns-comandos-mais-comuns)
+
+  * [Alguns comandos mais comuns](#alguns-comandos-mais-comuns)
 * [Reflexão sobre o que vem pela frente](#reflexao-sobre-o-que-vem-pela-frente)
 * [Referência](#referencia)
 * [⭐ Extra: Ilustrando minimamente o fluxo de versionamento ](#ilustracao-fluxo)
@@ -45,6 +46,7 @@ Existem outras plataformas com o mesmo propósito do Github como por exemplo o G
 
 * Tem uma interface aparentemente amigável;
 * É bastante popular;
+
   * Tem uma funcionalidade nova de adicionar mais informações suas no seu perfil;
 * Poder seguir pessoas e ver os projetos delas e os quais elas contribuem;
 * Vários projetos de **código aberto (Open Source)** estão lá;
@@ -119,9 +121,9 @@ e registra as alterações que houveram. O Git cria um identificador único para
 
 **Documentação**: [](https://git-scm.com/docs/git-pull)<https://git-scm.com/docs/git-pull>
 
-Criei esse processo ilustrado nessa parte [Extra: Ilustrando minimamente o fluxo de versionamento](#ilustracao-fluxo)
-
 E vários outros.
+
+> ⭐️  Criei esse processo ilustrado nessa parte [Extra: Ilustrando minimamente o fluxo de versionamento](#ilustracao-fluxo)
 
 <h2 id="reflexao-sobre-o-que-vem-pela-frente">Reflexão sobre o que vem pela frente</h2>
 
