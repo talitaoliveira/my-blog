@@ -1,7 +1,7 @@
 ---
 title: Iniciando com Git e Github
 description: Explicando o que é Git e Github para iniciantes
-date: 2020-08-09 05:41:06
+date: 2020-08-09T05:41:06.000Z
 image: assets/img/screen-shot-2020-08-09-at-17.39.34.png
 category: dev
 background: "#008BF8"
@@ -125,7 +125,7 @@ e registra as alterações que houveram. O Git cria um identificador único para
 
 **Documentação**: [](https://git-scm.com/docs/git-pull)<https://git-scm.com/docs/git-pull>
 
-Aqui tem esse processo ilustrado:
+Criei esse processo ilustrado nessa parte Extra: Ilustrando minimamente o fluxo de versionamento
 
 E vários outros.
 
@@ -166,3 +166,5 @@ Fiz um fluxo que passa entre fases de:
 * adicionar alterações para stage
 * commitando alterações
 * enviando alterações para a origem
+
+![](assets/img/clone-changes-commit.png)
