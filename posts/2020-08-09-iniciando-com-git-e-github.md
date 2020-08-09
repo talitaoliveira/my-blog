@@ -163,4 +163,4 @@ Fiz um fluxo que passa entre fases de:
 * commitando alterações
 * enviando alterações para a origem
 
-![](assets/img/clone-changes-commit.png)
+![](assets/img/clone-changes-commit2.png)
