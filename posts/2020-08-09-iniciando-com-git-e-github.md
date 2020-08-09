@@ -16,7 +16,7 @@ background: "#008BF8"
 * [Diferença](#diferenca)
 * [Alguns termos comuns](#alguns-termos-comuns)
 * [Como Usar?](#como-usar)
-    * [Alguns comandos mais comuns?](#alguns-comandos-mais-comuns)
+    * [Alguns comandos mais comuns](#alguns-comandos-mais-comuns)
 * [Reflexão sobre o que vem pela frente](#reflexao-sobre-o-que-vem-pela-frente)
 * [Referência](#referencia)
 * [⭐ Extra: Ilustrando minimamente o fluxo de versionamento ](#ilustracao-fluxo)
@@ -87,7 +87,7 @@ Esse link do próprio site do git explica como instalar em máquinas com Linux, 
 
 Comumente se usa o "terminal" para utilizar o git, onde você passa os comandos e o computador vai executa-lo. Normalmente os computadores vem com ele, talvez não sejam muito conhecidos para quem não seja da área.
 
-<h2 id="alguns-comandos-mais-comuns">Alguns comandos mais comuns?</h2>
+<h2 id="alguns-comandos-mais-comuns">Alguns comandos mais comuns</h2>
 
 `git clone` : O git clone normalmente é seguido de uma URL que vai ser a do projeto que será clonado. O projeto vai estar por exemplo no github e você irá pegar uma cópia dele e rodar no seu computador.
 
