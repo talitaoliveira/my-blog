@@ -1,6 +1,6 @@
 ---
 title: Iniciando com Git e Github
-description: Explicando o que é Git e Github para iniciantes
+description: Explicando o que é Git e Github para quem está começando
 date: 2020-08-09T05:41:06.000Z
 image: /assets/img/screen-shot-2020-08-09-at-17.39.34.png
 category: dev
