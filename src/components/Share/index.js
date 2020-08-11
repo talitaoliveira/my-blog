@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import PropTypes from "prop-types"
 
 import ShareNative from '../ShareNative'
 import ShareLinks from '../ShareLinks'
@@ -18,11 +19,21 @@ const hasShareNative = () => {
     return false
   }
 
-const Share = () => (
+const Share = ({title, url}) => (
     <S.ShareWrapper>
         <S.ShareDescription>Compartilhe:</S.ShareDescription>
-        { hasShareNative() ? <ShareNative /> : <ShareLinks/>}
+        { hasShareNative() ? <ShareNative title={title} url={url} /> : <ShareLinks title={title} url={url} />}
     </S.ShareWrapper>
 )
+
+Share.defaultProps = {
+    title: `Blog talita Oliveira`,
+    url: ``,
+}
+
+Share.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+}
 
 export default Share;
