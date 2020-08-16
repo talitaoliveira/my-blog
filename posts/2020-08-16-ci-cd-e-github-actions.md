@@ -2,10 +2,12 @@
 title: CI/CD e Github Actions
 description: Entendendo um pouco melhor CI/CD usando Github Actions
 date: 2020-08-16T07:24:05.000Z
-image: /assets/img/screen-shot-2020-08-16-at-19.40.59.png
+image: assets/img/screen-shot-2020-08-16-at-20.11.25.png
 category: dev
 background: "#008BF8"
 ---
+![](assets/img/screen-shot-2020-08-16-at-20.11.25.png)
+
 ## Conteúdo
 
 * [Introdução/Motivação](#introducao-motivacao)
