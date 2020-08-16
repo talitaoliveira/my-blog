@@ -149,6 +149,12 @@ jobs:
 
 ![Print dos nomes dos commits que fiz para testar as mudanças que estava fazendo no workflow. Comparando a primeira vez que testei o workflow (tentando entender como funcionava), e a segunda vez (ainda tentando entender só que melhor).](assets/img/first-time-vs-second-time.png "Print dos nomes dos commits que fiz para testar as mudanças que estava fazendo no workflow. Comparando a primeira vez que testei o workflow (tentando entender como funcionava), e a segunda vez (ainda tentando entender só que melhor).")
 
+E aqui eu vendo quando eu fazia algum teste falhar pra ver se os steps iriam continuar. O step de teste falhou e não executou os steps de build nem o de deploy pro gh-pages. Então.. sucessso. 
+
+Eu gosto de testar mudar as coisas e ver cada umas das coisas que vou mudando como vai acontecer.
+
+![Print do console do github mostrando os steps que foram rodados. O step de teste falhou e não executou os steps de build nem o de deploy pro gh-pages.](assets/img/screen-shot-2020-08-16-at-19.54.28.png "Print do console do github mostrando os steps que foram rodados. O step de teste falhou e não executou os steps de build nem o de deploy pro gh-pages.")
+
 Meus próximos passos são basicamente, evoluir algum desses projetos e continuar usando o Github Actions, e pensar em outros steps que façam sentido. E no trampo começar a mexer mais com isso, entender de fato como tá sendo configurado, e se rolar de fazer alguma outra configuração parear com alguém que saiba para conseguir entender mais a fundo...
 
 <h2 id="referencias">Referências</h2>
