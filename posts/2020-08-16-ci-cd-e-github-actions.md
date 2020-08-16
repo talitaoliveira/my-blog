@@ -1,20 +1,23 @@
 ---
 title: CI/CD e Github Actions
 description: Entendendo um pouco melhor CI/CD usando Github Actions
-date: 2020-08-16T07:24:05.000Z
-image: /assets/img/screen-shot-2020-08-16-at-19.40.59.png
+date: 2020-08-16 08:13:41
+image: /assets/img/screen-shot-2020-08-16-at-20.11.25.png
 category: dev
 background: "#008BF8"
 ---
+
+![](assets/img/screen-shot-2020-08-16-at-20.11.25.png)
+
 ## Conteúdo
 
-* [Introdução/Motivação](#introducao-motivacao)
-* [O que é CI?](#o-que-e-ci)
-* [O que é CD?](#o-que-e-cd)
-* [Primeiros Passos](#primeiros-passos)
-* [Github Actions](#github-actions)
-* [Como eu fiz pra testar](#como-eu-fiz-pra-testar)
-* [Referências](#referencias)
+- [Introdução/Motivação](#introducao-motivacao)
+- [O que é CI?](#o-que-e-ci)
+- [O que é CD?](#o-que-e-cd)
+- [Primeiros Passos](#primeiros-passos)
+- [Github Actions](#github-actions)
+- [Como eu fiz pra testar](#como-eu-fiz-pra-testar)
+- [Referências](#referencias)
 
 <h2 id="introducao-motivacao">Introdução/Motivação</h2>
 
@@ -32,23 +35,25 @@ Continuous Integration - Integração Contínua
 
 Fazer com que mudanças de código façam parte do código principal com mais frequência e assim tem sempre código atualizado. O pré-requisito para isso é que as mudanças não quebrem o build, ou outros testes.
 
-* **Commits** frequentes e Repositório local sempre atualizado:
+- **Commits** frequentes e Repositório local sempre atualizado:
 
-  * Cada pessoa que trabalha no código mantenha sempre ele atualizado localmente, com alterações que foram feitas por outras pessoas;
-  * Resolvendo conflitos rápido;
-* Testes automatizados:
+  - Cada pessoa que trabalha no código mantenha sempre ele atualizado localmente, com alterações que foram feitas por outras pessoas;
+  - Resolvendo conflitos rápido;
 
-  * Testes unitários, testes de integração....
-  * Testes não mostram a ausência de bugs;
-  * Porém, melhor testes não tão perfeitos que rodam frequentemente do que testes perfeitos que nunca foram escritos;
-* Encontrar problemas mais rápido para conserta-los mais rápido;
+- Testes automatizados:
+
+  - Testes unitários, testes de integração....
+  - Testes não mostram a ausência de bugs;
+  - Porém, melhor testes não tão perfeitos que rodam frequentemente do que testes perfeitos que nunca foram escritos;
+
+- Encontrar problemas mais rápido para conserta-los mais rápido;
 
 Com isso sempre que o código for enviado para o repositório de origem, tendo um conjunto de tarefas para integração contínua, as tarefas vão ser executadas, como por exemplo:
 
-* Instalar dependências;
-* Rodar testes unitários;
-* Rodar testes de integração;
-* Realizar o Build;
+- Instalar dependências;
+- Rodar testes unitários;
+- Rodar testes de integração;
+- Realizar o Build;
 
 Se tudo passar, sucesso. Se não o recomendável é voltar para a versão anterior (que teoricamente seria a mais estável), corrigir o problema localmente, realizar os devidos testes e enviar as alterações novamente;
 
@@ -58,19 +63,20 @@ Não é algo inevitável o **build** quebrar, porém se for muito frequente as p
 
 Continuous Delivery - Entrega contínua
 
-* Realizando a integração continua pode se alcançar a entrega contínua;
-* Feedbacks mais rápidos;
+- Realizando a integração continua pode se alcançar a entrega contínua;
+- Feedbacks mais rápidos;
 
-  * Ter partes do software funcionando mais rápido para que tenha um feedback mais rápido sobre o que está sendo feito e de como vai ser usado. Ao invés de entregar tudo de uma vez e não ter tanto valor quanto se era esperado;
-* Tem como mostrar o software funcionando em um ambiente estável;
-* Ter ambiente similar ao de produção;
-* Estar apto a realizar **deploys** para produção quando for preciso (diferente de enviar **deploy** o tempo todo - "Continuous Deployment")
+  - Ter partes do software funcionando mais rápido para que tenha um feedback mais rápido sobre o que está sendo feito e de como vai ser usado. Ao invés de entregar tudo de uma vez e não ter tanto valor quanto se era esperado;
+
+- Tem como mostrar o software funcionando em um ambiente estável;
+- Ter ambiente similar ao de produção;
+- Estar apto a realizar **deploys** para produção quando for preciso (diferente de enviar **deploy** o tempo todo - "Continuous Deployment")
 
 <h2 id="primeiros-passos">Primeiros Passos</h2>
 
-* Tenha um build automatizado;
-* Crie testes automatizados;
-* Comece um projeto com essas práticas;
+- Tenha um build automatizado;
+- Crie testes automatizados;
+- Comece um projeto com essas práticas;
 
 Esses primeiros passos dá pra serem iniciados com usando o [Github Actions](https://docs.github.com/en/actions/getting-started-with-github-actions/about-github-actions).
 
@@ -78,21 +84,21 @@ Esses primeiros passos dá pra serem iniciados com usando o [Github Actions](htt
 
 Permite que você automatize fluxos de desenvolvimento de software nos repositórios do Github.
 
-* **Workflows** são processos customizados e automatizados que você pode adicionar ao seu repositório do Github;
-* É possível criar ou usar tarefas existentes, **Actions**, e coloca-las no **workflow**;
-* Essas tarefas podem ser de **build**, **teste**, **package**, **release**, **deploy**..
-* Pode configurar para rodar essas tarefas quando algum evento ocorre, por exemplo um **push** no repositório;
-* Após rodar essas tarefas é possível ver se foi rodado com sucesso ou se houve falha;
+- **Workflows** são processos customizados e automatizados que você pode adicionar ao seu repositório do Github;
+- É possível criar ou usar tarefas existentes, **Actions**, e coloca-las no **workflow**;
+- Essas tarefas podem ser de **build**, **teste**, **package**, **release**, **deploy**..
+- Pode configurar para rodar essas tarefas quando algum evento ocorre, por exemplo um **push** no repositório;
+- Após rodar essas tarefas é possível ver se foi rodado com sucesso ou se houve falha;
 
 <h2 id="como-eu-fiz-pra-testar">Como eu fiz pra testar:</h2>
 
 ### Primeiro teste - projeto em node + typescript:
 
-* Peguei um projeto que eu tenho no github que já estava com testes;
-* \[1] - Fui na aba Actions;
-* \[2] - Selecionei a sugestão que tinha para meu projeto "Workflows made for your TypeScript repository";
-* \[3] - Olhei um pouco o código que foi gerado, e criei o commit.. Deixei pra entender melhor mexendo/brincando um pouco com ele;
-* Peguei o commit que foi feito para meu computador, abri a [documentação](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) e fui lendo o código e procurando na documentação o que era cada parte (o código vem com alguns comentários, mas pra entender melhor só vendo a documentação mesmo);
+- Peguei um projeto que eu tenho no github que já estava com testes;
+- \[1] - Fui na aba Actions;
+- \[2] - Selecionei a sugestão que tinha para meu projeto "Workflows made for your TypeScript repository";
+- \[3] - Olhei um pouco o código que foi gerado, e criei o commit.. Deixei pra entender melhor mexendo/brincando um pouco com ele;
+- Peguei o commit que foi feito para meu computador, abri a [documentação](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) e fui lendo o código e procurando na documentação o que era cada parte (o código vem com alguns comentários, mas pra entender melhor só vendo a documentação mesmo);
 
 Usei esse projeto aqui: <https://github.com/talitaoliveira/design-pattern-chain-of-responsibility>
 
@@ -100,12 +106,12 @@ Usei esse projeto aqui: <https://github.com/talitaoliveira/design-pattern-chain-
 
 ### Segundo teste - projeto em react com deploy para o gh-pages:
 
-* Iniciei um projeto simples com create-react-app
-* Adicionei alguns componentes bem simples;
-* Adicionei um teste simples;
-* E queria que ao final de tudo fosse realizado o deploy para o gh-pages
+- Iniciei um projeto simples com create-react-app
+- Adicionei alguns componentes bem simples;
+- Adicionei um teste simples;
+- E queria que ao final de tudo fosse realizado o deploy para o gh-pages
 
-  * Esse step eu utilizei uma action que outra pessoa criou para que fosse possível o deploy para o gh-pages, pois é necessário usar um token do GITHUB, e essa action consegue fazer o deploy. A action é [Deploy to Github Pages](https://github.com/marketplace/actions/deploy-to-github-pages). Achei bem simples de usar.
+  - Esse step eu utilizei uma action que outra pessoa criou para que fosse possível o deploy para o gh-pages, pois é necessário usar um token do GITHUB, e essa action consegue fazer o deploy. A action é [Deploy to Github Pages](https://github.com/marketplace/actions/deploy-to-github-pages). Achei bem simples de usar.
 
 Usei esse projeto aqui: <https://github.com/talitaoliveira/simple-aplication>
 
@@ -149,7 +155,7 @@ jobs:
 
 ![Print dos nomes dos commits que fiz para testar as mudanças que estava fazendo no workflow. Comparando a primeira vez que testei o workflow (tentando entender como funcionava), e a segunda vez (ainda tentando entender só que melhor).](assets/img/first-time-vs-second-time.png "Print dos nomes dos commits que fiz para testar as mudanças que estava fazendo no workflow. Comparando a primeira vez que testei o workflow (tentando entender como funcionava), e a segunda vez (ainda tentando entender só que melhor).")
 
-E aqui eu vendo quando eu fazia algum teste falhar pra ver se os steps iriam continuar. O step de teste falhou e não executou os steps de build nem o de deploy pro gh-pages. Então.. sucessso. 
+E aqui eu vendo quando eu fazia algum teste falhar pra ver se os steps iriam continuar. O step de teste falhou e não executou os steps de build nem o de deploy pro gh-pages. Então.. sucessso.
 
 Eu gosto de testar mudar as coisas e ver cada umas das coisas que vou mudando como vai acontecer.
 
