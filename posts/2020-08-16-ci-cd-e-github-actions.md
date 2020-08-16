@@ -25,9 +25,11 @@ Práticas como TDD, testes automatizados, integração contínua estão presente
 
 Então nesse um ano que passou pude ter mais contato com essas práticas, o TDD tem ficado mais natural pra mim, monitorar pipelines, refatorar testes, criar testes de integração, conversar sobre pirâmide de testes, como testar, o que testar, consertar builds quando falham na pipeline...
 
-Porém algumas coisas eu sinto que quero aprofundar mais um pouco, como por exemplo configurar uma pipeline, entender como se de fato tem uma integração contínua, e não somente usar.
+Porém algumas coisas eu sinto que quero aprofundar mais um pouco, como por exemplo configurar uma pipeline, entender como se tem de fato uma integração contínua, e não somente usar algumas coisas já configuradas.
 
 Uma colega do meu time me sugeriu o github actions pra começar, e achei massa a sugestão e brinquei um pouco.
+
+Mas, vejamos um pouco de teoria antes de começar....
 
 <h2 id="o-que-e-ci">O que é CI?</h2>
 
@@ -35,7 +37,7 @@ Continuous Integration - Integração Contínua
 
 Fazer com que mudanças de código façam parte do código principal com mais frequência e assim tem sempre código atualizado. O pré-requisito para isso é que as mudanças não quebrem o build, ou outros testes.
 
-- **Commits** frequentes e Repositório local sempre atualizado:
+- Commits frequentes e Repositório local sempre atualizado:
 
   - Cada pessoa que trabalha no código mantenha sempre ele atualizado localmente, com alterações que foram feitas por outras pessoas;
   - Resolvendo conflitos rápido;
@@ -55,7 +57,7 @@ Com isso sempre que o código for enviado para o repositório de origem, tendo u
 - Rodar testes de integração;
 - Realizar o Build;
 
-Se tudo passar, sucesso. Se não o recomendável é voltar para a versão anterior (que teoricamente seria a mais estável), corrigir o problema localmente, realizar os devidos testes e enviar as alterações novamente;
+Se tudo passar, sucesso. Caso não, o recomendável é voltar para a versão anterior (que teoricamente seria a mais estável), corrigir o problema localmente, realizar os devidos testes e enviar as alterações novamente;
 
 Não é algo inevitável o **build** quebrar, porém se for muito frequente as pessoas precisam tomar mais cuidado ao enviar alterações para o repositório de origem, sempre rodar testes e **builds** localmente antes de envia-los.
 
@@ -64,7 +66,7 @@ Não é algo inevitável o **build** quebrar, porém se for muito frequente as p
 Continuous Delivery - Entrega contínua
 
 - Realizando a integração continua pode se alcançar a entrega contínua;
-- Feedbacks mais rápidos;
+- Feedbacks mais rápidos em relação ao que tá sendo desenvolvido:
 
   - Ter partes do software funcionando mais rápido para que tenha um feedback mais rápido sobre o que está sendo feito e de como vai ser usado. Ao invés de entregar tudo de uma vez e não ter tanto valor quanto se era esperado;
 
@@ -73,6 +75,8 @@ Continuous Delivery - Entrega contínua
 - Estar apto a realizar **deploys** para produção quando for preciso (diferente de enviar **deploy** o tempo todo - "Continuous Deployment")
 
 <h2 id="primeiros-passos">Primeiros Passos</h2>
+
+Seguindo dicas do Martin Fowler para os primeiros passos:
 
 - Tenha um build automatizado;
 - Crie testes automatizados;
