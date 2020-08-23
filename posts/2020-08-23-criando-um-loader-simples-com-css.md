@@ -266,7 +266,9 @@ Um loader simplezão~ pra brincar um pouco com CSS caso você não tenha muita p
 
 Até a próxima. 🤙🏽
 
-## Referencias:
+## Referências:
+
+Esse loader veio originalmente daqui: [](https://www.w3schools.com/howto/howto_css_loader.asp)<https://www.w3schools.com/howto/howto_css_loader.asp>
 
 [](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)<https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations>
 
