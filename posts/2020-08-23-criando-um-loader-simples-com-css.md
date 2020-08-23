@@ -11,7 +11,7 @@ background: "#008BF8"
 
 Esse vai ser o resultado final, vamos passar parte por parte para cria-lo:
 
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
     <div class="loader4"></div>
     <style>
@@ -59,7 +59,7 @@ Essa div por si só não vai mostrar nada, vamos usar o CSS para mostrar o loade
 
 Com isso, temos esse resultado, um quadrado com borda cinza:
 
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
     <div class="loader"></div>
     <style>
@@ -75,7 +75,7 @@ E agora:
 
 - Deixar a borda de baixo com uma cor diferente:
 
-  <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+  <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
       <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
       <div class="loader2"></div>
       <style>
@@ -90,7 +90,7 @@ E agora:
 
 - Arredondar o quadrado, para ficar um circulo:
 
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
     <div class="loader3"></div>
     <style>
@@ -207,7 +207,7 @@ E pra o animation, podemos usar uma forma curta (shorthand), que é só com a pr
 
 > E tá pronto ~~o sorvetinho~~!
 
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
     <div class="loader4"></div>
     <style>
