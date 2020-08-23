@@ -116,7 +116,7 @@ E agora:
 
 E agora pra rotacionar, usamos keyframes:
 
-- Definimos um bloco de keyframes e damos um nome ao nosso keyframe
+- Definimos um bloco de keyframes e damos um nome ao nosso keyframe, que vai ter o nome de **rotate**, o nome fica logo após o `@keyframes`;
 - Definimos os keyframes de:
 
   - Inicio (usando `from` ou `0%`);
