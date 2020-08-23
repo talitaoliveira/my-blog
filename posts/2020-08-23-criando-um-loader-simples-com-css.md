@@ -12,9 +12,9 @@ background: "#008BF8"
 Esse vai ser o resultado final, vamos passar parte por parte para cria-lo:
 <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
-    <div class="loader3"></div>
+    <div class="loader4"></div>
     <style>
-    .loader3 {
+    .loader4 {
         width: 100px;
         height: 100px;
         border: 15px solid #EEE;
@@ -73,7 +73,34 @@ Com isso, temos esse resultado, um quadrado com borda cinza:
 E agora:
 
 - Deixar a borda de baixo com uma cor diferente:
-- Arredondar o quadrado, para ficar um circulo
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+    <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
+    <div class="loader2"></div>
+    <style>
+    .loader2 {
+        width: 100px;
+        height: 100px;
+        border: 15px solid #EEE;
+        border-bottom-color: rebeccapurple;
+    }
+    </style>
+</div>
+
+- Arredondar o quadrado, para ficar um circulo:
+
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
+    <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
+    <div class="loader3"></div>
+    <style>
+    .loader3 {
+        width: 100px;
+        height: 100px;
+        border: 15px solid #EEE;
+        border-bottom-color: rebeccapurple;
+        border-radius: 50%;
+    }
+    </style>
+</div>
 
 ```css
 .loader {
@@ -84,20 +111,6 @@ E agora:
   border-radius: 50%;
 }
 ```
-
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
-    <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
-    <div class="loader2"></div>
-    <style>
-    .loader2 {
-        width: 100px;
-        height: 100px;
-        border: 15px solid #EEE;
-        border-bottom-color: rebeccapurple;
-        border-radius: 50%;
-    }
-    </style>
-</div>
 
 E agora pra rotacionar, usamos keyframes:
 
@@ -194,9 +207,9 @@ E pra o animation, podemos usar uma forma curta (shorthand), que é só com a pr
 
 <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;">
     <p style="position:absolute;top:0;left: 0;background-color: #222; color: #eee;padding: 0 5px">Resultado renderizado:</p>
-    <div class="loader3"></div>
+    <div class="loader4"></div>
     <style>
-    .loader3 {
+    .loader4 {
         width: 100px;
         height: 100px;
         border: 15px solid #EEE;
