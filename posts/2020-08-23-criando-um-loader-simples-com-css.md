@@ -1,7 +1,7 @@
 ---
 title: 'Criando um "loader" simples com CSS '
 description: Usando animation e keyframes para criar um loader em CSS
-date: 2020-08-23 06:29:46
+date: 2020-08-23 06:39:29
 image: assets/img/screen-shot-2020-08-23-at-18.35.34.png
 category: dev
 background: "#008BF8"
