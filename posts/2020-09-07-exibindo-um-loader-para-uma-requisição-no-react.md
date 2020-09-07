@@ -22,7 +22,9 @@ background: "#008BF8"
 
 <h2 id="motivacao">Motivação</h2>
 
-No ultimo post que eu fiz mostrei como fazer um loader com CSS.
+No ultimo post que eu fiz mostrei como fazer um loader com CSS, esse post aqui: 
+  
+<a href="https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/" target="_blank">Criando um loader simples com CSS</a>.
 
 > Massa..... show de bola esse loader.... Mas eu fico só olhando pra ele rodando? Seria bom usar em alguma coisa mais "vida real" né? Tem como?
 
@@ -305,5 +307,5 @@ Até a próxima. 🤙🏽
 <h2 id="ao-vivo">Ao vivo</h2>
 
 <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: rgba(255,255,255, 0.2); margin: 1rem auto; width: 60%">
-  <iframe src="https://talitaoliveira.github.io/using-loader-wait-request-react/" height="750px">
+  <iframe src="https://talitaoliveira.github.io/using-loader-wait-request-react/" height="600px">
 </div>
