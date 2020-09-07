@@ -30,7 +30,7 @@ No ultimo post que eu fiz mostrei como fazer um loader com CSS, esse post aqui:
 
 **Yaaaaaas!**
 
-Então, para demonstrar isso, criei um projeto básico. Usei o `create-react-app` para iniciar o projeto. Aqui: [](https://create-react-app.dev/docs/getting-started/)<https://create-react-app.dev/docs/getting-started/>
+Então, para demonstrar isso, criei um projeto básico. Usei o `create-react-app` para iniciar o projeto. Aqui: <a href="https://create-react-app.dev/docs/getting-started" target="_blank">https://create-react-app.dev/docs/getting-started</a>
 
 O que eu quero para este projeto **simples**:
 
