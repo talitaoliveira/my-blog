@@ -308,6 +308,6 @@ Até a próxima. 🤙🏽
 
 E pode ser visto aqui: <a href="https://talitaoliveira.github.io/using-loader-wait-request-react/" target="_blank">https://talitaoliveira.github.io/using-loader-wait-request-react/</a>
 
-<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: rgba(255,255,255, 0.2); margin: 1rem auto; width: 60%">
+<!-- <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: rgba(255,255,255, 0.2); margin: 1rem auto; width: 60%">
   <iframe src="https://talitaoliveira.github.io/using-loader-wait-request-react/" height="600px">
-</div>
+</div> -->
