@@ -47,7 +47,7 @@ Então.... LET'S DO IT! 👊🏽
 Inicialmente no componente principal vamos ter um **form** e dentro dele colocamos:
 
 * uma `label` para o `input`;
-* o `input` \*\*\*\*para receber o nome do usuário;
+* o `input` para receber o nome do usuário;
 * `botão` de **submit**.
 
 ```jsx
@@ -71,7 +71,7 @@ export default App;
 
 <h2 id="componente-loader">Componente do Loader</h2>
 
-Depois criamos um componente para o Loader, pegando o código do post anterior. Ele tem somente uma div e CSS (só diminuí um pouco o tamanho dele e adicionei uma margem no topo):
+Depois criamos um componente para o Loader, pegando o código do <a href="https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/" target="_blank">post anterior</a>. Ele tem somente uma div e CSS (só diminuí um pouco o tamanho dele e adicionei uma margem no topo):
 
 **Loader.js**
 
@@ -116,11 +116,11 @@ export default Loader
 E no componente principal eu fazemos algumas coisas:
 
 * Importamos o `Loader` no componente principal.
-* Para o loader criamos uma variável `showLoader` para poder lidar com a mudança uma mudança de estado, usando o hook [useState()](https://pt-br.reactjs.org/docs/hooks-state.html).
+* Para o loader criamos uma variável `showLoader` para poder lidar com a mudança uma mudança de estado, usando o hook <a href="https://pt-br.reactjs.org/docs/hooks-state.html" target="_blank">useState()</a>.
 
   * O estado inicial da variável definimos o valor "**false**" com a função do `useState()`, o retorno dele são duas coisas: **o valor do estado atual** e uma **função que permite que se atualize o valor**;
   * Vamos usar ela para controlar a renderização do componente `Loader`.
-* Para pegar o `username` que vem do input também usamos o hook [useState()](https://pt-br.reactjs.org/docs/hooks-state.html);
+* Para pegar o `username` que vem do input também usamos o hook <a href="https://pt-br.reactjs.org/docs/hooks-state.html" target="_blank">useState()</a>;
 * Adicionamos um `onChange` no input para pegar o que foi digitado e inserir o valor no `username` usando o `setUsername()`;
 * E abaixo do `form` colocamos uma condicional que faz com que incialmente o `Loader` não será renderizado (devido ao valor false que colocamos ).
 
@@ -151,11 +151,11 @@ export default App;
 
 Agora vamos criar uma função que será chamada quando houver o submit do form. Chamaremos a função de "**handleForm**":
 
-* Antes da função criamos uma variável `userData` para poder armazenar os dados que vão retornar da API, usando o hook [useState()](https://pt-br.reactjs.org/docs/hooks-state.html).
+* Antes da função criamos uma variável `userData` para poder armazenar os dados que vão retornar da API, usando o hook <a href="https://pt-br.reactjs.org/docs/hooks-state.html" target="_blank">useState()</a>.
 * Na função usamos o `e.preventDefault` para evitar um comportamento padrão, nesse caso só queremos evitar o comportamento padrão do `form`, esse comportamento padrão do `form` é o **reload** da página quando o `form` é submetido. Usando o `e.preventDefault` conseguimos fazer com que a ação de **submit** do `form` fique de forma assíncrona só esperando a resposta;
 * Atualizamos o estado do `showLoader` para "**true**" (que na renderização vai fazer ele aparecer devido a condicional);
-* Usamos o [`fetch`](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) para fazer a requisição na API do Github, usando o "**username**" que vai ser preenchido no momento que a pessoa digita no input, e na url pegamos esse valor que foi inserido pela pessoa;
-* Após a resposta do `fetch`, no segundo `then` nós pegamos os dados que vem como resposta (após ser transformado num json usando a o [`.json()`](https://developer.mozilla.org/pt-BR/docs/Web/API/Body/json) \*\*\*\*no qual retorna uma promisse com o resultado);
+* Usamos o <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">fetch</a> para fazer a requisição na API do Github, usando o "**username**" que vai ser preenchido no momento que a pessoa digita no input, e na url pegamos esse valor que foi inserido pela pessoa;
+* Após a resposta do `fetch`, no segundo `then` nós pegamos os dados que vem como resposta (após ser transformado num json usando a o <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Body/json" target="_blank">.json()</a> no qual retorna uma promisse com o resultado);
 * E após colocar os dados retornados no `setUserData()` também mudamos o estado do loader de volta para "**false"** (que na renderização vai fazer ele sumir devido a condicional);
 
 Então é basicamente: mostra o loader enquanto pega os dados, após trazer os dados tira o loader;
@@ -279,14 +279,14 @@ Esse código pode ser melhorado, tentei deixa-lo simples.
 
 O código completo está nesse repositório:
 
-[](https://github.com/talitaoliveira/using-loader-wait-request-react)<https://github.com/talitaoliveira/using-loader-wait-request-react>
+<a href="https://github.com/talitaoliveira/using-loader-wait-request-react" target="_blank">https://github.com/talitaoliveira/using-loader-wait-request-react</a>
 
 No projeto que está no repositório incrementei algumas coisas além do que está aqui.
 
 * Criei alguns testes
 * Tentei colocar uma mensagem de erro caso de algum problema na requisição
 * Dados são mostrados somente se o objeto `userData` estiver preenchido (não fica mostrando a tabela vazia com "nome", "localização, "bio", "perfil criado em")
-* Também coloquei um workflow usando Github Actions, pra rodar os testes e se tudo tiver passando fazer o deploy para o gh-pages. Mostrei um pouco como fiz isso nesse post: [CI/CD e Github Actions](https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/) 😊
+* Também coloquei um workflow usando Github Actions, pra rodar os testes e se tudo tiver passando fazer o deploy para o gh-pages. Mostrei um pouco como fiz isso nesse post: <a href="https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/" target="_blank">CI/CD e Github Actions</a> 😊
 
 \~🌟\~
 
