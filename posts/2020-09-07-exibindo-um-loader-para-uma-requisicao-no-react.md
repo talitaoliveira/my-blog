@@ -2,7 +2,7 @@
 title: Exibindo um Loader para uma requisição no React
 description: Usando um loader criado com CSS para aguardar uma requisição
   finalizar e mostrar os dados retornados
-date: 2020-09-06 09:17:26
+date: 2020-09-06 21.26.08
 image: /assets/img/screen-shot-2020-09-06-at-21.26.08.png
 category: dev
 background: "#008BF8"
