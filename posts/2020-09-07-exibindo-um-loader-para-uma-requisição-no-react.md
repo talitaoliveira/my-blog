@@ -11,16 +11,16 @@ background: "#008BF8"
 
 ## Conteúdo
 
-* Motivação
-* Componente principal
-* Componente do Loader
-* Adicionando o Loader no componente principal
-* Função da chamada da API
-* Dados retornados
-* Código completo
-* Ao vivo
+- [Motivação](#motivacao)
+- [Componente principal](#componente-principal)
+- [Componente do Loader](#componente-loader)
+- [Adicionando o Loader no componente principal](#adicionando-loader-no-componente-principal)
+- [Função da chamada da API](#funcao-chamada-api)
+- [Dados retornados](#dados-retornados)
+- [Código completo](#codigo-completo)
+- [Ao vivo](#ao-vivo)
 
-## Motivação
+<h2 href="#motivacao">Motivação</h2>
 
 No ultimo post que eu fiz mostrei como fazer um loader com CSS.
 
@@ -39,7 +39,7 @@ O que eu quero para este projeto **simples**:
 
 Então.... LET'S DO IT! 👊🏽
 
-## Componente principal
+<h2 href="#componente-principal">Componente principal</h2>
 
 Inicialmente no componente principal vamos ter um **form** e dentro dele colocamos:
 
@@ -66,7 +66,7 @@ const App = () => {
 export default App;
 ```
 
-## Componente do Loader
+<h2 href="#componente-loader">Componente do Loader</h2>
 
 Depois criamos um componente para o Loader, pegando o código do post anterior. Ele tem somente uma div e CSS (só diminuí um pouco o tamanho dele e adicionei uma margem no topo):
 
@@ -108,7 +108,7 @@ export default Loader
   }
 ```
 
-## Adicionando o Loader no componente principal
+<h2 href="#adicionando-loader-no-componente-principal">Adicionando o Loader no componente principal</h2>
 
 E no componente principal eu fazemos algumas coisas:
 
@@ -144,7 +144,7 @@ const App = () => {
 export default App;
 ```
 
-## Função da chamada da API
+<h2 href="#funcao-chamada-api">Função da chamada da API</h2>
 
 Agora vamos criar uma função que será chamada quando houver o submit do form. Chamaremos a função de "**handleForm**":
 
@@ -182,7 +182,7 @@ E no `form` adicionamos o atributo `onSubmit` chamando a função acima, para qu
 <form onSubmit={handleForm} className="form-github-user">
 ```
 
-## Dados retornados
+<h2 href="#dados-retornados">Dados retornados</h2>
 
 E para vermos o que foi retornado, criamos um componente chamado "UserData" e exibimos os dados que vai vir das "props"
 
@@ -270,7 +270,7 @@ const App = () => {
 export default App;
 ```
 
-## Código completo
+<h2 href="#codigo-completo">Código completo</h2>
 
 Esse código pode ser melhorado, tentei deixa-lo simples.
 
@@ -284,6 +284,9 @@ No projeto que está no repositório incrementei algumas coisas além do que est
 * Tentei colocar uma mensagem de erro caso de algum problema na requisição
 * Dados são mostrados somente se o objeto `userData` estiver preenchido (não fica mostrando a tabela vazia com "nome", "localização, "bio", "perfil criado em")
 * Também coloquei um workflow usando Github Actions, pra rodar os testes e se tudo tiver passando fazer o deploy para o gh-pages. Mostrei um pouco como fiz isso nesse post: [CI/CD e Github Actions](https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/) 😊
+
+<h2 href="#ao-vivo">Ao vivo</h2>
+
 
 \~🌟\~
 
