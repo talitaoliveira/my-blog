@@ -2,7 +2,7 @@
 title: Exibindo um Loader para uma requisição no React
 description: Usando um loader criado com CSS para aguardar uma requisição
   finalizar e mostrar os dados retornados
-date: 2020-09-06 21:26:08
+date: 2020-09-06T21:26:08.000Z
 image: /assets/img/screen-shot-2020-09-06-at-21.26.08.png
 category: dev
 background: "#008BF8"
@@ -11,19 +11,19 @@ background: "#008BF8"
 
 ## Conteúdo
 
-- [Motivação](#motivacao)
-- [Componente principal](#componente-principal)
-- [Componente do Loader](#componente-loader)
-- [Adicionando o Loader no componente principal](#adicionando-loader-no-componente-principal)
-- [Função da chamada da API](#funcao-chamada-api)
-- [Dados retornados](#dados-retornados)
-- [Código completo](#codigo-completo)
-- [Ao vivo](#ao-vivo)
+* [Motivação](#motivacao)
+* [Componente principal](#componente-principal)
+* [Componente do Loader](#componente-loader)
+* [Adicionando o Loader no componente principal](#adicionando-loader-no-componente-principal)
+* [Função da chamada da API](#funcao-chamada-api)
+* [Dados retornados](#dados-retornados)
+* [Código completo](#codigo-completo)
+* [Ao vivo](#ao-vivo)
 
 <h2 id="motivacao">Motivação</h2>
 
 No ultimo post que eu fiz mostrei como fazer um loader com CSS, esse post aqui: 
-  
+
 <a href="https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/" target="_blank">Criando um loader simples com CSS</a>.
 
 > Massa..... show de bola esse loader.... Mas eu fico só olhando pra ele rodando? Seria bom usar em alguma coisa mais "vida real" né? Tem como?
@@ -39,6 +39,7 @@ O que eu quero para este projeto **simples**:
 * Mostrar o **Loader** enquanto é feita a requisição;
 * Mostrar os **dados** da pessoas que vieram da API do github.
 
+![](assets/img/loader-react.gif)
 
 Uma obs: da primeira vez que pega o usuário dá pra ver o loader e depois ele some. Se for testar com o mesmo usuário novamente, o loader não aparece mais (na vdd talvez rápido demais que não da pra ver). 
 
