@@ -40,7 +40,7 @@ O que eu quero para este projeto **simples**:
 * Mostrar os **dados** da pessoas que vieram da API do github.
 
 
-Uma obs: da primeira vez que pega o usuário dá pra ver o loader e depois ele some. Se for testar com o mesmo usuário novamente, o loader não aparece mais. 
+Uma obs: da primeira vez que pega o usuário dá pra ver o loader e depois ele some. Se for testar com o mesmo usuário novamente, o loader não aparece mais (na vdd talvez rápido demais que não da pra ver). 
 
 Então.... LET'S DO IT! 👊🏽
 
