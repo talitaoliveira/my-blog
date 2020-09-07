@@ -283,7 +283,7 @@ O código completo está nesse repositório:
 
 <a href="https://github.com/talitaoliveira/using-loader-wait-request-react" target="_blank">https://github.com/talitaoliveira/using-loader-wait-request-react</a>
 
-No projeto que está no repositório incrementei algumas coisas além do que está aqui.
+No projeto que está no repositório incrementei algumas coisas além do que está aqui. (ainda precisa ajeitar algumas coisas)
 
 * Criei alguns testes
 * Tentei colocar uma mensagem de erro caso de algum problema na requisição
