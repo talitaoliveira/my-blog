@@ -24,7 +24,7 @@ background: "#008BF8"
 
 No ultimo post que eu fiz mostrei como fazer um loader com CSS.
 
-> Massa..... show de bola esse loader.... Mas eu fico só olhando pra ele? tem como eu usar ele "na vida real"?
+> Massa..... show de bola esse loader.... Mas eu fico só olhando pra ele rodando? Seria bom usar em alguma coisa mais "vida real" né? Tem como?
 
 **Yaaaaaas!**
 
@@ -37,13 +37,16 @@ O que eu quero para este projeto **simples**:
 * Mostrar o **Loader** enquanto é feita a requisição;
 * Mostrar os **dados** da pessoas que vieram da API do github.
 
+
+Uma obs: da primeira vez que pega o usuário dá pra ver o loader e depois ele some. Se for testar com o mesmo usuário novamente, o loader não aparece mais. 
+
 Então.... LET'S DO IT! 👊🏽
 
 <h2 id="componente-principal">Componente principal</h2>
 
 Inicialmente no componente principal vamos ter um **form** e dentro dele colocamos:
 
-* uma `label` para o `input`**;**
+* uma `label` para o `input`;
 * o `input` \*\*\*\*para receber o nome do usuário;
 * `botão` de **submit**.
 
@@ -285,9 +288,6 @@ No projeto que está no repositório incrementei algumas coisas além do que est
 * Dados são mostrados somente se o objeto `userData` estiver preenchido (não fica mostrando a tabela vazia com "nome", "localização, "bio", "perfil criado em")
 * Também coloquei um workflow usando Github Actions, pra rodar os testes e se tudo tiver passando fazer o deploy para o gh-pages. Mostrei um pouco como fiz isso nesse post: [CI/CD e Github Actions](https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/) 😊
 
-<h2 id="ao-vivo">Ao vivo</h2>
-
-
 \~🌟\~
 
 Bem.. é isso. 😉
@@ -301,3 +301,9 @@ Mas está tudo bem agora, só preciso me manter mais "pé no chão". 🙃
 Espero que este post possa ser útil para alguém 😊.
 
 Até a próxima. 🤙🏽
+
+<h2 id="ao-vivo">Ao vivo</h2>
+
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: rgba(255,255,255, 0.2); margin: 1rem auto; width: 60%">
+  <iframe src="https://talitaoliveira.github.io/using-loader-wait-request-react/" height="750px">
+</div>
