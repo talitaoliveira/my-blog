@@ -115,7 +115,7 @@ export default Loader
 
 <h2 id="adicionando-loader-no-componente-principal">Adicionando o Loader no componente principal</h2>
 
-E no componente principal eu fazemos algumas coisas:
+E no componente principal fazemos algumas coisas:
 
 * Importamos o `Loader` no componente principal.
 * Para o loader criamos uma variável `showLoader` para poder lidar com a mudança uma mudança de estado, usando o hook <a href="https://pt-br.reactjs.org/docs/hooks-state.html" target="_blank">useState()</a>.
@@ -305,6 +305,8 @@ Espero que este post possa ser útil para alguém 😊.
 Até a próxima. 🤙🏽
 
 <h2 id="ao-vivo">Ao vivo</h2>
+
+E pode ser visto aqui: <a href="https://talitaoliveira.github.io/using-loader-wait-request-react/" target="_blank">https://talitaoliveira.github.io/using-loader-wait-request-react/</a>
 
 <div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: rgba(255,255,255, 0.2); margin: 1rem auto; width: 60%">
   <iframe src="https://talitaoliveira.github.io/using-loader-wait-request-react/" height="600px">
