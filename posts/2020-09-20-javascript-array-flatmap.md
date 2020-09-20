@@ -63,7 +63,7 @@ O método `map()`, não tem nada a ver com nivelar arrays.
 
 Usamos o `map()` para percorrer **arrays**, aplicar alguma função em cada item do **array** e retornar um **array** de mesmo tamanho.
 
-> 💡 Já mostrei como usar o map nesse outro post que eu fiz: [Usando foreach(), map(), filter(), reduce()](https://blog.talitaoliveira.com.br/http://localhost:8000/como-e-quando-usar-foreach-map-filter-reduce/)
+> 💡 Já mostrei como usar o map nesse outro post que eu fiz: <a target="_blank" href="https://blog.talitaoliveira.com.br/como-e-quando-usar-foreach-map-filter-reduce/">Usando foreach(), map(), filter(), reduce()</a>
 
 Mas recapitulando aqui:
 
@@ -135,7 +135,7 @@ const telefones = pessoas.flatMap(pessoa => pessoa.telefones)
 E o retorno de **telefones** fica assim:
 
 ```jsx
-;[
+[
   { tipo: "celular", numero: "(81)9.9999-9999" },
   { tipo: "casa", numero: "(81)3444-4444" },
   { tipo: "celular", numero: "(84)9.8888-888" },
@@ -148,7 +148,7 @@ E o retorno de **telefones** fica assim:
 
 ## Referência:
 
-[](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap>
+<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap</a>
 
 \~🌟\~
 
