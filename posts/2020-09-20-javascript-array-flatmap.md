@@ -154,7 +154,7 @@ E o retorno de **telefones** fica assim:
 
 Bem.. é isso. 😉
 
-Precisei usar `flatMap()` semana passada e nunca tinha usado antes e daí quis postar sobre.
+Houve a necessidade de usarmos o `flatMap()` semana passada, nunca tinha usado e na hora nas pressas não assimilei direito, aí passei por ele com calma e decidi mostrar nesse post como usar. 🙃
 
 Minha frequência de posts diminuiu um pouco nessas ultimas semanas basicamente por motivos de saúde mental, nada grave só organizando e analisando alguns pensamentos e atitudes, e pensando bastante sobre focos e objetivos da minha vida profissional e pessoal. Mas to suave. 🙃
 
