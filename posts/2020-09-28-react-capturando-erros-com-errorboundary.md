@@ -27,6 +27,10 @@ background: "#008BF8"
 
 A idéia é usar esse componente para exibir uma mensagem ou um componente amigável caso algum erro aconteça quando alguém estiver usando a aplicação.
 
+O **ErrorBoundary** captura as exceções que ocorrerem nos elementos filhos dele. 
+Caso o erro seja lançado no proprio componente que é usado o **ErrorBoundary**, o erro não é capturado. Também não funciona com SSR (server side rendering) nem com códigos assíncronos.
+
+
 <h2 id="o-projeto-base">O projeto Base</h2>
 
 Para o teste eu usei o mesmo projeto que fiz no post que adiciona o Loader que foi feito em CSS. Se quiser pode ver aqui esses posts:
