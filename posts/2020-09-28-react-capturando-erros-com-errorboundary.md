@@ -310,7 +310,9 @@ export default FormUserData;
 
 <h2 id="ao-vivo">Ao vivo</h2>
 
-![Gif mostrando o preenchimento do input "Digite seu usuário do Github" com texto "talitaoliveira", depois clicando no botão enviar e em seguida é mostrado o resultado da buca: uma foto, e dados de nome, localização, bio e dada de criação do perfil (informações retornadas do github). Em seguida é adicionadas letras aleatorias junto ao texto digitado anteriormente, simulando um usuário inexistente, depois cliando em enviar e em seguda é mostrado uma mensagem: "Nenhum usuário encontrado. Recarregue a página"](assets/img/errorboundaryexample.gif "Gif mostrando o preenchimento do input \"Digite seu usuário do Github\" com texto \"talitaoliveira\", depois clicando no botão enviar e em seguida é mostrado o resultado da buca: uma foto, e dados de nome, localização, bio e dada de criação do perfil (informações retornadas do github). Em seguida é adicionadas letras aleatorias junto ao texto digitado anteriormente, simulando um usuário inexistente, depois cliando em enviar e em seguda é mostrado uma mensagem: \"Nenhum usuário encontrado. Recarregue a página\"")
+<div style="display: flex; align-items: center; justify-content: center;border: 1px solid #eee; padding: 50px 20px;flex-direction: column;position: relative;background-color: #FFF; margin: 1rem 0;max-width: 100%">
+  <object data="/assets/img/errorboundaryexample.gif" style="max-width: 500px" title='Gif mostrando o preenchimento do input "Digite seu usuário do Github" com texto "talitaoliveira", depois clicando no botão enviar e em seguida é mostrado o resultado da buca: uma foto, e dados de nome, localização, bio e dada de criação do perfil (informações retornadas do github). Em seguida é adicionadas letras aleatorias junto ao texto digitado anteriormente, simulando um usuário inexistente, depois cliando em enviar e em seguda é mostrado uma mensagem: "Nenhum usuário encontrado. Recarregue a página' ></object>
+</div>
 
 Como o erro é mostrado quando não encontra um usuário, para testar basta adicionar um nome de usuário inexistente.
 
