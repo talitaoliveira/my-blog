@@ -30,6 +30,7 @@ A idéia é usar esse componente para exibir uma mensagem ou um componente amig�
 O **ErrorBoundary** captura as exceções que ocorrerem nos elementos filhos dele. 
 Caso o erro seja lançado no proprio componente que é usado o **ErrorBoundary**, o erro não é capturado. Também não funciona com SSR (server side rendering) nem com códigos assíncronos.
 
+Esse exemplo que mostro aqui foi de uma forma de uso simples: "caso não encontre um usuário valido, é lançada a tela de erro". Porém acho que o ideal para se usar o ErrorBoudary seria para tratar erros internos, ou chamada de API que deu problema no retorno, ou quando API não está disponível quando é chamada, ou algo parecido.
 
 <h2 id="o-projeto-base">O projeto Base</h2>
 
