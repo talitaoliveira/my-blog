@@ -25,7 +25,7 @@ background: "#008BF8"
 
 **ErrorBoundary** no React se trata de um componente que vai ser responsável por capturar erros de qualquer componente filho que lance esse erro, e quando esse erro é capturado pode se exibir uma página de erro.
 
-Substituir a pagina
+A idéia é usar esse componente para exibir uma mensagem ou um componente amigável caso algum erro aconteça quando alguém estiver usando a aplicação.
 
 <h2 id="o-projeto-base">O projeto Base</h2>
 
