@@ -145,7 +145,7 @@ class ErrorBoundary extends React.Component {
 export default ErrorBoundary;
 ```
 
-* No construtor é setado um state para o error e errorInfo, ambos nullo a princípio;
+* No construtor é setado um state para o `error` e `errorInfo`, ambos com valor `NULL` a princípio;
 * O `componentDidCatch()` recebendo `error` e `errorInfo`, esse método vai ser invocado quando acontecer o erro e é "setado" no estado de `error` e `errorInfo` o que veio no momento que o método foi invocado.
 * Na função de `render()` verificamos se há algo no state de `errorInfo` (`this.state.errorInfo`), caso haja algo (tenha chegado no `componentDidCatch()` e colocado os valores no estado deles) renderizamos nossa mensagem de erro, nesse ponto poderíamos também criar um componente que seria uma página de erro amigável e substituir por esse `h2`, mas quis deixar simples.
 * Caso não aconteça nada, é retornado o próprio componente filho.
@@ -197,7 +197,7 @@ export default App;
 
 > Massa! Tá pronto, é só isso?
 
-Não... Ainda precisamos fazer o componente filho FormUserData lançar alguma exceção para que o ErrorBoundary capture e exiba a mensagem/componente de erro.
+Não... Ainda precisamos fazer o componente filho **FormUserData** lançar alguma exceção para que o **ErrorBoundary** capture e exiba a mensagem/componente de erro.
 
 <h3 id="adaptar-o-componente-formuserdata-para-lancar-excecao">Adaptar o componente FormUserData para lançar a exceção</h3>
 
@@ -248,7 +248,7 @@ export default FormUserData;
 
 E vamos adicionar a ele:
 
-* uma variável de estado para mensagem de erro \[\`errorMessage, setErrorMessage]\`, que vai ser uma string que se **inicia vazia**;
+* uma variável de estado para mensagem de erro `[errorMessage, setErrorMessage]`, que vai ser uma string que se **inicia vazia**;
 * uma outra variavel de estado para verificar se houve erro ou não `[hasError, setHasError]`, que vai ser um **boolean** que se **inicia false**;
 * 🚨 Um `if` dentro do segundo `.then`, nele é onde é pego o que foi retornado da API e inserido na variável de userData. Esse `if` vai ser responsável por verificar se no que foi retornado da API tem uma mensagem "**Not Found**", caso venha essa mensagem atualizamos os valores das variáveis `errorMessage`com a mensagem que queremos pegar e `hasError` para **true**.
 * 🚨 Um `if` que vai fazer a verificação da `hasError`, caso essa variável seja **true** é lançado uma nova exceção pegando a mensagem que foi armazenada em `errorMessage`;
@@ -256,6 +256,8 @@ E vamos adicionar a ele:
 O componente fica assim agora:
 
 ```jsx
+// FormUserData.js
+
 import React, { useState } from 'react';
 import Loader from '../Loader/Loader'
 import UserData from './UserData/UserData'
