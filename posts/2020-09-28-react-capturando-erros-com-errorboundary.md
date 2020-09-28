@@ -2,38 +2,39 @@
 title: "React: Capturando erros com ErrorBoundary"
 description: Usando o componente ErrorBoundary para exibir uma mensagem ou
   componente de erro amigável
-date: 2020-09-27 10:21:00
-image: assets/img/screen-shot-2020-09-27-at-22.30.42.png
+date: 2020-09-27 22:21:00
+image: /assets/img/screen-shot-2020-09-27-at-22.30.42.png
 category: dev
 background: "#008BF8"
 ---
 ![Desenho de uma mulher com macacão azul e camisa preta por baixo e um capacete amarelo, segurando uma bandeira vermelha. Atras dela tem uma pedra grande e ao lado direito dela uma pedra maior. Entre ela e a pedra do lado direito há uma sinalização de triangulo com uma exclamação no meio.](assets/img/screen-shot-2020-09-27-at-22.30.42.png "Desenho de uma mulher com macacão azul e camisa preta por baixo e um capacete amarelo, segurando uma bandeira vermelha. Atras dela tem uma pedra grande e ao lado direito dela uma pedra maior. Entre ela e a pedra do lado direito há uma sinalização de triangulo com uma exclamação no meio.")
 
-\
-Contexto
 
-O projeto Base
+- [Contexto](#contexto)
+- [O projeto Base](#o-projeto-base)
+- [Adicionando ErrorBoundary](#adicionando-ErrorBoundary)
+  - [Criar um componente do ErrorBoundary](#criar-um-componente-do-errorboundary)
+  - [Chamar o componente ErrorBounday e colocar os filhos](#chamar-o-componente-errorboundary-e-colocar-os-filhos)
+  - [Adaptar o componente FormUserData para lançar a exceção](#adaptar-o-componente-formuserdata-para-lancar-excecao)
+- [Ao vivo](#ao-vivo)
+- [Referência](#referencia)
+- [Minha motivação](#minha-motivacao)
 
-Adicionando ErrorBoundary
 
-Ao vivo
-
-Referência
-
-Minha motivação e reflexão
-
-## Contexto
+<h2 id="contexto">Contexto</h2>
 
 **ErrorBoundary** no React se trata de um componente que vai ser responsável por capturar erros de qualquer componente filho que lance esse erro, e quando esse erro é capturado pode se exibir uma página de erro.
 
 Substituir a pagina
 
-## O projeto base:
+<h2 id="o-projeto-base">O projeto Base</h2>
 
 Para o teste eu usei o mesmo projeto que fiz no post que adiciona o Loader que foi feito em CSS. Se quiser pode ver aqui esses posts:
 
-* Criando um "loader" simples com CSS
-* Exibindo um Loader para uma requisição no React
+* <a href="https://blog.talitaoliveira.com.br/exibindo-um-loader-para-uma-requisicao-no-react/" target="_blank">Criando um "loader" simples com CSS</a>
+* <a href="https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/" target="_blank">Exibindo um Loader para uma requisição no React</a>
+
+
 
 Mudei um pouco do projeto que fiz inicialmente somente separar um pouco os componentes.
 
@@ -86,7 +87,7 @@ export default App;
 
 Eu fiz isso pois vai me ajudar no uso do componente **ErrorBoundary**, já que ele pega exceções dos filhos dele.... Vamos continuar pra entender melhor..
 
-## Adicionando ErrorBoundary
+<h2 id="adicionando-ErrorBoundary">Adicionando ErrorBoundary</h2>
 
 Agora que organizei melhor o projeto conseguimos inserir o **ErrorBoundary** de forma mais organizada. Para isso precisamos:
 
@@ -94,20 +95,20 @@ Agora que organizei melhor o projeto conseguimos inserir o **ErrorBoundary** de 
 * Colocar o componente do **ErrorBoundary** onde ele vai ser chamado quando houver erro dos componentes filhos;
 * Adaptar o componente **FormUserData** para lançar a exceção;
 
-### Criar um componente do **ErrorBoundary;**
+<h3 id="criar-um-componente-do-errorboundary">Criar um componente do ErrorBoundary</h3>
 
 Infelizmente o componente **ErrorBoundary** precisa ser um componente de classe. Nele precisam ser definidos um destes métodos de ciclo de vida:
 
 `static getDerivedStateFromError()`: é invocado quando um erro é lançado, recebe o erro e retorna a atualização do state que vai ajudar a verificação para renderizar ou não o erro.
 
-Veja mais sobre esse método aqui: [](https://pt-br.reactjs.org/docs/react-component.html#static-getderivedstatefromerror)<https://pt-br.reactjs.org/docs/react-component.html#static-getderivedstatefromerror>
+Veja mais sobre esse método aqui: <a href="https://pt-br.reactjs.org/docs/react-component.html#static-getderivedstatefromerror" target="_blank">https://pt-br.reactjs.org/docs/react-component.html#static-getderivedstatefromerror</a>
 
 `componentDidCatch()`: é invocado quando um erro é lançado e recebe dois parâmetros que registram informações do erro.
 
 1. `error` - O erro que foi lançado.
 2. `info` - Um objeto com informações sobre o componente que lançou o erro.
 
-Veja mais sobre esse método aqui: [](https://pt-br.reactjs.org/docs/react-component.html#componentdidcatch)<https://pt-br.reactjs.org/docs/react-component.html#componentdidcatch>
+Veja mais sobre esse método aqui: <a href="https://pt-br.reactjs.org/docs/react-component.html#componentdidcatch" target="_blank">https://pt-br.reactjs.org/docs/react-component.html#componentdidcatch</a>
 
 No meu componente optei por usar o `componentDidCatch()` pois quero uma informação do erro, a mensagem do throw.
 
@@ -162,7 +163,7 @@ src
 └─ App.js
 ```
 
-### Chamar o componente ErrorBounday e colocar os filhos
+<h3 id="chamar-o-componente-errorboundary-e-colocar-os-filhos">Chamar o componente ErrorBounday e colocar os filhos</h3>
 
 Com o componente **ErrorBoundary** pronto, podemos inclui-lo onde queremos que apareça o erro. No meu caso vou incluir ele no arquivo **App.js** e colocar o **FormUserData** como filho dele.
 
@@ -194,7 +195,7 @@ export default App;
 
 Não... Ainda precisamos fazer o componente filho FormUserData lançar alguma exceção para que o ErrorBoundary capture e exiba a mensagem/componente de erro.
 
-### Adaptar o componente **FormUserData** para lançar a exceção
+<h3 id="adaptar-o-componente-formuserdata-para-lancar-excecao">Adaptar o componente FormUserData para lançar a exceção</h3>
 
 Para isso vamos no arquivo **FormUserData.js** que agora está dessa forma:
 
@@ -307,21 +308,24 @@ const FormUserData = () => {
 export default FormUserData;
 ```
 
-## **Ao vivo**
+<h2 id="ao-vivo">Ao vivo</h2>
 
 ![Gif mostrando o preenchimento do input "Digite seu usuário do Github" com texto "talitaoliveira", depois clicando no botão enviar e em seguida é mostrado o resultado da buca: uma foto, e dados de nome, localização, bio e dada de criação do perfil (informações retornadas do github). Em seguida é adicionadas letras aleatorias junto ao texto digitado anteriormente, simulando um usuário inexistente, depois cliando em enviar e em seguda é mostrado uma mensagem: "Nenhum usuário encontrado. Recarregue a página"](assets/img/errorboundaryexample.gif "Gif mostrando o preenchimento do input \"Digite seu usuário do Github\" com texto \"talitaoliveira\", depois clicando no botão enviar e em seguida é mostrado o resultado da buca: uma foto, e dados de nome, localização, bio e dada de criação do perfil (informações retornadas do github). Em seguida é adicionadas letras aleatorias junto ao texto digitado anteriormente, simulando um usuário inexistente, depois cliando em enviar e em seguda é mostrado uma mensagem: \"Nenhum usuário encontrado. Recarregue a página\"")
 
 Como o erro é mostrado quando não encontra um usuário, para testar basta adicionar um nome de usuário inexistente.
 
-Pode ser visto aqui: [](https://talitaoliveira.github.io/using-loader-wait-request-react/)<https://talitaoliveira.github.io/using-loader-wait-request-react/>
+Pode ser visto aqui: <a href="https://talitaoliveira.github.io/using-loader-wait-request-react/" target="_blank">https://talitaoliveira.github.io/using-loader-wait-request-react/</a>
 
-## Referência:
+<h2 id="referencia">Referência</h2>
 
-[](https://pt-br.reactjs.org/docs/error-boundaries.html#gatsby-focus-wrapper)<https://pt-br.reactjs.org/docs/error-boundaries.html#gatsby-focus-wrapper>
+<a href="https://pt-br.reactjs.org/docs/error-boundaries.html#gatsby-focus-wrapper" target="_blank">https://pt-br.reactjs.org/docs/error-boundaries.html#gatsby-focus-wrapper</a>
+
 
 \~🌟\~
 
 Bem.. é isso. 😉
+
+<h2 id="minha-motivacao">Minha motivação</h2>
 
 Essa semana no projeto estava com Thiago começando a implementação da chamada da API, e Gabriel e Hugo estavam trabalhando na parte da página de erro. Como as duas partes se complementavam, precisamos ficar alinhados como estava sendo feito as duas partes para juntar depois, e eles mostraram que fizeram usando a **ErrorBoundary** e fiquei curiosa para entender melhor como funcionava, e decidi escrever sobre. 🙃
 
