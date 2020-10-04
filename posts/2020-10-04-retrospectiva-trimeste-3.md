@@ -1,8 +1,8 @@
 ---
 title: "Retrospectiva trimeste #3"
 description: Uma reflexão sobre os últimos meses
-date: 2020-10-04 07:32:20
-image: assets/img/img_20200829_055819.jpg
+date: 2020-10-04T07:32:20.000Z
+image: assets/img/screen-shot-2020-10-04-at-19.36.28.png
 category: vida
 background: "#0B4F6C"
 ---
