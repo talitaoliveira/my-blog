@@ -2,7 +2,7 @@
 title: "Retrospectiva trimeste #3"
 description: Uma reflexão sobre os últimos meses
 date: 2020-10-04T07:32:20.000Z
-image: assets/img/screen-shot-2020-10-04-at-19.36.28.png
+image: /assets/img/screen-shot-2020-10-04-at-19.36.28.png
 category: vida
 background: "#0B4F6C"
 ---
@@ -10,27 +10,27 @@ background: "#0B4F6C"
 
 ## Lista de posts desse trimestre
 
-[05 de Julho: CSS: pseudo-elementos ::before e ::after](https://blog.talitaoliveira.com.br/css-pseudo-elementos-before-e-after/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/css-pseudo-elementos-before-e-after/">05 de Julho: CSS: pseudo-elementos ::before e ::after</a>
 
-[12 de Julho: Planejando a semana](https://blog.talitaoliveira.com.br/planejando-a-semana/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/planejando-a-semana/">12 de Julho: Planejando a semana</a>
 
-[19 de Julho: Web Share API](https://blog.talitaoliveira.com.br/web-share-api/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/web-share-api/">19 de Julho: Web Share API</a>
 
-[26 de Julho: CSS Grid Layout - parte 1](https://blog.talitaoliveira.com.br/css-grid-layout-parte-1/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/css-grid-layout-parte-1/">26 de Julho: CSS Grid Layout - parte 1</a>
 
-[02 de Agosto: Riscos de Segurança em Aplicações Web](https://blog.talitaoliveira.com.br/riscos-de-seguran%C3%A7a-em-aplica%C3%A7%C3%B5es-web/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/riscos-de-seguran%C3%A7a-em-aplica%C3%A7%C3%B5es-web/">02 de Agosto: Riscos de Segurança em Aplicações Web</a>
 
-[09 de Agosto: Iniciando com Git e Github](https://blog.talitaoliveira.com.br/iniciando-com-git-e-github/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/iniciando-com-git-e-github/">09 de Agosto: Iniciando com Git e Github</a>
 
-[16 de Agosto: CI/CD e Github Actions](https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/ci-cd-e-github-actions/">16 de Agosto: CI/CD e Github Actions</a>
 
-[23 de Agosto: Criando um "loader" simples com CSS](https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/criando-um-loader-simples-com-css/">23 de Agosto: Criando um "loader" simples com CSS</a>
 
-[06 de Setembro: Exibindo um Loader para uma requisição no React](https://blog.talitaoliveira.com.br/exibindo-um-loader-para-uma-requisicao-no-react/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/exibindo-um-loader-para-uma-requisicao-no-react/">06 de Setembro: Exibindo um Loader para uma requisição no React</a>
 
-[20 de Setembro: Javascript: Array FlatMap](https://blog.talitaoliveira.com.br/javascript-array-flatmap/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/javascript-array-flatmap/">20 de Setembro: Javascript: Array FlatMap</a>
 
-[27 de Setembro: React: Capturando erros com ErrorBoundary](https://blog.talitaoliveira.com.br/react-capturando-erros-com-errorboundary/)
+<a target="_blank" href="https://blog.talitaoliveira.com.br/react-capturando-erros-com-errorboundary/">27 de Setembro: React: Capturando erros com ErrorBoundary</a>
 
 ## Minha "Reflexão"
 
