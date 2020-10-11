@@ -2,7 +2,7 @@
 title: "Explorando Javascript: Object Destructuring"
 description: Extraindo dados de um objeto usando Object Destructuring
 date: 2020-10-11T05:33:36.000Z
-image: assets/img/screen-shot-2020-10-11-at-17.32.32.png
+image: /assets/img/screen-shot-2020-10-11-at-17.32.32.png
 category: dev
 background: "#008BF8"
 ---
