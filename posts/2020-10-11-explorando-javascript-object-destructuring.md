@@ -1,11 +1,13 @@
 ---
 title: "Explorando Javascript: Object Destructuring"
 description: Extraindo dados de um objeto usando Object Destructuring
-date: 2020-10-11 05:33:36
+date: 2020-10-11T05:33:36.000Z
 image: assets/img/screen-shot-2020-10-11-at-17.32.32.png
 category: dev
 background: "#008BF8"
 ---
+![Desenho de um homem usando boné para trás tentando construir um animal que parece ser um urso ou coala, seguindo uma imagem do resultado final que está atras do homem num quadro. O animal é roxo com orelhas e dois olhos, o restante das peças do animal está no chão.](assets/img/screen-shot-2020-10-11-at-17.32.32.png "Desenho de um homem usando boné para trás tentando construir um animal que parece ser um urso ou coala, seguindo uma imagem do resultado final que está atras do homem num quadro. O animal é roxo com orelhas e dois olhos, o restante das peças do animal está no chão.")
+
 O **Object Destructuring** vai servir para quando precisamos extrair dados de um objeto.
 
 Aqui temos um objeto simples chamado **pessoa** e as propriedades desse objeto:
