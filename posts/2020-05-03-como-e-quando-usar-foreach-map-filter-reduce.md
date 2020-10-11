@@ -1,5 +1,5 @@
 ---
-title: 'Usando foreach(), map(), filter(), reduce()'
+title: 'Explorando Javascript: Usando foreach(), map(), filter(), reduce()'
 description: Iterando arrays em javascript
 date: '2020-05-03 07:44:15'
 image: /assets/img/screen-shot-2020-05-03-at-20.11.20.png

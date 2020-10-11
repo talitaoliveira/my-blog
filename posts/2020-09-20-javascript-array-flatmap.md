@@ -1,5 +1,5 @@
 ---
-title: "Javascript: Array FlatMap"
+title: "Explorando Javascript: Array FlatMap"
 description: Nivelando arrays no javascript usando flat() e flatMap()
 date: 2020-09-20 19:50:39
 image: /assets/img/screen-shot-2020-09-20-at-19.38.46.png

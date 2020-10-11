@@ -1,5 +1,5 @@
 ---
-title: 'Javascript: Como juntar arrays?'
+title: 'Explorando Javascript: Como juntar arrays?'
 description: Duas opções para se combinar arrays.
 date: '2020-05-17 05:15:12'
 image: /assets/img/abundance-agriculture-bananas-batch-264537.jpg
