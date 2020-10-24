@@ -1,7 +1,7 @@
 ---
 title: Sobre alguns planejamentos
 description: Refletindo sobre meus planejamentos e férias
-date: 2020-10-24 06:59:50
+date: 2020-10-24 18:59:50
 image: /assets/img/screen-shot-2020-10-24-at-19.04.00.png
 category: vida
 background: "#0B4F6C"
