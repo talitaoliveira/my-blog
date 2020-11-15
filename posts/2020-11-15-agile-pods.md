@@ -32,7 +32,7 @@ Essa estrutura de **pods** tá acontecendo no meu time atualmente, até então t
 
 Temos 3 **pods** trabalhando em partes diferentes do projeto, em comunicação constante sobre os pontos que precisam se conectar. A ideia é de juntarmos o time inteiro assim que for terminando o foco de cada **pod**.
 
-Não sou expert no assunto, decidi apenas entender melhor do que se tratava já que estamos "usando" pods no nosso time. 
+Não sou expert no assunto, decidi apenas entender melhor do que se tratava já que estamos estruturados dessa forma no nosso time atualmente.
 
 Referências:
 
