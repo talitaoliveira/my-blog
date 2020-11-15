@@ -1,8 +1,8 @@
 ---
 title: Agile Pods
 description: Pequenos times autonomos para resultados significativos
-date: 2020-11-15 07:35:38
-image: assets/img/screen-shot-2020-11-15-at-19.35.24.png
+date: 2020-11-15 19:50:38
+image: /assets/img/screen-shot-2020-11-15-at-19.35.24.png
 category: dev
 background: "#008BF8"
 ---
@@ -32,11 +32,14 @@ Essa estrutura de **pods** tá acontecendo no meu time atualmente, até então t
 
 Temos 3 **pods** trabalhando em partes diferentes do projeto, em comunicação constante sobre os pontos que precisam se conectar. A ideia é de juntarmos o time inteiro assim que for terminando o foco de cada **pod**.
 
+Não sou expert no assunto, decidi apenas entender melhor do que se tratava já que estamos "usando" pods no nosso time. 
+
 Referências:
 
-[](https://www.agileconnection.com/article/using-agile-pods-realize-potential-your-team)<https://www.agileconnection.com/article/using-agile-pods-realize-potential-your-team>
+<a href="https://www.agileconnection.com/article/using-agile-pods-realize-potential-your-team" target="_blank">https://www.agileconnection.com/article/using-agile-pods-realize-potential-your-team</a>
 
-[](https://medium.com/dev-genius/agile-pods-organize-your-teams-to-unlock-their-maximum-potential-54e5dd769dc3)<https://medium.com/dev-genius/agile-pods-organize-your-teams-to-unlock-their-maximum-potential-54e5dd769dc3>
+<a href="https://medium.com/dev-genius/agile-pods-organize-your-teams-to-unlock-their-maximum-potential-54e5dd769dc3" target="_blank">https://medium.com/dev-genius/agile-pods-organize-your-teams-to-unlock-their-maximum-potential-54e5dd769dc3</a>
+
 
 \~🌟\~
 
