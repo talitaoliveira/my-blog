@@ -2,11 +2,11 @@
 title: "Explorando Javascript: Nomeando grupos numa expressão regular"
 description: Separando uma expressão regular em grupos nomeados
 date: 2020-11-22T19:50:45.000Z
-image: /assets/img/screen-shot-2020-11-22-at-19.44.47.png
+image: assets/img/screen-shot-2020-11-22-at-19.56.46.png
 category: dev
 background: "#008BF8"
 ---
-![Imagem de uma pessoa de cabelo curto segurando alguns papéis, no fundo 3 retagulos com algum conteúdo dentro representado por texto não legível. Os triangulos estão conectados com varios quadrados que estão abaixo deles.](assets/img/screen-shot-2020-11-22-at-19.44.47.png "Imagem de uma pessoa de cabelo curto segurando alguns papéis, no fundo 3 retagulos com algum conteúdo dentro representado por texto não legível. Os triangulos estão conectados com varios quadrados que estão abaixo deles.")
+![Imagem de uma pessoa de cabelo curto segurando alguns papéis, no fundo 3 retagulos com algum conteúdo dentro representado por texto não legível. Os triangulos estão conectados com varios quadrados que estão abaixo deles.](assets/img/screen-shot-2020-11-22-at-19.56.46.png "Imagem de uma pessoa de cabelo curto segurando alguns papéis, no fundo 3 retagulos com algum conteúdo dentro representado por texto não legível. Os triangulos estão conectados com varios quadrados que estão abaixo deles.")
 
 Vamos supor que você tenha uma string que vai ser recebida na sua aplicação. Essa string tem um padrão, possui várias informações contidas nela e você precisa salvar essas informações separadamente.
 
