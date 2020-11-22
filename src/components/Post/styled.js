@@ -182,6 +182,9 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+  pre {
+    max-width: 700px;
+  }
 
   ${media.lessThan("large")`
     padding: 0;
