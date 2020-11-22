@@ -1,8 +1,8 @@
 ---
 title: "Explorando Javascript: Nomeando grupos numa expressão regular"
 description: Separando uma expressão regular em grupos nomeados
-date: 2020-11-22T07:36:45.000Z
-image: assets/img/screen-shot-2020-11-22-at-19.44.47.png
+date: 2020-11-22T19:50:45.000Z
+image: /assets/img/screen-shot-2020-11-22-at-19.44.47.png
 category: dev
 background: "#008BF8"
 ---
@@ -10,7 +10,7 @@ background: "#008BF8"
 
 Vamos supor que você tenha uma string que vai ser recebida na sua aplicação. Essa string tem um padrão, possui várias informações contidas nela e você precisa salvar essas informações separadamente.
 
-Encontre o padrão que a string está e aplique uma expressão regular. Geralmente quando preciso criar uma expressão regular eu uso esse site aqui: [](https://regexr.com/)<https://regexr.com/> (não sei criar de cabeça e sempre preciso entender como vou fazer na aba de **Cheatsheet**).
+Encontre o padrão que a string está e aplique uma expressão regular. Geralmente quando preciso criar uma expressão regular eu uso esse site aqui: <a href="https://regexr.com/" target="_blank">https://regexr.com/</a> (não sei criar de cabeça e sempre preciso entender como vou fazer na aba de **Cheatsheet**).
 
 Para este caso vamos ter por exemplo uma string que contém as seguintes informações:
 
@@ -126,7 +126,7 @@ Ainda retorna um array, porém uma das posições `group` dessa vez tem um objet
 
 E nesse objeto vem com as propriedades nomeadas que definimos ao nomear os grupos na expressão.
 
-Para pegar estes valores agora podemos simplesmente pegar dessa forma com Object Destructuring (já expliquei sobre Object Destructuring aqui: [Explorando Javascript: Object Destructuring](https://blog.talitaoliveira.com.br/explorando-javascript-object-destructuring/)):
+Para pegar estes valores agora podemos simplesmente pegar dessa forma com Object Destructuring (já expliquei sobre Object Destructuring aqui: <a href="https://blog.talitaoliveira.com.br/explorando-javascript-object-destructuring/" target="_blank">Explorando Javascript: Object Destructuring</a>):
 
 ```jsx
 const { cpf, dataNascimento, nomePessoa } = dados.groups
@@ -134,7 +134,7 @@ const { cpf, dataNascimento, nomePessoa } = dados.groups
 
 Referência:
 
-[](https://github.com/tc39/proposal-regexp-named-groups)<https://github.com/tc39/proposal-regexp-named-groups>
+<a href="https://github.com/tc39/proposal-regexp-named-groups" target="_blank">https://github.com/tc39/proposal-regexp-named-groups</a>
 
 \~🌟\~
 
@@ -142,9 +142,9 @@ Bem.. é isso. 😉
 
 Não é sempre que precisamos usar expressões regulares, mas um dia aparece. Essa semana foi preciso usar no projeto e lembrei que já tinha visto sobre "Regexp Named Groups", já tinha até apresentado numa palestra no JS Day falando das novidades do ecmascript em 2018, apresentei ela juntamente com Simone Amorim, foi bem massa.
 
-Coloquei o exemplo no meu github: [](https://github.com/talitaoliveira/ecmascript-studies/blob/master/src/es9/regexp-named-group.js)<https://github.com/talitaoliveira/ecmascript-studies/blob/master/src/es9/regexp-named-group.js>.
+Coloquei o exemplo no meu github: <a href="https://github.com/talitaoliveira/ecmascript-studies/blob/master/src/es9/regexp-named-group.js" target="_blank">https://github.com/talitaoliveira/ecmascript-studies/blob/master/src/es9/regexp-named-group.js</a>.
 
-E comentei no medium sobre como foi a experiência de ter palestrado (foi a terceira palestra que fiz na vida e o nervosismo tomou conta do mesmo jeito): [](https://medium.com/@litaoliveira/pareando-palestra-no-jsday-2018-7e18a7426220)<https://medium.com/@litaoliveira/pareando-palestra-no-jsday-2018-7e18a7426220>
+E comentei no medium sobre como foi a experiência de ter palestrado (foi a terceira palestra que fiz na vida e o nervosismo tomou conta do mesmo jeito): <a href="https://medium.com/@litaoliveira/pareando-palestra-no-jsday-2018-7e18a7426220" target="_blank">https://medium.com/@litaoliveira/pareando-palestra-no-jsday-2018-7e18a7426220</a>
 
 Enfim... é algo simples que trago nesse post.
 
