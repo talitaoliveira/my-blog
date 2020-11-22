@@ -2,7 +2,7 @@
 title: "Explorando Javascript: Nomeando grupos numa expressão regular"
 description: Separando uma expressão regular em grupos nomeados
 date: 2020-11-22T19:50:45.000Z
-image: assets/img/screen-shot-2020-11-22-at-19.56.46.png
+image: /assets/img/screen-shot-2020-11-22-at-19.56.46.png
 category: dev
 background: "#008BF8"
 ---
