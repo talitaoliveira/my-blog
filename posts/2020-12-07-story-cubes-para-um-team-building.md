@@ -1,13 +1,12 @@
 ---
 title: Story Cubes para um Team Building
 description: Usando Story Cubes para uma atividade de Team Building ou Ice Break
-date: 2020-12-06 09:53:32
+date: 2020-12-06T09:53:32.000Z
 image: /assets/img/screen-shot-2020-12-06-at-20.46.38.png
 category: vida
 background: "#0B4F6C"
 ---
 ![Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes](assets/img/screen-shot-2020-12-06-at-20.46.38.png "Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes")
-
 
 <a href="#o-que-sao-story-cubes">O que são Story Cubes?</a>
 
@@ -166,4 +165,8 @@ Tenho gostado bastante desses dadinhos e após conseguir executar a ideia com o 
 
 Eu me considero bastante visual, sempre que consigo (e que to com criatividade) eu gosto de tentar explicar algo usando desenhos, rabiscos, imagens. Tenho tentado exercitar mais esse lado, e esses dados acho que podem me ajudar. 🙃
 
-Até a próxima. 🤙🏽
+Até a próxima. 🤙🏽\
+\
+Aqui embaixo tá a ilustração completa que fiz de como iria funcionar:
+
+![](assets/img/meus-quadros-new-frame.jpg)
