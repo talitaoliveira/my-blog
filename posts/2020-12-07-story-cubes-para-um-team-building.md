@@ -8,6 +8,8 @@ background: "#0B4F6C"
 ---
 ![Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes](assets/img/screen-shot-2020-12-06-at-20.46.38.png "Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes")
 
+<a href="#team-building-ice-break">Team Building/Ice Break</a>
+
 <a href="#o-que-sao-story-cubes">O que são Story Cubes?</a>
 
 <a href="#inspiracao">Inspiração</a>
@@ -25,6 +27,14 @@ background: "#0B4F6C"
 <a href="#relato-da-experiencia">Relato da Experiência</a>
 
 <a href="#como-uso-os-dados">Como eu gosto de usar os dados</a>
+
+<h2 id="team-building-ice-break">Team Building/Ice Break</h2>
+
+Só uma breve explicação para quem não está familiarizado com os termos "Team Building" e "Ice Break".
+
+**Team Building** se trata de atividades que contribuam para o fortaleciamento das relações entre pessoas de um time. 
+
+**Ice Break** também seria atividades que contribuam para o fortalecimento de relações em um time, geralmente é utilizada antes de algumas reuniões para que as pessoas se sintam mais a vontade. Muitas vezes é usado Ice Break antes de uma retrospectiva de uma Sprint, por exemplo.
 
 <h2 id="o-que-sao-story-cubes">O que são Story Cubes?</h2>
 
