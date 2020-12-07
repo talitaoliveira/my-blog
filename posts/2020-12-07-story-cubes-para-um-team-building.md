@@ -9,31 +9,31 @@ background: "#0B4F6C"
 ![Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes](assets/img/screen-shot-2020-12-06-at-20.46.38.png "Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes")
 
 
-Usando Story Cubes para uma atividade de Team Building ou Ice Break
+<a href="#o-que-sao-story-cubes">O que são Story Cubes?</a>
 
-O que são Story Cubes?
+<a href="#inspiracao">Inspiração</a>
 
-Inspiração
+<a href="#adaptando-para-funcionar-online">Adaptando para funcionar online</a>
 
-Idéia para a adaptação
+<a href="#como-iria-funcionar">Como iria funcionar</a>
 
-Imagens Sorteadas
+<a href="#imagem-sorteada">Imagens Sorteadas</a>
 
-Após 3 minutos
+<a href="#apos-3-minutos">Após 3 minutos</a>
 
-Pós jogo
+<a href="#pos-jogo">Pós jogo</a>
 
-Relato da Experiência
+<a href="#relato-da-experiencia">Relato da Experiência</a>
 
-Como uso os dados
+<a href="#como-uso-os-dados">Como eu gosto de usar os dados</a>
 
-## O que são Story Cubes?
+<h2 id="o-que-sao-story-cubes">O que são Story Cubes?</h2>
 
 <a href="https://www.storycubes.com/en/" target="_blank">Rory's Story Cubes</a> é um jogo composto por pelo menos 9 dados e cada dado composto de 6 imagens diferentes. A ideia vendida pelo jogo é poder criar histórias a partir do lançamento dos dados.
 
 Usando a ✨criatividade ✨ pode haver varias formas de se usar os dados.
 
-## Inspiração
+<h2 id="inspiracao">Inspiração</h2>
 
 Uma das formas que encontrei no youtube:
 
@@ -54,7 +54,7 @@ Essa forma de jogar consiste em:
 
 Eu achei bem interessante essa forma de jogar e decidi tentar trazer isso para meu time, porém estamos todos trabalhando de forma remota, eu teria que adaptar para funcionar online.
 
-## Idéia para a adaptação
+<h2 id="adaptando-para-funcionar-online">Adaptando para funcionar online</h2>
 
 Por ter que ser online eu não queria que os desenhos fossem usando mouse e etc, eu realmente queria que as pessoas usassem papel e caneta e fizessem tudo a mão. Porém pra comparar as palavras num time de 15 pessoas (nem todas as pessoas puderam participar) iria ficar bem difícil.
 
@@ -66,7 +66,7 @@ Para funcionar online via zoom, eu pensei em algumas ferramentas para apoiar:
 
 ![Imagem com um numero 2 e o título: o que vamos precisar. E uma lista do que vai precisar: Lapis ou caneta, papéis, WhatsApp, planilha no Google Sheets.](assets/img/screen-shot-2020-12-06-at-21.58.03.png "Imagem com um numero 2 e o título: o que vamos precisar. E uma lista do que vai precisar: Lapis ou caneta, papéis, WhatsApp, planilha no Google Sheets.")
 
-## Como iria funcionar
+<h2 id="como-iria-funcionar">Como iria funcionar</h2>
 
 Fiz algumas anotações para poder ilustrar para as pessoas como o jogo iria funcionar:
 
@@ -90,7 +90,7 @@ A idéia é ter 3 rodadas e ao final das rodadas quem tiver mais pontos ganha!
 
 ![Imagem descrevendo o texto acima: A idéia é ter 3 rodadas e ao final das rodadas quem tiver mais pontos ganha!](assets/img/screen-shot-2020-12-06-at-21.04.18.png "Imagem descrevendo o texto acima: A idéia é ter 3 rodadas e ao final das rodadas quem tiver mais pontos ganha!")
 
-## Imagens Sorteadas
+<h2 id="imagem-sorteada">Imagens Sorteadas</h2>
 
 Como eu tenho os dados (comprei logo após ver o video) eu tirei fotos de algumas das imagens e as numerei de 1 a 6.
 
@@ -102,7 +102,7 @@ E usei o google para gerar um número aleatório.
 
 Após a imagem sorteada, coloquei um timer de 3 minutos e as pessoas começavam os desenhos e a listagem das palavras.
 
-## Após 3 minutos
+<h2 id="apos-3-minutos">Após 3 minutos</h2>
 
 Após o tempo eu pedi que as pessoas tirassem foto do papel e enviasse para o grupo do WhatsApp.
 
@@ -122,7 +122,7 @@ Após selecionar as palavras e aplicar o Add-on coloquei para marcar as palavras
 
 Fiz três rodadas com as pessoas, e aparentemente curtiram. Reservei 1hr para esse jogo e deu certinho o tempo, sobraram 10 minutos.
 
-## Pós jogo
+<h2 id="pos-jogo">Pós jogo</h2>
 
 Quem ganhou? Bom, pra saber teríamos que somar os resultados das 3 rodadas e por se tratar de uma parada chata de fazer com todo mundo junto, eu mesma fiz após o jogo.
 
@@ -130,7 +130,7 @@ Organizei um mural para colocar as imagens de todas as pessoas, e contei os resu
 
 ![duas imagens. Imagem lado esquerdo com 3 quadros, um em cima outro no meio e outro em baixo. Em cada um dos quadros tem uma foto dos 3 desenhos da imagem da vez e as palavras que a pessoa escolheu. Imagem lado direito, 15 vezes a imagem que está do lado esquerdo mas diferenciando as fotos que estão nelas e as palavras. Cada um tem o nome da pessoa a qual aquelas fotos e palavras pertencem](assets/img/mural.jpg "duas imagens. Imagem lado esquerdo com 3 quadros, um em cima outro no meio e outro em baixo. Em cada um dos quadros tem uma foto dos 3 desenhos da imagem da vez e as palavras que a pessoa escolheu. Imagem lado direito, 15 vezes a imagem que está do lado esquerdo mas diferenciando as fotos que estão nelas e as palavras. Cada um tem o nome da pessoa a qual aquelas fotos e palavras pertencem")
 
-## A experiência
+<h2 id="relato-da-experiencia">Relato da experiência</h2>
 
 Como se tratava de algo que adaptei, eu não tinha ideia se iria funcionar e decidi alinhar umas expectativas antes de começar (um pouco de insegurança pois não sabia se iriam gostar):
 
@@ -140,7 +140,7 @@ A parte chata é que por ser uma tentativa de fazer online teve **mais processos
 
 Rolou tudo certo, discutimos sobre as imagens sorteadas tentando entender o que elas eram (principalmente a oca e a do paraquedas), na primeira imagem as pessoas ainda faziam perguntas sobre quantas palavras colocar, mas depois a galera se empolgou.
 
-## Como eu gosto de usar os dados
+<h2 id="como-uso-os-dados">Como eu gosto de usar os dados</h2>
 
 Joguei com minha irmã da mesma forma de desenhar a imagem e listar palavras e ela adorou e pediu pra eu comprar pra ela outro conjunto de dados, comprei um de ações (~~eu estava devendo um presente de aniversário para ela~~).
 
