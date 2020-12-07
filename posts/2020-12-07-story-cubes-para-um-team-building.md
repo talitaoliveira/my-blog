@@ -2,13 +2,13 @@
 title: Story Cubes para um Team Building
 description: Usando Story Cubes para uma atividade de Team Building ou Ice Break
 date: 2020-12-06 09:53:32
-image: assets/img/screen-shot-2020-12-06-at-20.46.38.png
+image: /assets/img/screen-shot-2020-12-06-at-20.46.38.png
 category: vida
 background: "#0B4F6C"
 ---
 ![Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes](assets/img/screen-shot-2020-12-06-at-20.46.38.png "Foto da caixa do Story cubes aberta mostrando 9 dados com imagens diferentes")
 
-\
+
 Usando Story Cubes para uma atividade de Team Building ou Ice Break
 
 O que são Story Cubes?
@@ -29,7 +29,7 @@ Como uso os dados
 
 ## O que são Story Cubes?
 
-[Rory's Story Cubes](https://www.storycubes.com/en/) é um jogo composto por pelo menos 9 dados e cada dado composto de 6 imagens diferentes. A ideia vendida pelo jogo é poder criar histórias a partir do lançamento dos dados.
+<a href="https://www.storycubes.com/en/" target="_blank">Rory's Story Cubes</a> é um jogo composto por pelo menos 9 dados e cada dado composto de 6 imagens diferentes. A ideia vendida pelo jogo é poder criar histórias a partir do lançamento dos dados.
 
 Usando a ✨criatividade ✨ pode haver varias formas de se usar os dados.
 
@@ -37,7 +37,7 @@ Usando a ✨criatividade ✨ pode haver varias formas de se usar os dados.
 
 Uma das formas que encontrei no youtube:
 
-[](https://www.youtube.com/watch?v=cA612YkxIog&ab_channel=VerbaltoVisual)<https://www.youtube.com/watch?v=cA612YkxIog&ab_channel=VerbaltoVisual>
+<a href="https://www.youtube.com/watch?v=cA612YkxIog&ab_channel=VerbaltoVisual" target="_blank">https://www.youtube.com/watch?v=cA612YkxIog&ab_channel=VerbaltoVisual</a>
 
 Essa forma de jogar consiste em:
 
