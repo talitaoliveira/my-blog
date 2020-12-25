@@ -1,8 +1,8 @@
 ---
 title: Lendo PDFs no Kindle
-description: Exportando artigos da internet e lendo no Kindle
+description: Exportando artigos da internet para ler no Kindle
 date: 2020-12-25 02:53:28
-image: assets/img/screen-shot-2020-12-25-at-14.46.01.png
+image: /assets/img/screen-shot-2020-12-25-at-14.46.01.png
 category: vida
 background: "#0B4F6C"
 ---
