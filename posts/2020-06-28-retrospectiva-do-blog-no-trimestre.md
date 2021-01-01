@@ -1,5 +1,5 @@
 ---
-title: Retrospectiva do blog no trimestre
+title: "Retrospectiva trimeste #2 - 2020"
 description: Uma reflexão sobre como tem sido escrever num blog
 date: 2020-06-28 05:20:57
 image: /assets/img/ebccv7zxkaarupy.jpeg
