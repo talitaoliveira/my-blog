@@ -2,7 +2,7 @@
 title: "Retrospectiva trimeste #4 - 2020"
 description: Minha ultima retrospectiva de 2020
 date: 2021-01-01 01:04:18
-image: assets/img/eqf1b4wxeaikmgj.jpeg
+image: /assets/img/eqf1b4wxeaikmgj.jpeg
 category: vida
 background: "#0B4F6C"
 ---
@@ -10,17 +10,17 @@ background: "#0B4F6C"
 
 ## Lista de posts desse trimestre
 
-[11 de Outubro: Explorando Javascript - Object Destructuring](https://blog.talitaoliveira.com.br/explorando-javascript-object-destructuring/)
+<a href="https://blog.talitaoliveira.com.br/explorando-javascript-object-destructuring/" target="_blank">11 de Outubro: Explorando Javascript - Object Destructuring</a>
 
-[24 de Outubro: Sobre alguns planejamentos](https://blog.talitaoliveira.com.br/sobre-alguns-planejamentos/)
+<a href="https://blog.talitaoliveira.com.br/sobre-alguns-planejamentos/" target="_blank">24 de Outubro: Sobre alguns planejamentos</a>
 
-[15 de Novembro: Agile Pods](https://blog.talitaoliveira.com.br/agile-pods/)
+<a href="https://blog.talitaoliveira.com.br/agile-pods/" target="_blank">15 de Novembro: Agile Pods</a>
 
-[22 de Novembro: Nomeando grupos numa expressão regular](https://blog.talitaoliveira.com.br/explorando-javascript-nomeando-grupos-numa-express%C3%A3o-regular/)
+<a href="https://blog.talitaoliveira.com.br/explorando-javascript-nomeando-grupos-numa-express%C3%A3o-regular/" target="_blank">22 de Novembro: Nomeando grupos numa expressão regular</a>
 
-[06 de Dezembo: Story Cubes para um Team Building](https://blog.talitaoliveira.com.br/story-cubes-para-um-team-building/)
+<a href="https://blog.talitaoliveira.com.br/story-cubes-para-um-team-building/" target="_blank">06 de Dezembo: Story Cubes para um Team Building</a>
 
-[25 de Dezembro: Lendo PDFs no Kindle](https://blog.talitaoliveira.com.br/lendo-pdfs-no-kindle/)
+<a href="https://blog.talitaoliveira.com.br/lendo-pdfs-no-kindle/" target="_blank">25 de Dezembro: Lendo PDFs no Kindle</a>
 
 ## Leituras:
 
@@ -46,7 +46,7 @@ Eu tinha parado com meus planejamentos semanais mas consegui voltar, tinha estad
 
 Tirei férias sozinha, passei uma semana na praia de Tamandaré e foi muito bom pra desacelerar. Eu curto bastante passar tempo sozinha e na praia foi melhor ainda.
 
-Em **Novembro** quando voltei a trabalhar depois das férias, o time estava um pouco mudado, estavamos com uma estrutura de pods, e [escrevi um post sobre o que seria pods](https://blog.talitaoliveira.com.br/agile-pods/). Foi uma mudança interessante, eu me vi mais engajada, me senti mais "dona" do que estavamos fazendo. Pra mim foi uma mudança benéfica, e conversando com outras pessoas do time também sentiram a mesma coisa.
+Em **Novembro** quando voltei a trabalhar depois das férias, o time estava um pouco mudado, estavamos com uma estrutura de pods, e <a href="https://blog.talitaoliveira.com.br/agile-pods/" target="_blank">escrevi um post sobre o que seria pods</a>. Foi uma mudança interessante, eu me vi mais engajada, me senti mais "dona" do que estavamos fazendo. Pra mim foi uma mudança benéfica, e conversando com outras pessoas do time também sentiram a mesma coisa.
 
 Eu voltei das férias renovada e com todo gás pra voltar a trabalhar!!! Mas aí fiquei doente. Começou com meu pai, depois eu, depois minha irmã e minha mãe. Todos estavamos com sintomas de COVID, com febre, dor de cabeça, corpo mole, sem conseguir sentir gosto nem cheiro das coisas. Dou graças a Deus que não teve nada grave.
 
@@ -80,7 +80,7 @@ O que quero para 2021:
 * Consistência > Perfeição
 * Ouvir mais
 
-E fora outros planejamentos pessoais. :) Eu gosto de planejar, não quer dizer que eu quero que saia tudo como planejado. Se o que vem por aí se tiver fora do planejamento eu adapto, ou se algo que planejei não rolou, pq aconteceram outras coisas melhores, MASSA!
+E fora outros planejamentos pessoais. 🙃 Eu gosto de planejar, não quer dizer que eu quero que saia tudo como planejado. Se o que vem por aí se tiver fora do planejamento eu adapto, ou se algo que planejei não rolou, pq aconteceram outras coisas melhores, MASSA!
 
 Eu gosto que as coisas simplesmente aconteçam, sem ter planejado.
 
