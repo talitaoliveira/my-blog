@@ -1,5 +1,5 @@
 ---
-title: "Retrospectiva trimeste #3"
+title: "Retrospectiva trimeste #43"
 description: Uma reflexão sobre os últimos meses
 date: 2020-10-04T07:32:20.000Z
 image: /assets/img/screen-shot-2020-10-04-at-19.36.28.png
