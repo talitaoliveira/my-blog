@@ -22,7 +22,7 @@ background: "#0B4F6C"
 
 <a href="https://blog.talitaoliveira.com.br/lendo-pdfs-no-kindle/" target="_blank">25 de Dezembro: Lendo PDFs no Kindle</a>
 
-## Leituras:
+## Leituras de 2020:
 
 Eu nunca fui uma pessoa fã de leitura. Livros me cansavam e eu dormia assim que começava. Depois que comprei o Kindle em 2018 isso mudou. Esse ano foi o ano que mais li, e tenho orgulho disso.
 
