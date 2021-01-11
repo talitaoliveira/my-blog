@@ -2,7 +2,7 @@
 title: "Livro: A arte de Fazer Acontecer - GTD"
 description: Relendo o livro do GTD pelo estudo dirigido da Thais Godinho.
 date: 2021-01-10 09:19:04
-image: assets/img/screen-shot-2021-01-10-at-21.22.09.png
+image: /assets/img/screen-shot-2021-01-10-at-21.22.09.png
 category: vida
 background: "#0B4F6C"
 ---
@@ -12,7 +12,7 @@ background: "#0B4F6C"
 
 O livro do GTD, cujo o título é "A arte de fazer acontecer - O método GTD" por David Allen.
 
-A primeira vez que li o livro foi em 2017. Eu acompanhava o blog da Thais Godinho ([](https://vidaorganizada.com/)<https://vidaorganizada.com/>) há alguns anos atrás, e gostava dos assuntos que ela postava sobre organização, planejamento e falava muito sobre GTD. Em 2017 decidi comprar o livro e li.
+A primeira vez que li o livro foi em 2017. Eu acompanhava o blog da Thais Godinho <a href="https://vidaorganizada.com/" target="blank">https://vidaorganizada.com/</a> há alguns anos atrás, e gostava dos assuntos que ela postava sobre organização, planejamento e falava muito sobre GTD. Em 2017 decidi comprar o livro e li.
 
 Li o livro e com o que entendi na época fui tentando aplicar pra minha vida, a fim de conseguir organizar melhor meus planejamentos.
 
@@ -35,6 +35,14 @@ Eu sou uma pessoa que adora organização e tento sempre melhorar meu processo d
 Eu sempre gostei de tentar me organizar, seja coisas que tenho pra fazer, que eu quero fazer ou definir metas.
 
 Gosto de listas, gosto de definir tempo para fazer algo (pomodoro), gosto de registrar hábitos, registrar gastos, acompanhar como tá a conta de luz (risos).
+
+Uso/usei ferramentas como:
+- <a href="https://www.notion.so/" target="_blank">Notion</a>
+- <a href="https://evernote.com/" target="_blank">Evernote</a> (usei por vááários anos, mas migrei pro Notion)
+- <a href="https://todoist.com/pt-BR" target="_blank">Todoist</a>
+- <a href="https://bulletjournal.com/" target="_blank">Bullet Journal</a>
+
+Sempre tenho um caderninho a mão, para anotar qualquer coisa que surge na minha cabeça que preciso lembrar em algum outro momento.
 
 **Não é algo novo pra mim.** O que é novo são as ferramentas que tento usar pra saber qual é a delas e o que consigo fazer com elas.
 
