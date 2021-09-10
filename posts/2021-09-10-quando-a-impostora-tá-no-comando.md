@@ -2,10 +2,13 @@
 title: "Quando a impostora tá no comando "
 description: A impostora as vezes vem com toda força
 date: 2021-09-10 06:10:30
-image: assets/img/konka.jpeg
+image: /assets/img/konka.jpeg
 category: vida
 background: "#0B4F6C"
 ---
+
+![karol konka com microfone falando: e sim estou me tratando](assets/img/konka.jpeg "karol konka com microfone falando: e sim estou me tratando")
+
 **Esse texto é "cientificamente" baseado em:** experiências, pensamentos, reflexões, choro, alguns aprendizados e nenhum aprendizado a longo prazo que vai me fazer me livra de vez da minha impostora, mas ainda tentando encontrar a melhor forma de lidar com ela.
 
 **Esse texto não é:** coisa de coach.
@@ -52,7 +55,8 @@ A impostora ao invés de falar ou sussurrar, ela grita: *TÁ VENDO??? NÃO CONSE
 
 E grita, e grita, e grita. Você já não ouve mais nada de reunião, de projeto. Tá muito alto.
 
-![](assets/img/fraca.png)
+
+<img src="assets/img/fraca.png" />
 
 Tenta ajuda com terapeuta de ultima hora, tudo que você explica, tudo ta sentido parece tão idiota, tão "mimimi" (só em ouvir a si mesma falando tudo isso pra alguém). E não adianta muito já que não é a pessoa terapeuta que te acompanha.
 
@@ -74,7 +78,7 @@ Mas você já está tão cansada, drenada, se sentido sem força. E aceita, que 
 
 Tira o dia pra descansar, chora e dorme a tarde inteira. Outro dia já é sábado.
 
-![bolacha com um olho chorando e uma legenda: bolacha agua e sal](assets/img/bolacha.png "bolacha com um olho chorando e uma legenda: bolacha agua e sal")
+<img src="assets/img/bolacha.png" alt="bolacha com um olho chorando e uma legenda: bolacha agua e sal" title="bolacha com um olho chorando e uma legenda: bolacha agua e sal" width="100"/>
 
 Final de semana pra se recuperar, descansar, pensar nas coisas com mais calma, refletir e anotar sobre tudo que aconteceu, "próxima sessão da terapia vai ser TOP".
 
@@ -115,4 +119,4 @@ Checklist do quarto dia (esse mínimo já ta enorme):
 
 Aos poucos, retomando o comando.
 
-![karol konka com microfone falando: e sim estou me tratando](assets/img/konka.jpeg "karol konka com microfone falando: e sim estou me tratando")
+<img src="assets/img/konka.jpeg" alt="karol konka com microfone falando: e sim estou me tratando" title="karol konka com microfone falando: e sim estou me tratando" />
