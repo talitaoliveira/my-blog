@@ -1,12 +1,11 @@
 ---
 title: "Quando a impostora tá no comando "
 description: A impostora as vezes vem com toda força
-date: 2021-09-10 06:10:30
+date: 2021-09-10T06:10:30.000Z
 image: /assets/img/konka.jpeg
 category: vida
 background: "#0B4F6C"
 ---
-
 ![karol konka com microfone falando: e sim estou me tratando](assets/img/konka.jpeg "karol konka com microfone falando: e sim estou me tratando")
 
 **Esse texto é "cientificamente" baseado em:** experiências, pensamentos, reflexões, choro, alguns aprendizados e nenhum aprendizado a longo prazo que vai me fazer me livra de vez da minha impostora, mas ainda tentando encontrar a melhor forma de lidar com ela.
@@ -55,7 +54,6 @@ A impostora ao invés de falar ou sussurrar, ela grita: *TÁ VENDO??? NÃO CONSE
 
 E grita, e grita, e grita. Você já não ouve mais nada de reunião, de projeto. Tá muito alto.
 
-
 <img src="assets/img/fraca.png" />
 
 Tenta ajuda com terapeuta de ultima hora, tudo que você explica, tudo ta sentido parece tão idiota, tão "mimimi" (só em ouvir a si mesma falando tudo isso pra alguém). E não adianta muito já que não é a pessoa terapeuta que te acompanha.
@@ -87,6 +85,8 @@ Esse tempo de reflexão pelo menos ajuda a entender alguns momentos que "ajudara
 "Segunda feira, eu não quero ficar sozinha. Vou pedir para me juntar com algum par, ou algo do tipo. Se eu ficar sozinha novamente vai ser pior."
 
 Começa a semana de forma mais leve, decide lidar com a semana ao invés de pedir mais dias off. "Vou fazer só o mínimo."
+
+![](assets/img/checklist.png)
 
 Checklist pro primeiro dia:
 
