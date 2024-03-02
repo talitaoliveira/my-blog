@@ -21,7 +21,7 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-    color: #8889a6;
+    color: #D3B33F;
     text-decoration: none;
     transition: color 0.5s;
 
@@ -37,7 +37,7 @@ export const IconWrapper = styled.div`
 `
 
 export const WebPage = styled.a`
-    color: #8889a6;
+    color: #D3B33F;
     text-decoration: none;
     transition: color 0.5s;
     cursor: pointer;
