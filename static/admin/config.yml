@@ -2,7 +2,7 @@ backend:
   name: github
   repo: talitaoliveira/my-blog
   branch: master
-  site_domain: talitaoliveira.netlify.com
+  site_domain: blog.talitaoliveira.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
