@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: talitaoliveira/my-blog
   branch: master
   site_domain: blog.talitaoliveira.com.br
